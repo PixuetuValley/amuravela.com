@@ -1,0 +1,35 @@
+DefaultContentLanguage = "es"
+
+baseURL = "https://amuravela.com"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[languages]
+    [languages.es]
+        contentDir = "content"
+        languageName = "Español"
+        languageCode = "es"
+        title = ""
+        description = ""
+        weight = 1
+    [languages.en]
+        contentDir = "content/english"
+        languageName = "English"
+        languageCode = "en"
+        title = ""
+        description = ""
+        weight = 2
+
+[params]
+    copyright = "L'Amuravela"
+    themeColor = "#333"
+    googleAnalytics = "UA-128498798-1"
+
+    alternatePageName = "amuravela.com"
+    organizationLogo = "/logo.png"
+    organizationName = "L'Amuravela"
+
+    publisherName = "Asur Bernardo"
+    publisherLogo = "/logo-amp-article.png"
+    publisherLogoWidth = 600
+    publisherLogoHeight = 60

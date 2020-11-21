@@ -1,0 +1,23 @@
+{{ define "main" }}
+    <h1>L'Amuravela</h1>
+    <p>En el nombri de Jesús <br>
+        y la Virgin Soberana, <br>
+        vou ichar l'Amuravela <br>
+        comu San Pedru asperaba.</p>
+    <p>Choose language:</p>
+    Spanish / English
+    <p>Read last Amuravela</p>
+    <h2>Where is L'Amuravela?</h2>
+    <h2>When is L'Amuravela?</h2>
+    <h2>History of L'Amuravela</h2>
+    <h2>Every Amuravela since 95</h2>
+    {{ range where (.Paginator 50).Pages "Section" "amuravelas" }}
+        <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+    {{ end }}
+    <h2>Photos of L'Amuravela</h2>
+    <p>¡Amura vela! ¡Isa vela! <br>
+        ¡Fuego a babor!¡Fuego a estribor! <br>
+        ¡¡¡Viva Pedro!!!</p>
+{{ end }}
