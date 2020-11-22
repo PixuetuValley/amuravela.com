@@ -6,6 +6,7 @@
 	<body>
 		{{- partial "page/analytics.html" . -}}
 		{{- partial "structured-data/base.html" . -}}
+		<a href='{{ "" | absLangURL }}'>Volver</a>
 		<main class="main">
 			{{- block "main" . }}{{- end }}
 		</main>

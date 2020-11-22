@@ -2,7 +2,7 @@ DefaultContentLanguage = "es"
 
 baseURL = "https://amuravela.com"
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "term"]
 
 [languages]
     [languages.es]
@@ -23,7 +23,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
     copyright = "L'Amuravela"
     themeColor = "#333"
-    googleAnalytics = "UA-128498798-1"
+    googleAnalytics = ""
 
     alternatePageName = "amuravela.com"
     organizationLogo = "/logo.png"

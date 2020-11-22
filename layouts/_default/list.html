@@ -1,0 +1,10 @@
+{{ define "main" }}
+	<article class="content">
+		{{.Content}}
+	</article>
+	{{ range where .Pages "Section" "amuravelas" }}
+        <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+    {{ end }}
+{{ end }}

@@ -1,23 +1,85 @@
 {{ define "main" }}
+
     <h1>L'Amuravela</h1>
+
     <p>En el nombri de Jesús <br>
         y la Virgin Soberana, <br>
         vou ichar l'Amuravela <br>
         comu San Pedru asperaba.</p>
+
     <p>Choose language:</p>
-    Spanish / English
-    <p>Read last Amuravela</p>
-    <h2>Where is L'Amuravela?</h2>
-    <h2>When is L'Amuravela?</h2>
-    <h2>History of L'Amuravela</h2>
-    <h2>Every Amuravela since 95</h2>
-    {{ range where (.Paginator 50).Pages "Section" "amuravelas" }}
-        <li>
-            <a href="{{.Permalink}}">{{.Title}}</a>
-        </li>
+
+    {{ range .Site.Languages }}
+        {{ if eq .LanguageName $.Site.Language.LanguageName }}
+            <strong>{{ .LanguageName }}</strong>
+        {{ else }}
+            <a href="{{ . | absURL }}">{{ .LanguageName }}</a>
+        {{ end }}
     {{ end }}
+
+    <p>Read last Amuravela</p>
+
+    {{ with .Site.GetPage "what" }}
+        <article class="summary">
+            <h2 class="summary__title">{{.Title}}</h2>
+            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
+            <p>{{.Summary}}</p>
+            <a class="button" role="button"
+                href="{{.Permalink}}"
+                aria-label="{{.Title}}">Saber mas</a>
+        </article>
+    {{ end }}
+
+    {{ with .Site.GetPage "where" }}
+        <article class="summary">
+            <h2 class="summary__title">{{.Title}}</h2>
+            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
+            <p>{{.Summary}}</p>
+            <a class="button" role="button"
+                href="{{.Permalink}}"
+                aria-label="{{.Title}}">Saber mas</a>
+        </article>
+    {{ end }}
+
+    {{ with .Site.GetPage "when" }}
+        <article class="summary">
+            <h2 class="summary__title">{{.Title}}</h2>
+            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
+            <p>{{.Summary}}</p>
+            <a class="button" role="button"
+                href="{{.Permalink}}"
+                aria-label="{{.Title}}">Saber mas</a>
+        </article>
+    {{ end }}
+
+    {{ with .Site.GetPage "history" }}
+        <article class="summary">
+            <h2 class="summary__title">{{.Title}}</h2>
+            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
+            <p>{{.Summary}}</p>
+            <a class="button" role="button"
+                href="{{.Permalink}}"
+                aria-label="{{.Title}}">Saber mas</a>
+        </article>
+    {{ end }}
+
+    {{ with .Site.GetPage "amuravelas" }}
+        <article class="summary">
+            <h2 class="summary__title">{{.Title}}</h2>
+            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
+            <p>{{.Summary}}</p>
+            <a class="button" role="button"
+                href="{{.Permalink}}"
+                aria-label="{{.Title}}">Saber mas</a>
+        </article>
+    {{ end }}
+
     <h2>Photos of L'Amuravela</h2>
+
+    <h2>Sponsors</h2>
+
     <p>¡Amura vela! ¡Isa vela! <br>
         ¡Fuego a babor!¡Fuego a estribor! <br>
         ¡¡¡Viva Pedro!!!</p>
+
 {{ end }}
