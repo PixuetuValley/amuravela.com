@@ -4,9 +4,17 @@
 body {
     color: #37301e;
     font-family: serif;
+    margin: 0;
+    padding: 0;
 }
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: 'Dancing Script', cursive;
+}
+h1 {
+    font-size: 7.5rem;
+}
+h2 {
+    font-size: 5rem;
 }
 
 a {
@@ -16,7 +24,6 @@ a {
     text-decoration: none;
     span.arrow-right,
     span.arrow-left {
-        font-size: 1.25rem;
         box-sizing: border-box;
         display: inline-block;
         user-select: none;
@@ -37,20 +44,28 @@ a {
 }
 
 blockquote {
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-    &:before {
-        color: #ccc;
-        content: open-quote;
-        font-size: 4em;
-        line-height: 0.1em;
-        margin-right: 0.25em;
-        vertical-align: -0.4em;
+    width: fit-content;
+    color: #37301E;
+    background-color: #FFFFFF;
+    font-size: 2rem;
+    quotes: '”' '„';
+    padding: 2rem;
+    position: relative;
+    text-align: center;
+    &:before,
+    &:after {
+        color: #F3EFEB;
+        position: absolute;
+        font-size: 10rem;
     }
-    p {
-        display: inline;
+    &:before {
+        top: -1.5rem;
+        left: -1.5rem;
+        content: open-quote;
+    }
+    &:after {
+        bottom: -1.5rem;
+        right: -1.5rem;
+        content: close-quote;
     }
 }

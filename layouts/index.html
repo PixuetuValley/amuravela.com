@@ -1,16 +1,14 @@
 {{ define "main" }}
     <div class="hero">
         <h1>L'Amuravela</h1>
-        <blockquote>
-            <p>En el nombri de Jesús <br>
-                y la Virgin Soberana, <br>
-                vou ichar l'Amuravela <br>
-                comu San Pedru asperaba.</p>
+        <blockquote class="introduction-quote">
+            En el nombri de Jesús<br>
+            y la Virgin Soberana,<br>
+            vou ichar l'Amuravela<br>
+            comu San Pedru asperaba.
         </blockquote>
+        <a href="{{($.Site.GetPage "/amuravelas/lamuravela-2020").Permalink}}">{{ i18n "readLast"}} <span class="arrow-right">🡒</span></a>
     </div>
-
-    <a href="#">Read last Amuravela<span class="arrow-right">→</span></a>
-
     {{ with .Site.GetPage "what" }}
         <article class="summary">
             <h2 class="summary__title">{{.Title}}</h2>
@@ -68,12 +66,10 @@
 
     <h2>Photos of L'Amuravela</h2>
 
-    <h2>Sponsors</h2>
-
-    <blockquote>
-        <p>¡Amura vela! ¡Isa vela! <br>
-            ¡Fuego a babor!¡Fuego a estribor! <br>
-            ¡¡¡Viva Pedro!!!</p>
+    <blockquote class="closing-quote">
+        ¡Amura vela! ¡Isa vela!<br>
+        ¡Fuego a babor!¡Fuego a estribor!<br>
+        ¡¡¡Viva Pedro!!!
     </blockquote>
 
 {{ end }}

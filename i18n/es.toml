@@ -1,2 +1,6 @@
 [home]
 other = "Inicio"
+[readLast]
+other = "Leer la última Amuravela"
+[by]
+other = "por"

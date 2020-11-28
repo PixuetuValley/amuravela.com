@@ -1,6 +1,29 @@
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" (i18n "home"))) }}
+{{ $uri := trim (urls.Parse .Permalink).Path "/" }}
+{{ $.Scratch.Add "path" "/" }}
+
+{{ range $index, $element := split $uri "/" }}
+    {{ $.Scratch.Add "path" $element }}
+    {{ $path := $.Scratch.Get "path" }}
+    {{ $page := site.GetPage $path}}
+    {{ $.Scratch.Add "path" "/" }}
+    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" $page.Permalink "name" $page.Title)) }}
+{{ end }}
+
+<div class="breadcrumbs">
+    {{ range $index, $breadcrumb := $.Scratch.Get "breadcrumb" }}
+        {{ if ne $index 0 }} / {{ end }}
+        {{ if eq (string $breadcrumb.url) (string .Permalink) }}
+            <strong>{{ $breadcrumb.name }}</strong>
+        {{ else }}
+            <a href='{{ $breadcrumb.url }}'>{{ $breadcrumb.name }}</a>
+        {{ end }}
+    {{ end }}
+</div>
+
 <div class="language-selector">
     {{ range .Site.Languages }}
-        {{ if eq .LanguageName $.Site.Language.LanguageName }}
+        {{ if eq (string .LanguageName) (string $.Site.Language.LanguageName) }}
             <strong>{{ .LanguageName }}</strong>
         {{ else }}
             <a href="{{ . | absURL }}">{{ .LanguageName }}</a>

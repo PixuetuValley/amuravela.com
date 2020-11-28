@@ -1,2 +1,6 @@
 [home]
 other = "Home"
+[readLast]
+other = "Read last Amuravela"
+[by]
+other = "by"

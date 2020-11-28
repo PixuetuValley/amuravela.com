@@ -2,8 +2,6 @@
 	{{- partial "structured-data/website.html" . -}}
 {{- end -}}
 
-{{- partial "structured-data/breadcrumbs.html" . -}}
-
 {{- if eq .Page.Kind "page" -}}
 	{{- partial "structured-data/article.html" . -}}
 {{- end -}}
