@@ -4,9 +4,11 @@
 		{{- partial "head/base.html" . -}}
 	</head>
 	<body>
-		{{- partial "page/analytics.html" . -}}
 		{{- partial "structured-data/base.html" . -}}
-		<a href='{{ "" | absLangURL }}'>Volver</a>
+		<a href='{{ "" | absLangURL }}'><span class="arrow-left">←</span>Go back</a>
+		<header>
+			{{- partial "header/base.html" . -}}
+		</header>
 		<main class="main">
 			{{- block "main" . }}{{- end }}
 		</main>

@@ -1,0 +1,30 @@
+{
+  "name": "amuravela.es",
+  "version": "1.0.0",
+  "description": "L'Amuravela offcial website",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asurbernardo/amuravela.com.git"
+  },
+  "author": "Asur Bernardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asurbernardo/amuravela.com/issues"
+  },
+  "homepage": "https://github.com/asurbernardo/amuravela.com#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
+    "postcss-combine-duplicated-selectors": "^10.0.2",
+    "postcss-combine-media-query": "^1.0.1",
+    "postcss-import": "^13.0.0",
+    "postcss-nested": "^5.0.1"
+  }
+}

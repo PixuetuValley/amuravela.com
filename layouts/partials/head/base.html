@@ -1,13 +1,24 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
 <title>{{ .Title }}</title>
 <meta name="description" content="{{- if .IsHome -}}{{- .Site.Params.Description -}}{{- else -}}{{- .Description -}}{{- end -}}" />
 <link rel="canonical" href="{{ .Permalink }}" >
 <link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />
 
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ $.Site.Params.googleAnalytics }}');
+</script>
+
+{{- partial "head/optimization-metas.html" . -}}
 {{- partial "head/language-metas.html" . -}}
 {{- partial "head/og-metas.html" . -}}
 {{- partial "head/twitter-cards-metas.html" . -}}
 {{- partial "head/pwa-metas.html" . -}}
 {{- partial "head/styles.html" . -}}
+
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ $.Site.Params.googleAnalytics }}"></script>

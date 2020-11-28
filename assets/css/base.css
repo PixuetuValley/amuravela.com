@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #37301e;
+    font-family: serif;
+}
+h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+a {
+    color: #37301e;
+    border-bottom: 1px solid #37301e;
+    transition: border-bottom-color .25s ease-out;
+    text-decoration: none;
+    span.arrow-right,
+    span.arrow-left {
+        font-size: 1.25rem;
+        box-sizing: border-box;
+        display: inline-block;
+        user-select: none;
+        transition: transform .5s ease-in-out;
+    }
+    &:visited {
+        color: #37301e;
+    }
+    &:hover {
+        border-bottom-color: transparent;
+        span.arrow-right {
+            transform: translateX(.3em);
+        }
+        span.arrow-left {
+            transform: translateX(-.3em);
+        }
+    }
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    &:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+    }
+    p {
+        display: inline;
+    }
+}

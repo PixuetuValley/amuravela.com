@@ -1,0 +1,9 @@
+<div class="language-selector">
+    {{ range .Site.Languages }}
+        {{ if eq .LanguageName $.Site.Language.LanguageName }}
+            <strong>{{ .LanguageName }}</strong>
+        {{ else }}
+            <a href="{{ . | absURL }}">{{ .LanguageName }}</a>
+        {{ end }}
+    {{ end }}
+</div>

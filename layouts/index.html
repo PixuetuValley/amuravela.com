@@ -1,23 +1,15 @@
 {{ define "main" }}
+    <div class="hero">
+        <h1>L'Amuravela</h1>
+        <blockquote>
+            <p>En el nombri de Jesús <br>
+                y la Virgin Soberana, <br>
+                vou ichar l'Amuravela <br>
+                comu San Pedru asperaba.</p>
+        </blockquote>
+    </div>
 
-    <h1>L'Amuravela</h1>
-
-    <p>En el nombri de Jesús <br>
-        y la Virgin Soberana, <br>
-        vou ichar l'Amuravela <br>
-        comu San Pedru asperaba.</p>
-
-    <p>Choose language:</p>
-
-    {{ range .Site.Languages }}
-        {{ if eq .LanguageName $.Site.Language.LanguageName }}
-            <strong>{{ .LanguageName }}</strong>
-        {{ else }}
-            <a href="{{ . | absURL }}">{{ .LanguageName }}</a>
-        {{ end }}
-    {{ end }}
-
-    <p>Read last Amuravela</p>
+    <a href="#">Read last Amuravela<span class="arrow-right">→</span></a>
 
     {{ with .Site.GetPage "what" }}
         <article class="summary">
@@ -78,8 +70,10 @@
 
     <h2>Sponsors</h2>
 
-    <p>¡Amura vela! ¡Isa vela! <br>
-        ¡Fuego a babor!¡Fuego a estribor! <br>
-        ¡¡¡Viva Pedro!!!</p>
+    <blockquote>
+        <p>¡Amura vela! ¡Isa vela! <br>
+            ¡Fuego a babor!¡Fuego a estribor! <br>
+            ¡¡¡Viva Pedro!!!</p>
+    </blockquote>
 
 {{ end }}
