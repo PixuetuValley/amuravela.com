@@ -18,6 +18,12 @@ jobs:
         hugo-version: 'latest'
         extended: true
 
+    - name: Install NPM dependencies
+      uses: actions/setup-node@v1
+      run: npm install
+      with:
+        node-version: '12'
+
     - name: Build
       run: hugo --gc --minify
 
