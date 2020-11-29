@@ -14,4 +14,7 @@ main {
     .closing-quote {
         margin: auto;
     }
+    .main-cta {
+        font-size: 1.5rem;
+    }
 }

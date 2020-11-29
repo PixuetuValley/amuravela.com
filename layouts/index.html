@@ -7,7 +7,9 @@
             vou ichar l'Amuravela<br>
             comu San Pedru asperaba.
         </blockquote>
-        <a href="{{($.Site.GetPage "/amuravelas/lamuravela-2020").Permalink}}">{{ i18n "readLast"}} <span class="arrow-right">🡒</span></a>
+        <a class="main-cta" href="{{($.Site.GetPage "/amuravelas/lamuravela-2020").Permalink}}">
+            {{ i18n "readLast"}} <span class="arrow-right">🡒</span>
+        </a>
     </div>
     {{ with .Site.GetPage "what" }}
         <article class="summary">

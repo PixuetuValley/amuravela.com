@@ -1,10 +1,17 @@
 {{ define "main" }}
-	<article class="content">
-		{{.Content}}
-	</article>
-	{{ range where .Pages "Section" "amuravelas" }}
-        <li>
-            <a href="{{.Permalink}}">{{.Title}}</a>
-        </li>
-    {{ end }}
+    <article>
+        <div class="summary">
+            <h1 class="title">{{ .Title }}</h1>
+        </div>
+        <div class="content">
+            {{.Content}}
+        </div>
+        <div class="list">
+            {{ range where .Pages "Section" "amuravelas" }}
+                <li>
+                    <a href="{{.Permalink}}">{{.Title}}</a>
+                </li>
+            {{ end }}
+        </div>
+    </article>
 {{ end }}

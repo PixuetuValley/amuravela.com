@@ -19,6 +19,4 @@ summary = "Lorem ipsum dolor sit amet"
   filename = "sitemap.xml"
 +++
 
-# Todas las amuravelas desde 95
-
 Lorem ipsum dolor sit amet

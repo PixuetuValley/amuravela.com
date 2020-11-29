@@ -69,3 +69,29 @@ blockquote {
         content: close-quote;
     }
 }
+
+article {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    .summary {
+        display: sticky;
+        text-align: center;
+        align-items: center;
+        max-width: 50%;
+        .title {
+
+        }
+        .author {
+            font-size: 1.5rem;
+        }
+    }
+    .content {
+        flex-direction: column;
+        text-align: center;
+        p {
+            width: 100%;
+            font-size: 1.25rem;
+        }
+    }
+}

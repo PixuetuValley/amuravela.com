@@ -1,5 +1,18 @@
 {{ define "main" }}
-	<article class="content">
-		{{ .Content }}
+    <article>
+        <div class="summary">
+            <h1 class="title">{{ .Title }}</h1>
+            {{ if isset .Params "author" }}
+                <span class="author">
+                    {{ i18n "by" }}
+                    <a href="{{ .Params.Author.Homepage | absLangURL }}">
+                        {{ .Params.Author.Name }} <span class="arrow-right">🡒</span>
+                    </a>
+                </span>
+            {{ end }}
+        </div>
+        <div class="content">
+            {{.Content}}
+        </div>
 	</article>
 {{ end }}

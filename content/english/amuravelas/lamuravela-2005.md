@@ -8,8 +8,8 @@ title = "L'Amuravela 2005"
 description = ""
 
 [author]
-    name = ""
-    homepage = ""
+    name = "Cesáreo Marqués Valle"
+    homepage = "authors/cesario-marques-valle"
     image=""
     bio=""
 
@@ -22,8 +22,6 @@ description = ""
   filename = "sitemap.xml"
 
 +++
-
-# L'Amuravela 2005
 
 En el nombri de Jesús\
 y la Virgin Soberana\

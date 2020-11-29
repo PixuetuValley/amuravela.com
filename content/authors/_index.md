@@ -1,17 +1,17 @@
 +++
 draft = false
 
-title = "Every Amuravela"
-slug = "amuravelas"
-description = "List of every Amuravela since 95"
+title = "Todos los autores de L'Amuravela"
+slug = "autores"
+description = "Listado de todos los autores de L'Amuravela"
 summary = "Lorem ipsum dolor sit amet"
 
 [image]
     src = "https://placehold.it/600x600"
 
-[alternatives.es]
-    code = "es"
-    url = "https://amuravela.com/amuravelas/"
+[alternatives.en]
+    code = "en"
+    url = "https://amuravela.com/en/authors/"
 
 [sitemap]
   changefreq = "monthly"
