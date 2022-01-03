@@ -1,20 +1,67 @@
-@import "base.css";
-@import "header.css";
-@import "footer.css";
+@import "partials/base.css";
+@import "partials/header.css";
+@import "partials/footer.css";
 
 main {
     .hero {
+        display:flex;
+        flex-direction:column;
         text-align: center;
         width: 100%;
-        height: 100vh;
+        height: 95vh;
+        justify-content: center;
+        align-items: center;
+        .hero__content {
+            .title {
+                margin: 0 0 3rem 0;
+            }
+            .introduction-quote {
+                margin: auto;
+            }
+            .main-cta {
+                font-size: 1.5rem;
+            }
+        }
     }
-    .introduction-quote {
-        margin: auto;
+
+    blockquote {
+        width: fit-content;
+        color: #37301E;
+        background-color: #FFFFFF;
+        font-size: 2rem;
+        quotes: '”' '„';
+        padding: 2rem;
+        position: relative;
+        text-align: center;
+        &:before,
+        &:after {
+            color: #F3EFEB;
+            position: absolute;
+            font-size: 10rem;
+        }
+        &:before {
+            top: -4.5rem;
+            left: -1.5rem;
+            content: open-quote;
+            transform: rotate(180deg)
+        }
+        &:after {
+            bottom: -1.5rem;
+            right: -1.5rem;
+            content: close-quote;
+        }
     }
-    .closing-quote {
-        margin: auto;
-    }
-    .main-cta {
-        font-size: 1.5rem;
+
+    section {
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        .section__content {
+            max-width: 50%;
+            flex-direction: column;
+            text-align: center;
+        }
     }
 }

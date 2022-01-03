@@ -1,3 +1,11 @@
+{{ define "styles" }}
+    <style>
+        {{- with resources.Get "css/list.css" | resources.PostCSS -}}
+            {{- .Content | safeCSS -}}
+        {{- end -}}
+    </style>
+{{ end }}
+
 {{ define "main" }}
     <article>
         <div class="summary">
@@ -5,13 +13,13 @@
         </div>
         <div class="content">
             {{.Content}}
-        </div>
-        <div class="list">
-            {{ range where .Pages "Section" "amuravelas" }}
-                <li>
-                    <a href="{{.Permalink}}">{{.Title}}</a>
-                </li>
-            {{ end }}
+            <ul class="list">
+                {{ range where .Pages "Section" "amuravelas" }}
+                    <li>
+                        <a href="{{.Permalink}}">{{.Title}} <span class="arrow-right">🡒</span></a>
+                    </li>
+                {{ end }}
+            </ul>
         </div>
     </article>
 {{ end }}

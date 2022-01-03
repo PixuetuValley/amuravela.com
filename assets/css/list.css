@@ -1,11 +1,52 @@
-main {
-    display: flex;
-    justify-content:space-between;
-    .title {
+@import "partials/base.css";
+@import "partials/header.css";
+@import "partials/footer.css";
 
-    }
-    article.content {
-        text-align: center;
+main {
+    article {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 3rem;
+        .summary {
+            top: 100px;
+            position: sticky;
+            text-align: center;
+            align-items: center;
+            max-width: 50%;
+            max-height: 720px;
+            margin-right: 8rem;
+            .author {
+                font-size: 1.5rem;
+            }
+        }
+        .content {
+            max-width: 50%;
+            flex-direction: column;
+            text-align: center;
+            font-size: 1.5rem;
+            p {
+                width: 100%;
+            }
+            .list {
+                list-style-type: none;
+                margin: 3rem 0 0 0;
+                border-bottom: 1px #5c5c5c solid;
+                li {
+                    width: 100%;
+                    border-top: 1px #5c5c5c solid;
+                    padding: 1rem;
+                    a {
+                        display: flex;
+                        justify-content: space-between;
+                        border-bottom: none;
+                        &:hover {
+                            color: #5c5c5c;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

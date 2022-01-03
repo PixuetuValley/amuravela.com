@@ -3,7 +3,7 @@ draft = false
 date = "2019-12-12T23:59:59+02:00"
 publishdate = "2019-12-12T23:59:59+02:00"
 
-title = "Biografia de Cesáreo Marqués Valle"
+title = "Cesáreo Marqués Valle"
 
 description = ""
 

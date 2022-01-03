@@ -11,10 +11,5 @@ module.exports = {
         'autoprefixer': {
             browsers: ['>1%']
         },
-        '@fullhuman/postcss-purgecss':{
-            content: [
-                './layouts/**/*.html'
-            ]
-        }
     }
 }

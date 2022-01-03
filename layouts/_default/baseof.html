@@ -2,6 +2,13 @@
 <html lang="{{.Site.LanguageCode}}">
 	<head>
 		{{- partial "head/base.html" . -}}
+		{{- block "styles" . }}
+			<style>
+				{{- with resources.Get "css/homepage.css" | resources.PostCSS -}}
+					{{- .Content | safeCSS -}}
+				{{- end -}}
+			</style>
+		{{- end }}
 	</head>
 	<body>
 		{{- partial "structured-data/base.html" . -}}

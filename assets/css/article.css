@@ -1,11 +1,33 @@
-main {
-    display: flex;
-    justify-content:space-between;
-    .title {
+@import "partials/base.css";
+@import "partials/header.css";
+@import "partials/footer.css";
 
-    }
-    article.content {
-        text-align: center;
+main {
+    article {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 3rem;
+        .summary {
+            top: 100px;
+            position: sticky;
+            text-align: center;
+            align-items: center;
+            max-width: 50%;
+            max-height: 720px;
+            margin-right: 8rem;
+            .author {
+                font-size: 1.5rem;
+            }
+        }
+        .content {
+            flex-direction: column;
+            text-align: center;
+            font-size: 1.5rem;
+            p {
+                width: 100%;
+            }
+        }
     }
 }

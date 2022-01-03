@@ -1,77 +1,110 @@
 {{ define "main" }}
     <div class="hero">
-        <h1>L'Amuravela</h1>
-        <blockquote class="introduction-quote">
-            En el nombri de Jesús<br>
-            y la Virgin Soberana,<br>
-            vou ichar l'Amuravela<br>
-            comu San Pedru asperaba.
-        </blockquote>
-        <a class="main-cta" href="{{($.Site.GetPage "/amuravelas/lamuravela-2020").Permalink}}">
-            {{ i18n "readLast"}} <span class="arrow-right">🡒</span>
-        </a>
+        <div class="hero__content">
+            <h1 class="title">L'Amuravela</h1>
+            <blockquote class="introduction-quote">
+                En el nombri de Jesús<br>
+                y la Virgin Soberana,<br>
+                vou ichar l'Amuravela<br>
+                comu San Pedru asperaba.
+            </blockquote>
+            <a class="main-cta" href="{{($.Site.GetPage "/amuravelas/lamuravela-2020").Permalink}}">
+                {{ i18n "readLast"}} <span class="arrow-right">🡒</span>
+            </a>
+        </div>
     </div>
+
     {{ with .Site.GetPage "what" }}
-        <article class="summary">
-            <h2 class="summary__title">{{.Title}}</h2>
-            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
-            <p>{{.Summary}}</p>
-            <a class="button" role="button"
-                href="{{.Permalink}}"
-                aria-label="{{.Title}}">Saber mas</a>
-        </article>
+        <section>
+            <div class="section__content">
+                <h2 class="section__title">Que es L'Amuravela?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Elementum facilisis leo vel fringilla est ullamcorper eget. Tempus quam pellentesque nec nam aliquam sem. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Proin fermentum leo vel orci porta. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Commodo nulla facilisi nullam vehicula. Non arcu risus quis varius quam. At erat pellentesque adipiscing commodo elit at imperdiet dui. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Amet facilisis magna etiam tempor orci. At in tellus integer feugiat scelerisque varius. Tellus cras adipiscing enim eu turpis egestas. Consequat semper viverra nam libero justo laoreet sit. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.
+                </p>
+                <a class="button" role="button"
+                    href="{{.Permalink}}"
+                    aria-label="Que es L'Amuravela?">Saber más <span class="arrow-right">🡒</span></a>
+            </div>
+        </section>
     {{ end }}
 
     {{ with .Site.GetPage "where" }}
-        <article class="summary">
-            <h2 class="summary__title">{{.Title}}</h2>
-            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
-            <p>{{.Summary}}</p>
-            <a class="button" role="button"
-                href="{{.Permalink}}"
-                aria-label="{{.Title}}">Saber mas</a>
-        </article>
+        <section>
+            <div class="section__content">
+                <h2 class="section__title">Donde se celebra L'Amuravela?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Elementum facilisis leo vel fringilla est ullamcorper eget. Tempus quam pellentesque nec nam aliquam sem. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Proin fermentum leo vel orci porta. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Commodo nulla facilisi nullam vehicula. Non arcu risus quis varius quam. At erat pellentesque adipiscing commodo elit at imperdiet dui. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Amet facilisis magna etiam tempor orci. At in tellus integer feugiat scelerisque varius. Tellus cras adipiscing enim eu turpis egestas. Consequat semper viverra nam libero justo laoreet sit. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.
+                </p>
+                <a class="button" role="button"
+                    href="{{.Permalink}}"
+                    aria-label="Donde se celebra L'Amuravela?">Saber más <span class="arrow-right">🡒</span></a>
+            </div>
+        </section>
     {{ end }}
 
     {{ with .Site.GetPage "when" }}
-        <article class="summary">
-            <h2 class="summary__title">{{.Title}}</h2>
-            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
-            <p>{{.Summary}}</p>
-            <a class="button" role="button"
-                href="{{.Permalink}}"
-                aria-label="{{.Title}}">Saber mas</a>
-        </article>
+        <section>
+            <div class="section__content">
+                <h2 class="section__title">Cuando se celebra L'Amuravela?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Elementum facilisis leo vel fringilla est ullamcorper eget. Tempus quam pellentesque nec nam aliquam sem. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Proin fermentum leo vel orci porta. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Commodo nulla facilisi nullam vehicula. Non arcu risus quis varius quam. At erat pellentesque adipiscing commodo elit at imperdiet dui. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Amet facilisis magna etiam tempor orci. At in tellus integer feugiat scelerisque varius. Tellus cras adipiscing enim eu turpis egestas. Consequat semper viverra nam libero justo laoreet sit. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.
+                </p>
+                <a class="button" role="button"
+                    href="{{.Permalink}}"
+                    aria-label="Cuando se celebra L'Amuravela?">Saber más <span class="arrow-right">🡒</span></a>
+            </div>
+        </section>
     {{ end }}
 
     {{ with .Site.GetPage "history" }}
-        <article class="summary">
-            <h2 class="summary__title">{{.Title}}</h2>
-            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
-            <p>{{.Summary}}</p>
-            <a class="button" role="button"
-                href="{{.Permalink}}"
-                aria-label="{{.Title}}">Saber mas</a>
-        </article>
+        <section>
+            <div class="section__content">
+                <h2 class="section__title">Historia de L'Amuravela</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Elementum facilisis leo vel fringilla est ullamcorper eget. Tempus quam pellentesque nec nam aliquam sem. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Proin fermentum leo vel orci porta. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Commodo nulla facilisi nullam vehicula. Non arcu risus quis varius quam. At erat pellentesque adipiscing commodo elit at imperdiet dui. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Amet facilisis magna etiam tempor orci. At in tellus integer feugiat scelerisque varius. Tellus cras adipiscing enim eu turpis egestas. Consequat semper viverra nam libero justo laoreet sit. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.
+                </p>
+                <a class="button" role="button"
+                    href="{{.Permalink}}"
+                    aria-label="Historia de L'Amuravela">Saber más <span class="arrow-right">🡒</span></a>
+            </div>
+        </section>
     {{ end }}
 
     {{ with .Site.GetPage "amuravelas" }}
-        <article class="summary">
-            <h2 class="summary__title">{{.Title}}</h2>
-            <img src="{{ .Params.Image.Src }}" alt="{{.Title}}">
-            <p>{{.Summary}}</p>
-            <a class="button" role="button"
-                href="{{.Permalink}}"
-                aria-label="{{.Title}}">Saber mas</a>
-        </article>
+        <section>
+            <div class="section__content">
+                <h2 class="section__title">Todas las Amuravelas desde 1995</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Elementum facilisis leo vel fringilla est ullamcorper eget. Tempus quam pellentesque nec nam aliquam sem. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Proin fermentum leo vel orci porta. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Commodo nulla facilisi nullam vehicula. Non arcu risus quis varius quam. At erat pellentesque adipiscing commodo elit at imperdiet dui. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Amet facilisis magna etiam tempor orci. At in tellus integer feugiat scelerisque varius. Tellus cras adipiscing enim eu turpis egestas. Consequat semper viverra nam libero justo laoreet sit. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.
+                </p>
+                <a class="button" role="button"
+                    href="{{.Permalink}}"
+                    aria-label="{{.Title}}">Ver todas las Amuravelas <span class="arrow-right">🡒</span></a>
+            </div>
+        </section>
     {{ end }}
 
-    <h2>Photos of L'Amuravela</h2>
-
-    <blockquote class="closing-quote">
-        ¡Amura vela! ¡Isa vela!<br>
-        ¡Fuego a babor!¡Fuego a estribor!<br>
-        ¡¡¡Viva Pedro!!!
-    </blockquote>
+    <section>
+        <blockquote class="closing-quote">
+            ¡Amura vela! ¡Isa vela!<br>
+            ¡Fuego a babor!¡Fuego a estribor!<br>
+            ¡¡¡Viva Pedro!!!
+        </blockquote>
+    </section>
 
 {{ end }}

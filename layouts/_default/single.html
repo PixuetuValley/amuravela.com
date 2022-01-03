@@ -1,3 +1,11 @@
+{{ define "styles" }}
+    <style>
+        {{- with resources.Get "css/article.css" | resources.PostCSS -}}
+            {{- .Content | safeCSS -}}
+        {{- end -}}
+    </style>
+{{ end }}
+
 {{ define "main" }}
     <article>
         <div class="summary">
