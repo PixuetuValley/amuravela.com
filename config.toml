@@ -1,6 +1,6 @@
 DefaultContentLanguage = "es"
 
-baseURL = "https://amuravela.com"
+baseURL = "https://asurcodes.github.io/amuravela.com/"
 
 disableKinds = ["taxonomy", "term"]
 
