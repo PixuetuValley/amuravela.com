@@ -8,7 +8,7 @@ main {
         flex-direction:column;
         text-align: center;
         width: 100%;
-        height: 95vh;
+        height: 90vh;
         justify-content: center;
         align-items: center;
         .hero__content {
@@ -30,6 +30,7 @@ main {
         background-color: #FFFFFF;
         font-size: 2rem;
         quotes: '”' '„';
+        margin: 0;
         padding: 2rem;
         position: relative;
         text-align: center;
@@ -62,6 +63,34 @@ main {
             max-width: 50%;
             flex-direction: column;
             text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        .hero {
+            .hero__content {
+                .title {
+                    margin: 0 0 2rem 0;
+                }
+                .main-cta {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+        blockquote {
+            font-size: 1.5rem;
+            &:before,
+            &:after {
+                font-size: 8rem;
+            }
+        }
+        section {
+            padding: 1.5rem;
+            .section__content {
+                max-width: 100%;
+            }
         }
     }
 }

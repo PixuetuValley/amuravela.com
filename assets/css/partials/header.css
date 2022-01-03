@@ -1,5 +1,5 @@
 header {
-    mix-height: 5vh;
+    min-height: 5vh;
     font-size: 1.25rem;
     display: flex;
     margin: 0;
@@ -14,5 +14,14 @@ header {
         & > * {
             margin-right: 1rem;
         }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        flex-direction: column-reverse;
+    }
+    .breadcrumbs {
+        padding-top: 1rem;
     }
 }

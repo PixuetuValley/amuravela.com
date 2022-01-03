@@ -32,6 +32,7 @@ main {
             .list {
                 list-style-type: none;
                 margin: 3rem 0 0 0;
+                padding: 0;
                 border-bottom: 1px #5c5c5c solid;
                 li {
                     width: 100%;
@@ -46,6 +47,30 @@ main {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        article {
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            padding: 1rem;
+            .summary {
+                top: 0;
+                position: relative;
+                max-width: 100%;
+                margin-right: 0;
+                .author {
+                    font-size: 1.25rem;
+                }
+            }
+            .content {
+                max-width: 100%;
+                font-size: 1.25rem;
             }
         }
     }
