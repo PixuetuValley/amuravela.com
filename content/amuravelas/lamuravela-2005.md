@@ -29,7 +29,7 @@ description = ""
 
 +++
 
-En el nombri de Jesús\
+> En el nombri de Jesús\
 y la Virgin Soberana\
 vou ichar L’Amuravela\
 comu San Pedru asperaba.
@@ -563,11 +563,11 @@ ricitamus lus pixuatus\
 ya güay de cuarpu prisenti\
 vas güilla, Patrón Santu:
 
-¡MIENTRAS CUDILLERO VIVA\
+> ¡MIENTRAS CUDILLERO VIVA\
 Y DURI LA FUENTI’L CANTU,\
 VA SAN PEDRU A LA RIBERA\
 CONTODUS LUS DEMÁS SANTUS!
 
-¡Amura vela! ¡Isa vela!\
+> ¡Amura vela! ¡Isa vela!\
 ¡Fuego a babor! ¡Fuego a estribor!\
 ¡¡¡Viva Pedro!!!

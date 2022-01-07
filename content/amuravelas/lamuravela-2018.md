@@ -29,7 +29,7 @@ description = ""
 
 +++
 
-En el nombri de Jesús\
+> En el nombri de Jesús\
 ya la Virgin Soberana,\
 vou ichar L’Amuravela,\
 comu San Pedru asperaba.
@@ -752,11 +752,11 @@ cumpliandu con el mandatu,\
 vamus ricitar la copla\
 entre todus los pixuatus:
 
-¡MIENTRAS CUDILLERO VIVA\
+> ¡MIENTRAS CUDILLERO VIVA\
 Y DURI LA FUENTI’L CANTU\
 VA SAN PEDRU A LA RIBERA\
 CON TODUS LUS DEMAS SANTUS!
 
-¡Amura vela! ¡Isa vela!\
+> ¡Amura vela! ¡Isa vela!\
 ¡Fuego a babor! ¡Fuego a estribor!\
 ¡¡¡Viva Pedro!!!

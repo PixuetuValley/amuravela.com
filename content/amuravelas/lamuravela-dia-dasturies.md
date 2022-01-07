@@ -2,229 +2,194 @@
 draft = false
 date = "2009-09-05T12:00:00+02:00"
 publishdate = "2009-09-05T12:00:00+02:00"
-
 title = "L'Amuravela - Día d'Asturies"
-
 description = ""
-
 [author]
     name = "Cesáreo Marqués Valle"
     homepage = "authors/cesario-marques-valle"
     image=""
     bio=""
-
 [reciter]
     name = "Cesáreo Marqués Valle"
     homepage = "reciters/cesario-marques-valle"
     image=""
     bio=""
-
 [image]
     src = ""
-
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
-
 +++
 
-En el nombri de Jesús
-comu San Pedru asperaba,
-vou ichar L’Amuravela
-a la Virgin Soberana.
-Bonus lus tengas, Santina,
-madri de lus asturianus,
-que gulviasti a Cuideiru
-dispuás de cincuanta añus.
-De siguru qu’anotasti
-algu de cambeau el puablu,
-anqui a dicir la verdá
-bian poucu ti pasearun,
-ni una mini prusición....
-que ti faigamus, deixarun,
-ven pa cá... ¿a que tianin miadu?
-a que ti gustara tantu
-¿que nun quixaras deixanus?
-Pos que ten tranquilus ¿güisti?
-que a nengunu sicuestramus,
-ya cuandu queras golver,
-failu en sin avisallus,
-que nun vei  faltati nada
-tandu aquí entre lus pixuatus,
-Tú mesma lu comprobasti
-el tiampu que ti tuviamus.
+> Nun vou a invocar lus Santus,\
+comu faigu na Ribera,\
+pos nun tá enterau San Pedru\
+que guay hay amuravela.
 
-Comu faigu con San Pedru
-en el día del sou santu,
-vou cuntati a Ti tamián
-lus socesus que pasarun,
-haberálus más antigus
-ya outrus, de fai poucu tiampu.
-Del Cuideiru que tu visti
-la outra vez que ti truxárun,
-a esti que tas viandu ahora
-hay diferiencias a ciantus,
-pos desdi aquella p’aca
-abondus cambius tuviamus,
-lus botis, que son mas grandis
-ya nun tán n’el puartu viayu,
-pos dispuás de luchar muchu
-fixárunnus unu nuavu,
-peru pirdiamus la playa
-ya nun hay agú bañanus,
-ya si queremus facellu,
-hemus de garrar el autu,
-asina pa protejenus
-fanti tener dos trabayus,
-primeiru na carretera
-ya dispuás pa nu afoganus.
-¡ co lu fácil que siría
-facenus la playa‘n puablu !
+Muy bonus lus tengáis todus,\
+forasterus ya pixuatus,\
+asperu lu paseis bian\
+n'estus días que son cuatru,\
+aú vamus a cilibrar\
+la fiasta lus asturianus,\
+desde guay cincu, hasta'l ochu\
+que naidi si sianta istrañu,\
+tian que reinar l'alligría\
+dexái las penas pa'l Diañu\
+ya si yá Burlón mijor\
+que así enroscalas al rabu.\
+Habeis de tar priparaus\
+que igual tan lus Trasgus sualtus\
+nun vus garrin de sicultri\
+ya nun sois desapegallus,\
+Más si una Xana atopais\
+en una fonti del puablu,\
+prucurai tratala bian\
+qu’el Cuelibri ta aguayandu\
+al que nun queremus ver,\
+nin tan siquiara asomandu\
+yá a esi Nuberu aguarón\
+que siampri nus pon pingandu.\
+Po lu tantu a la Santina\
+qu’el día ochu cilibramus,\
+amás de so pruteición\
+vamus pidili bon tiampu,\
+si nun si arregla ella sola\
+ya nisicita rifuarzu,\
+que i lu comenti a San Pedru\
+pa esu yá 'l patrón del puablu.
 
-Baxóu la pesca bastanti,
-en cantidá ya en tamañu
-¡ ya nun si ven las mareas
-que tiniamus antañu !
-lu que nus salva ¿güisti?
-que lus precius, son más altus,
-peru nun ti ixtrañi nada
-que acabin co’l pescau,
-primeiru, co las volantas
-que abondu dañu fixarun,
-y’ahora con’el tren de  bolus
-deixanlu todu arrasau,
-nusoutrus con una gualga
-abondu que protestamus,
-peru nun sei Santa Hermosa,
-¿paezti llograremus algu?
-o quedara’n un misteriu
-qu’alguin dexi bian “guardado”,
-dimisionis d’ida y gualta
-a mi nunca m’incajarun.
-Quiaru aquí filicitar
-a Don José’l cura párracu
-pos pa protestar,  pechóu
-tiandas ya baris del puablu,
-asina comu la Ilesia
-ya tamián el Yuntamiantu
-¡ güi que lus sindicatus
-andan quiriandu fichalu !
+Dispuás de faer el introitu\
+pa ir el gargüalu aclarandu\
+vou pasar a rilatar\
+algún acunticimiantu,\
+ya aprovechandu que tá\
+el mandamás del Gubiarnu\
+comentai algunas cousas\
+pa que las vaya arreglandu,\
+ya sinón, que nus lu diga\
+en sin asperar más tiampu,\
+que siampri haberá algún santu\
+aú poder encomendanus.
 
-Asina ya comu tamus
-en Cuideiru, ¡ aliaus !
-peru mil vecis pior
-ya lu que anda pasandu
-por esus mundus de Dios :
-tirrurismu, sisinatus,
-terramotus, huracanis,
-guerras, drogas ya sicuastrus,
-ya lus probis imigrantis
-que a milis nus tan viniandu,
-ya comu nu hay aú metellus,
-el gubiarnu quiar ichalus
-co la ley d’ixtranjiría,
-que nun sei d’aú la sacarun,
-has de velar Tú por todus
-ya íchanus una manu,
-pa que cabin las disgracias
-que tan al homi aguayandu,
-d’ayudar sabis bastanti,
-¡ prigúntai sino a Pelayu !
+Vou imprimar co la pesca\
+qu'en Cuideiru ya lu nuastru,\
+anque cada día menus\
+¡ya nun yá lu qu'era antañu!\
+Desaparecéu 'l bocarti\
+fai tiampu ya del mar cántabru,\
+el bunitu imprimóu bian\
+la costera d'esti añu,\
+peru desdi un mes p'acá\
+cabóu disapariciandu,\
+apenas hay calamaris,\
+l'angula caeu'n picau,\
+ya la mirluza que era\
+el santu y seña del puablu,\
+iscasea ya piqueña\
+ya tian el preciu baratu,\
+asina qu'el panorama,\
+nun tá del todu muy claru,\
+pos hasta'l gasol nus sal\
+cada día algu más caru,\
+Hay que buscar sulucionis,\
+peru todus de la manu\
+pos sinon salin ganandu\
+lus nuastrus “primus hermanus”.
 
+En outru ordin de cousas\
+el puablu vei mijorandu,\
+a falta de tener playa\
+tan faciandu zona bañus,\
+peru tamus comu'l AVI\
+unda nun nus diarun plazus,\
+n'estu pa m'idea Kiku\
+paecisi a Pepi Blancu,\
+¡has de llamar a Brad Pitt\
+pa que venga nagurallu!
 
-De lu que hay por Asturias....
-¿mirez que ti cunti algu?
-pos llevamus unus añus
-qu’estu nu hay pur ú garrallu
-igual nus da el color
-co’l que vistan al gubiarnu,
-primeiru impriman muy bian,
-dansi chuchinus y’abrazus
-peru dispuás de dos días
-ya andan a puñitazus,
-¡ en sin falta upusición !
-que tianin la guerra diantru,
-(igual da unus que outrus
-qu’el mesmu error cumitiarun)
-ya miantras esu socedi
-el Principau avanzandu,
-somus el númeru unu
-en gualgas, paru y borrachus,
-sin falar de vacas lloucas
-que tamus ya dispuntandu,
-nun hay peixis en’a mar
-nin más minas que pechanus,
-las carreteras, ¿güisti?
-siampri las tan licitandu,
-ya la varianti’l Pajaris
-paemi que vei pa llargu,
-miantras outrus tianin “AVI”
-nusoutrus páxaru pardu;
-piansu ... vou cambear de terciu
-si non acabu llorandu.
+Marchamus bian en tourismu\
+¡más vesitantis cada añu!\
+anque n'esti co la crisis\
+paez qu'hubu menus cuartus.\
+Vou lanzar un S.O.S.\
+ahora que tamus a tiampu:\
+fai falta qu'imprimin ceu\
+el campu de fugol nuavu,\
+antis qu'al sapu pintoju\
+li dea por facer un charcu,\
+o si meta n'el terren\
+la sacabera sin rabu.
 
-Vou a diciti una cousa
-- si nun lu digu ribiantu -
-tianis abonda más suarti
-qu’el nuasu Patrón ya Santu,
-qu’al probi, n’Amuravela
-nun lu deixan prisidiandu.
-Yo digüilu a D. José,
-¡ peru nun mi fai nin casu !
-qu’estu, ya comu’l fugol,
-en direutu ya n’el campu,
-que viándulu po la teli
-siampri ti distrais algu.
-Mira ver si Tú intirvianis
-ya puadis sulucionallu,
-pa que ten en’a Ribera
-San Pedru y lus demás Santus.
+La parti afuara l'ilesia\
+fai dos añus ripararun\
+ya si nun gualvin facellu\
+vamus cabar afogaus,\
+pos cuandu lluavi, pa diantru\
+colasi agua a calderaus.\
+Ista obra en su momentu\
+foi fecha pol Principau,\
+asina que pa m'idea\
+dibirían rivisallu\
+ya si lu fixarun mal\
+que ripitan lus trabayus.\
+Val más que haiga un sobricosti\
+a que 'l templu venga abaxu,\
+siampri que podamus ver\
+p'aú si dirixin lus cuartus,\
+porqui sinón lu contrariu\
+siría costi ensobrau,\
+imprimandu lus poblemas\
+que tirminan n'el xuzgau\
+ya pa defendesi digan\
+que si siantin ispiaus.
 
-Ahora ya vou acabar,
-- D. Tilanu .... ta apurandu -
-que ya ta la camioneta
-en’a puarta asperandu,
-solu mi queda piditi
-la prutición pa esti puablu,
-que ti alcuardis de nusoutrus,
-pa que nun suframus dañus
-ni en’a tiarra, ni en’a mar
-ya que siampri en paz salgamus,
-llibranus de todu mal
-ya asperanus n’el cialu,
-¡ peru pa estu, nun ti apuris
-deixa que pasin lus añus !
+Nun vou falar de la crisis\
+nin metemi co'l gubiarnu,\
+nin queixami porque omenti\
+cada día más el paru,\
+nin de que cerrin empresas\
+o de que si rompa'l dialagu,\
+de que haiga más mileuristas\
+o de cambear lus contratus,\
+nin de trajis, nin de bolsus,\
+nin tampoucu de rigalus,\
+pos si guay tamus de fiasta\
+¿pa que vamus desgustanus?\
+Tiampu haberá a llevantasi\
+cuandu alleguemus al sualu.
 
-Vou ahora dati unus vivas
-pa tirminar el rilatu:
-¡ Un viva pa la Santina
-que venu a Cuideiru a honranus !
-¡ Viva San Pedru Gloriosu
-que ya’l Patrón d’esti puablu !
-Ya comu toi en’a Ilesia,
-¡ que vivan todus lus Santus !
-¡ Viva’l Siñor Arzubispu
-que Dios guardi muchus añus !
-¡ Viva D. Franciscu Alvarez
-que cardenal lu nombrarun !
-¡ Ya viva D. Atilanu
-que nun piansi lu ulvidámus !
-¡ Que viva toda la xanti
-qu’aquí tuviarun rezandu !
-Ya pa tirminar, la copla
-que ya nus vian desdi antañu,
-- vou facei unus arreglus
-pa ver si sirvi de algu.....
-al cura, un i vei gustar,
-peru nun puadu evitallu
-¡MIENTRAS CUDILLERO VIVA
-Y DURI LA FUENTI’L CANTU
-QUEREMUS L’AMURAVELA
-CON LA PRESENCIA DEL SANTU!
+Toca desfrutar agora\
+con Miguel Rius cantandu,\
+Luz Casal, lus Tejedor\
+ya con Morfeu Suañandu,\
+habeis gastar el diñeiru\
+enus puastus qu'hay n'el puartu\
+ya nun dexeis d'asistir\
+a la quema de lus fuaus.
 
-¡ Amura vela ! ¡ Isa vela !
-¡ Fuego a babor !
-¡ Fuego a estribor !
-¡¡¡ Viva Pedro !!!
-¡¡¡ Viva La Santina !!!
+Asina que vou cabar\
+gritandu a lus cuatru viantus\
+¡Viva Asturias ya con ella\
+que vivan lus asturianus!\
+¡Vivan lus que n'estus días\
+con su prisencia han de honranus!\
+¡Vivan lus que urganizarun\
+ista fiasta aquí n'el puablu!\
+¡Viva por siampri Cuideiru\
+ya vivamus lus pixuatus!\
+¡Ya viva la nuastra copla\
+que desdi antañu heredamus,\
+ya gritamusla urgullosus\
+por ondi quiara que vamus!
+
+> ¡MIENTRAS CUDILLERO VIVA\
+Y DURI LA FUENTI’L CANTU\
+VA SAN PEDRU A LA RIBERA\
+CON TODUS LUS DEMAS SANTUS!
+
+> ¡ Amura vela ! ¡ Isa vela !\
+¡ Fuego a babor !\
+¡ Fuego a estribor !\
+¡¡¡ PUXA ASTURIAS !!!
