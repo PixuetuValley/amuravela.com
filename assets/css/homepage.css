@@ -36,19 +36,19 @@ main {
         text-align: center;
         &:before,
         &:after {
-            color: #F3EFEB;
+            color: rgb(255,220,185, 0.5);
             position: absolute;
             font-size: 10rem;
         }
         &:before {
             top: -4.5rem;
-            left: -1.5rem;
+            left: -1.25rem;
             content: open-quote;
             transform: rotate(180deg)
         }
         &:after {
             bottom: -1.5rem;
-            right: -1.5rem;
+            right: -2.5rem;
             content: close-quote;
         }
     }
@@ -70,6 +70,7 @@ main {
 @media only screen and (max-width: 800px) {
     main {
         .hero {
+            height: 80vh;
             .hero__content {
                 .title {
                     margin: 0 0 2rem 0;
