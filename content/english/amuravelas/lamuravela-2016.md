@@ -9,7 +9,7 @@ description = ""
 
 [author]
     name = "Cesáreo Marqués Valle"
-    homepage = "authors/cesario-marques-valle"
+    homepage = "/authors/cesario-marques-valle/"
     image=""
     bio=""
 

@@ -13,6 +13,17 @@
         </div>
         <div class="content">
             {{.Content}}
+            {{ $pieces := where (where .Site.Pages "Section" "amuravelas") "Params.author.homepage" .RelPermalink }}
+            {{ if gt (len $pieces) 0 }}
+                <p>Las obras escritas por {{ .Title }} son:</p>
+                <ul class="list">
+                    {{ range $pieces }}
+                        <li>
+                            <a href="{{.Permalink}}">{{.Title}} <span class="arrow-right">&#8594;</span></a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ end }}
         </div>
-	</article>
+    </article>
 {{ end }}

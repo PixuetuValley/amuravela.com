@@ -38,6 +38,29 @@ main {
             p {
                 width: 100%;
             }
+            .list {
+                list-style-type: none;
+                margin: 3rem 0 0 0;
+                padding: 0;
+                border-bottom: 1px #5c5c5c solid;
+                li {
+                    width: 100%;
+                    border-top: 1px #5c5c5c solid;
+                    padding: 1rem;
+                    text-align: left;
+                    a {
+                        display: flex;
+                        justify-content: space-between;
+                        border-bottom: none;
+                        span {
+                            padding-left: 2rem;
+                        }
+                        &:hover {
+                            color: #5c5c5c;
+                        }
+                    }
+                }
+            }
         }
     }
 }
