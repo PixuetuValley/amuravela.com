@@ -25,32 +25,13 @@ main {
     }
 
     blockquote {
-        width: fit-content;
         color: #37301E;
         background-color: #FFFFFF;
         font-size: 2rem;
-        quotes: '”' '„';
         margin: 0;
-        padding: 2rem;
+        padding: 1rem;
         position: relative;
         text-align: center;
-        &:before,
-        &:after {
-            color: rgb(255,220,185, 0.5);
-            position: absolute;
-            font-size: 10rem;
-        }
-        &:before {
-            top: -4.5rem;
-            left: -1.25rem;
-            content: open-quote;
-            transform: rotate(180deg)
-        }
-        &:after {
-            bottom: -1.5rem;
-            right: -2.5rem;
-            content: close-quote;
-        }
     }
 
     section {
@@ -70,7 +51,6 @@ main {
 @media only screen and (max-width: 800px) {
     main {
         .hero {
-            height: 80vh;
             .hero__content {
                 .title {
                     margin: 0 0 2rem 0;
@@ -82,10 +62,6 @@ main {
         }
         blockquote {
             font-size: 1.5rem;
-            &:before,
-            &:after {
-                font-size: 8rem;
-            }
         }
         section {
             padding: 1.5rem;
