@@ -165,7 +165,7 @@ piansu ... vou cambear de terciu\
 si non acabu llorandu.
 
 Vou a diciti una cousa\
-- si nun lu digu ribiantu -\
+\- si nun lu digu ribiantu -\
 tianis abonda más suarti\
 qu’el nuasu Patrón ya Santu,\
 qu’al probi, n’Amuravela\
@@ -182,7 +182,7 @@ pa que ten en’a Ribera\
 San Pedru y lus demás Santus.
 
 Ahora ya vou acabar,\
-- D. Tilanu .... ta apurandu -\
+\- D. Tilanu .... ta apurandu -\
 que ya ta la camioneta\
 en’a puarta asperandu,\
 solu mi queda piditi\
@@ -214,7 +214,7 @@ que nun piansi lu ulvidámus !\
 qu’aquí tuviarun rezandu !\
 Ya pa tirminar, la copla\
 que ya nus vian desdi antañu,\
-- vou facei unus arreglus\
+\- vou facei unus arreglus\
 pa ver si sirvi de algu.....\
 al cura, un i vei gustar,\
 peru nun puadu evitallu\
