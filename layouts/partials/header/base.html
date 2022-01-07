@@ -7,7 +7,7 @@
     {{ $path := $.Scratch.Get "path" }}
     {{ $page := site.GetPage $path}}
     {{ $.Scratch.Add "path" "/" }}
-    {{ if ne $element ""}}
+    {{ if  not ($element | in (slice "_index.md" "")) }}
         {{ $.Scratch.Add "breadcrumb" (slice (dict "url" $page.Permalink "name" $page.Title)) }}
     {{ end }}
 {{ end }}
