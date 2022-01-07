@@ -37,6 +37,7 @@ a {
     border-bottom: 1px solid #37301e;
     transition: border-bottom-color .25s ease-out;
     text-decoration: none;
+    cursor: pointer;
     span.arrow-right,
     span.arrow-left {
         box-sizing: border-box;
