@@ -9,15 +9,15 @@ disableKinds = ["taxonomy", "term"]
         contentDir = "content"
         languageName = "Español"
         languageCode = "es"
-        title = ""
-        description = ""
+        title = "L'Amuravela"
+        description = "Web de L'Amuravela"
         weight = 1
     [languages.en]
         contentDir = "content/english"
         languageName = "English"
         languageCode = "en"
-        title = ""
-        description = ""
+        title = "L'Amuravela"
+        description = "L'Amuravela website"
         weight = 2
 
 [params]
@@ -30,6 +30,6 @@ disableKinds = ["taxonomy", "term"]
     organizationName = "L'Amuravela"
 
     publisherName = "Asur Bernardo"
-    publisherLogo = "/logo-amp-article.png"
+    publisherLogo = "/logo-article.png"
     publisherLogoWidth = 600
     publisherLogoHeight = 60
