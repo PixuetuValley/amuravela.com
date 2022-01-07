@@ -62,6 +62,20 @@
         </section>
     {{ end }}
 
+    {{ with .Site.GetPage "amuravelas" }}
+        <section>
+            <div class="section__content">
+                <h2 class="section__title">Todas las Amuravelas desde 1995</h2>
+                <p>
+                    A lo largo de los años se ha ido recopilando y digitalizando las Amuravelas desde 1995 para garantizar su prevalencia en el tiempo y permitir compartir esta tradición con el resto del mundo.
+                </p>
+                <a class="button" role="button"
+                    href="{{.Permalink}}"
+                    aria-label="{{.Title}}">Ver todas las Amuravelas <span class="arrow-right">&#8594;</span></a>
+            </div>
+        </section>
+    {{ end }}
+
     {{ with .Site.GetPage "authors" }}
         <section>
             <div class="section__content">
@@ -86,20 +100,6 @@
                 <a class="button" role="button"
                     href="{{.Permalink}}"
                     aria-label="Recitadores de L'Amuravela">Ver todos los recitadores <span class="arrow-right">&#8594;</span></a>
-            </div>
-        </section>
-    {{ end }}
-
-    {{ with .Site.GetPage "amuravelas" }}
-        <section>
-            <div class="section__content">
-                <h2 class="section__title">Todas las Amuravelas desde 1995</h2>
-                <p>
-                    A lo largo de los años se ha ido recopilando y digitalizando las Amuravelas desde 1995 para garantizar su prevalencia en el tiempo y permitir compartir esta tradición con el resto del mundo.
-                </p>
-                <a class="button" role="button"
-                    href="{{.Permalink}}"
-                    aria-label="{{.Title}}">Ver todas las Amuravelas <span class="arrow-right">&#8594;</span></a>
             </div>
         </section>
     {{ end }}

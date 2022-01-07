@@ -33,6 +33,8 @@ main {
             flex-direction: column;
             text-align: center;
             font-size: 1.5rem;
+            max-width: 50%;
+            min-width: 25%;
             p {
                 width: 100%;
             }
