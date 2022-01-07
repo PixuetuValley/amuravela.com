@@ -13,6 +13,12 @@ description = ""
     image=""
     bio=""
 
+[reciter]
+    name = "Cesáreo Marqués Valle"
+    homepage = "reciters/cesario-marques-valle"
+    image=""
+    bio=""
+
 [image]
     src = ""
 

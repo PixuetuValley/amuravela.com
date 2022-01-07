@@ -1,9 +1,9 @@
 +++
 draft = false
 
-title = "Todos los autores de L'Amuravela"
+title = "Autores de L'Amuravela"
 slug = "autores"
-description = "Listado de todos los autores de L'Amuravela"
+description = "Todos los autores de L'Amuravela"
 summary = "Lorem ipsum dolor sit amet"
 
 [image]
@@ -18,5 +18,3 @@ summary = "Lorem ipsum dolor sit amet"
   priority = 0.5
   filename = "sitemap.xml"
 +++
-
-Lorem ipsum dolor sit amet

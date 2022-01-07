@@ -1,9 +1,9 @@
 +++
 draft = false
 
-title = "Que es L'Amuravela?"
-slug = "que-es-lamuravela"
-description = "Lorem ipsum dolor sit amet"
+title = "Recitadores de L'Amuravela"
+slug = "recitadores"
+description = "Todos los recitadores de L'Amuravela"
 summary = "Lorem ipsum dolor sit amet"
 
 [image]
@@ -11,15 +11,10 @@ summary = "Lorem ipsum dolor sit amet"
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/what-is-lamuravela/"
+    url = "https://amuravela.com/en/authors/"
 
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
-
 +++
-
-# What is L'Amuravela?
-
-Lorem ipsum dolor sit amet

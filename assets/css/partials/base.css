@@ -3,10 +3,11 @@
 }
 body {
     color: #37301e;
-    font-family: 'Playfaire', serif;
+    font-family: serif;
     margin: 0;
     padding: 0;
     font-size: 1.25rem;
+    min-height: 100vh;
 }
 h1, h2, h3, h4, h5 {
     font-family: 'Dancing Script', cursive;
@@ -16,6 +17,17 @@ h1 {
 }
 h2 {
     font-size: 4rem;
+}
+
+p {
+    line-height: 150%
+}
+blockquote {
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
 }
 
 a {

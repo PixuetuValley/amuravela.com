@@ -1,0 +1,25 @@
+{{ define "styles" }}
+    <style>
+        {{- with resources.Get "css/list.css" | resources.PostCSS -}}
+            {{- .Content | safeCSS -}}
+        {{- end -}}
+    </style>
+{{ end }}
+
+{{ define "main" }}
+    <article>
+        <div class="summary">
+            <h1 class="title">{{ .Title }}</h1>
+        </div>
+        <div class="content">
+            {{.Content}}
+            <ul class="list">
+                {{ range where .Pages "Section" "reciters" }}
+                    <li>
+                        <a href="{{.Permalink}}">{{.Title}} <span class="arrow-right">&#8594;</span></a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </article>
+{{ end }}

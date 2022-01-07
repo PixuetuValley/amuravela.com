@@ -15,14 +15,16 @@ main {
             text-align: center;
             align-items: center;
             max-width: 50%;
+            min-width: 25%;
             max-height: 720px;
             margin-right: 8rem;
-            .author {
-                font-size: 1.5rem;
+            h1 {
+                font-size: 6rem;
             }
         }
         .content {
             max-width: 50%;
+            min-width: 25%;
             flex-direction: column;
             text-align: center;
             font-size: 1.5rem;
@@ -38,10 +40,14 @@ main {
                     width: 100%;
                     border-top: 1px #5c5c5c solid;
                     padding: 1rem;
+                    text-align: left;
                     a {
                         display: flex;
                         justify-content: space-between;
                         border-bottom: none;
+                        span {
+                            padding-left: 2rem;
+                        }
                         &:hover {
                             color: #5c5c5c;
                         }
@@ -64,8 +70,8 @@ main {
                 position: relative;
                 max-width: 100%;
                 margin-right: 0;
-                .author {
-                    font-size: 1.25rem;
+                h1 {
+                    font-size: 3rem;
                 }
             }
             .content {

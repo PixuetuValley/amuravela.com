@@ -2,5 +2,7 @@
 other = "Inicio"
 [readLast]
 other = "Leer la última Amuravela"
-[by]
-other = "por"
+[writtenBy]
+other = "Escrita por"
+[recitedBy]
+other = "Recitada por"

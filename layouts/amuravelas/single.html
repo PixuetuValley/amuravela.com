@@ -1,0 +1,37 @@
+{{ define "styles" }}
+    <style>
+        {{- with resources.Get "css/article.css" | resources.PostCSS -}}
+            {{- .Content | safeCSS -}}
+        {{- end -}}
+    </style>
+{{ end }}
+
+{{ define "main" }}
+    <article>
+        <div class="summary">
+            <h1 class="title">{{ .Title }}</h1>
+            <small><time>{{ .Date | time.Format ":date_long" }}</time></small>
+            {{ if isset .Params "author" }}
+                <p>
+                    <span class="author">
+                        {{ i18n "writtenBy" }} <br/>
+                        <a href="{{ .Params.Author.Homepage | absLangURL }}">
+                            {{ .Params.Author.Name }} <span class="arrow-right">&#8594;</span>
+                        </a>
+                    </span>
+                </p>
+                <p>
+                    <span class="reciter">
+                        {{ i18n "recitedBy" }} <br/>
+                        <a href="{{ .Params.Reciter.Homepage | absLangURL }}">
+                            {{ .Params.Author.Name }} <span class="arrow-right">&#8594;</span>
+                        </a>
+                    </span>
+                </p>
+            {{ end }}
+        </div>
+        <div class="content">
+            {{.Content}}
+        </div>
+	</article>
+{{ end }}
