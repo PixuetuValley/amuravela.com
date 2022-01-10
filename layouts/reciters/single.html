@@ -13,6 +13,7 @@
         </div>
         <div class="content">
             {{.Content}}
+            {{/*
             {{ $pieces := where (where .Site.Pages "Section" "amuravelas") "Params.reciter.homepage" .RelPermalink }}
             {{ if gt (len $pieces) 0 }}
                 <p>Las obras recitadas por {{ .Title }} son:</p>
@@ -24,6 +25,7 @@
                     {{ end }}
                 </ul>
             {{ end }}
+            */}}
         </div>
 	</article>
 {{ end }}

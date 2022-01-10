@@ -6,3 +6,7 @@ other = "Leer la última Amuravela"
 other = "Escrita por"
 [recitedBy]
 other = "Recitada por"
+[notFound]
+other = "Pagina no encontrada"
+[goBackHome]
+other = "Volver a inicio"

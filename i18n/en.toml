@@ -6,3 +6,7 @@ other = "Read last Amuravela"
 other = "Written by"
 [recitedBy]
 other = "Recited by"
+[notFound]
+other = "Page not found"
+[goBackHome]
+other = "Go back to the homepage"
