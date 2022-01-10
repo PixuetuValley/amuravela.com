@@ -23,7 +23,7 @@ disableKinds = ["taxonomy", "term"]
 [params]
     copyright = "L'Amuravela"
     themeColor = "#333"
-    googleAnalytics = ""
+    googleAnalytics = "G-FX79BW06FQ"
 
     alternatePageName = "amuravela.com"
     organizationLogo = "/logo.png"

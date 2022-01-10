@@ -6,13 +6,6 @@
 <link rel="canonical" href="{{ .Permalink }}" >
 <link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />
 
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ $.Site.Params.googleAnalytics }}');
-</script>
-
 {{- partial "head/optimization-metas.html" . -}}
 {{- partial "head/language-metas.html" . -}}
 {{- partial "head/og-metas.html" . -}}
@@ -21,3 +14,9 @@
 {{- partial "head/styles.html" . -}}
 
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ $.Site.Params.googleAnalytics }}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ $.Site.Params.googleAnalytics }}');
+  </script>

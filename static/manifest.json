@@ -1,11 +1,11 @@
 {
-  "name": "Blog de Asur",
-  "short_name": "asur.dev",
+  "name": "Amuravela",
+  "short_name": "amuravela",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#ef8b80",
-  "description": "Bienvenid@ a mi blog, si te gusta el desarrollo web, el SEO, el open source y la tecnología en general echa un vistazo, seguro que encuentras algo interesante.",
+  "theme_color": "#333",
+  "description": "La web oficial de l'Amuravela.",
   "icons":[
     {
       "src":"/icons/android-chrome-192x192.png",
