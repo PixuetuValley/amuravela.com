@@ -37,7 +37,7 @@ con amor y con agradu.
 
 En el año 1995 asume la responsabilidad de ser también su autor. Ha sido según sus palabras "una decisión tomada con el ánimo de que Cudillero nunca se quede sin L'Amuravela".
 
-Además de ser el autor y recitador de L'Amuravela, también es el recitador, desde 1980, de uno de los actos religiosos más queridos durante la Semana Santa en Cudillero : El Calvario, que se lleva a cabo en la noche de Jueves Santo.
+Además de ser el autor y recitador de L’Amuravela, también fue el recitador, desde 1980 hasta 2018, de uno de los actos religiosos más queridos durante la Semana Santa en Cudillero : El Calvario, que se lleva a cabo en la noche de Jueves Santo.
 
 En el año 2005 es distinguido por el Instituto Selgas con el Diploma de Honor, galardón que distingue a la persona o entidad que haya destacado por sus actividades en pro de la educación o cultura en Cudillero y Muros de Nalón.
 
@@ -49,4 +49,4 @@ El 5 de Abril de 2009, recibe la Beca y el Diploma de Honor de la Asociación An
 
 El Ayuntamiento de Cudillero le hace entrega del título de HIJO PREDILECTO durante el Pleno extraordinario celebrado el día 5 de Septiembre de 2009. De este modo, la corporación le reconoce «la labor desinteresada  en defensa de la cultura y las tradiciones pixuetas, una labor que ha contribuido notablemente a la difusión de L'Amuravela como una de las costumbres más típicas y específicas del municipio».
 
-Ese mismo día y con motivo de la celebración del Día de Asturias en la capital del concejo, el Ayuntamiento de Cudillero ha editado un libro en el que se recogen los últimos quince sermones de L'Amuravela, escritos y recitados por Cesáreo Marqués.
+Ese mismo día y con motivo de la celebración del Día de Asturias en la capital del concejo, el Ayuntamiento de Cudillero ha editado un libro en el que se recogen los primeros quince sermones de L’Amuravela, desde 1995 hasta 2009, escritos y recitados por Cesáreo Marqués.

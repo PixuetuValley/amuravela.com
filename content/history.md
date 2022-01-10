@@ -79,4 +79,6 @@ Aquella fecha, marcó un tiempo excesivamente largo sin San Pedro, pues al año 
 
 Las reuniones previas, en las que participaron la Comisión de Festejos, Cesáreo Marqués, Comunidad Parroquial y el párroco D. José Pérez Barcia, fructificaron con un acuerdo histórico para Cudillero, pues si es historia la ausencia, ahora lo es la presencia de San Pedro, con todos los demás Santos en la Ribera, para escuchar el Sermón.
 
-En el año 1976, esta fiesta fue declarada de INTERES TURISTICO NACIONAL.
+En el año 1976, esta fiesta fue declarada de INTERES TURISTICO.
+
+En el año 2020 y debido a la pandemia del coronavirus, l’Amuravela dejo su escenario natural de la Ribera, para celebrarse de manera excepcional, en el interior de la Iglesia Parroquial, una solución poco ortodoxa, pero la única, para que Cudillero y San Pedro no quedaran sin escuchar su tradicional sermón.

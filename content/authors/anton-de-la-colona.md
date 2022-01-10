@@ -1,7 +1,7 @@
 +++
 draft = false
-date = "2021-12-31T23:59:56+02:00"
-publishdate = "2021-12-31T23:59:56+02:00"
+date = "2021-12-31T23:59:55+02:00"
+publishdate = "2021-12-31T23:59:55+02:00"
 
 title = "Antón de la Colona"
 
