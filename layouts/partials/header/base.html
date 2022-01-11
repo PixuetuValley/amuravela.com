@@ -1,17 +1,3 @@
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ("/" | absLangURL) "name" (i18n "home"))) }}
-{{ $path := trim (urls.Parse .Path).Path "/" }}
-{{ $.Scratch.Add "path" "/" }}
-
-{{ range $index, $element := split $path "/" }}
-    {{ $.Scratch.Add "path" $element }}
-    {{ $path := $.Scratch.Get "path" }}
-    {{ $page := site.GetPage $path}}
-    {{ $.Scratch.Add "path" "/" }}
-    {{ if  not ($element | in (slice "_index.md" "")) }}
-        {{ $.Scratch.Add "breadcrumb" (slice (dict "url" $page.Permalink "name" $page.Title)) }}
-    {{ end }}
-{{ end }}
-
 <div class="breadcrumbs">
     {{- if not .Page.IsHome -}}
         {{ range $index, $breadcrumb := $.Scratch.Get "breadcrumb" }}
