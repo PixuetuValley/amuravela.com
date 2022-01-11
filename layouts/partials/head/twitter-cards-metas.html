@@ -1,4 +1,4 @@
-<meta name="twitter:card" content="{{ cond (or (isset .Params.Twitter "image") (isset .Params.Image "src")) "summary_large_image" "summary"}}">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ .Params.Twitter.Title | default .Title }}">
 <meta name="twitter:url" content="{{ .Permalink }}">
 <meta name="twitter:description" content="{{ cond .IsHome .Site.Params.Description (.Params.Twitter.Description | default .Description) }}">
