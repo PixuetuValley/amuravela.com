@@ -13,10 +13,12 @@
 {{ end }}
 
 <div class="breadcrumbs">
-    {{ range $index, $breadcrumb := $.Scratch.Get "breadcrumb" }}
-        {{ if ne $index 0 }} / {{ end }}
-        <a href='{{ $breadcrumb.url }}'>{{ $breadcrumb.name }}</a>
-    {{ end }}
+    {{- if not .Page.IsHome -}}
+        {{ range $index, $breadcrumb := $.Scratch.Get "breadcrumb" }}
+            {{ if ne $index 0 }} / {{ end }}
+            <a href='{{ $breadcrumb.url }}'>{{ $breadcrumb.name }}</a>
+        {{ end }}
+    {{- end -}}
 </div>
 
 <div class="language-selector">

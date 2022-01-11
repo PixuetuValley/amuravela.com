@@ -5,3 +5,7 @@
 {{- if eq .Page.Kind "page" -}}
 	{{- partial "structured-data/article.html" . -}}
 {{- end -}}
+
+{{- if not .Page.IsHome -}}
+	{{- partial "structured-data/breadcrumbs.html" . -}}
+{{- end -}}
