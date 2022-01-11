@@ -30,6 +30,6 @@ disableKinds = ["taxonomy", "term"]
     organizationName = "L'Amuravela"
 
     publisherName = "L'Amuravela"
-    publisherLogo = "/logo-article.png"
+    publisherLogo = "/logo.png"
     publisherLogoWidth = 600
     publisherLogoHeight = 60
