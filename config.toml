@@ -10,14 +10,14 @@ disableKinds = ["taxonomy", "term"]
         languageName = "Español"
         languageCode = "es"
         title = "L'Amuravela"
-        description = "Web de L'Amuravela"
+        description = "Web oficial del pregón de L'Amuravela, fiesta de interés nacional dedicada a San Pedro celebrada en la villa pixueta: Cudillero."
         weight = 1
     [languages.en]
         contentDir = "content/english"
         languageName = "English"
         languageCode = "en"
         title = "L'Amuravela"
-        description = "L'Amuravela website"
+        description = "L'Amuravela official website"
         weight = 2
 
 [params]
@@ -29,7 +29,7 @@ disableKinds = ["taxonomy", "term"]
     organizationLogo = "/logo.png"
     organizationName = "L'Amuravela"
 
-    publisherName = "Asur Bernardo"
+    publisherName = "L'Amuravela"
     publisherLogo = "/logo-article.png"
     publisherLogoWidth = 600
     publisherLogoHeight = 60
