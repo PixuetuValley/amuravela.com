@@ -1,6 +1,7 @@
 {{- if .IsHome -}}
 	{{- partial "structured-data/website.html" . -}}
 	{{- partial "structured-data/event.html" . -}}
+	{{- partial "structured-data/faq.html" . -}}
 {{- end -}}
 
 {{- if eq .Page.Kind "page" -}}
