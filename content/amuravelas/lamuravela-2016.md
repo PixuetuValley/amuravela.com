@@ -5,7 +5,7 @@ publishdate = "2016-06-29T12:00:00+02:00"
 
 title = "L'Amuravela 2016"
 
-description = ""
+description = "El sermón de L'Amuravela de 2016 como fue recitado en las fiestas de Cudillero el día de San Pedro de ese mismo año."
 
 [author]
     name = "Cesáreo Marqués Valle"

@@ -5,7 +5,7 @@ publishdate = "1995-06-29T12:00:00+02:00"
 
 title = "L'Amuravela 1995"
 
-description = ""
+description = "El sermón de L'Amuravela de 1995 como fue recitado en las fiestas de Cudillero el día de San Pedro de ese mismo año."
 
 [author]
     name = "Cesáreo Marqués Valle"
