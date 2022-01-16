@@ -8,7 +8,7 @@
                 vou ichar l'Amuravela<br>
                 comu San Pedru asperaba.
             </blockquote>
-            <a class="main-cta" href="{{($.Site.GetPage "/amuravelas/lamuravela-2021").Permalink}}">
+            <a class="cta" href="{{($.Site.GetPage "/amuravelas/lamuravela-2021").Permalink}}">
                 {{ i18n "readLast"}} <span class="arrow-right">&#8594;</span>
             </a>
         </div>
@@ -43,15 +43,21 @@
             </p>
             <p>
                 La fecha de la próxima Amuravela es: <br/>
-                <b><time id="date"></time></b>
-                <script>
-                    const today = new Date();
-                    const year = today > new Date(today.getFullYear(), '06', '29') ? today.getFullYear() + 1 : today.getFullYear();
-                    const date = new Date (year, '06', '29', '13', '00');
-                    document.getElementById("date").setAttribute("datetime", date.toISOString());
-                    document.getElementById("date").innerText = `${date.toDateString()} ${date.toLocaleTimeString()}`;
-                </script>
+                <b><time id="date">...</time></b>
             </p>
+            <div>
+                <h3 id="share-cta-title">¿Vas a estar viendo L'Amuravela? ¡Compártelo!</h3>
+                <div class="social-share">
+                    <a class="social-share-button facebook" role="button" target="_blank" referrerpolicy="no-referrer"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https://amuravela.com&p[title]=L'Amuravela"></a>
+                    <a class="social-share-button twitter" role="button" target="_blank" referrerpolicy="no-referrer"
+                        href="https://twitter.com/share?text=L'Amuravela&url=https://amuravela.com"></a>
+                    <a class="social-share-button pinterest" role="button" target="_blank" referrerpolicy="no-referrer"
+                        href="http://pinterest.com/pin/create/button/?url=https://amuravela.com&description=L'Amuravela"></a>
+                    <a class="social-share-button whatsapp" role="button" target="_blank" referrerpolicy="no-referrer"
+                        href="https://api.whatsapp.com/send?text=L'Amuravela: https://amuravela.com"></a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -122,4 +128,34 @@
         </blockquote>
     </section>
 
+    <script defer>
+        // Calculate next event date
+        const today = new Date();
+        const year = today > new Date(today.getFullYear(), '06', '29') ? today.getFullYear() + 1 : today.getFullYear();
+        const date = new Date (year, '06', '29', '13', '00');
+        document.getElementById("date").setAttribute("datetime", date.toISOString());
+        document.getElementById("date").innerText = `${date.toDateString()} ${date.toLocaleTimeString()}`;
+
+        if (today.valueOf() === date.valueOf()) {
+            document.getElementById("share-cta-title").innerText = "¿Estás viendo L'Amuravela? ¡Compártelo!";
+        }
+
+        // Trigger web share API when on mobile
+        if (navigator.canShare && /Mobi|Android/i.test(navigator.userAgent)) {
+            const shareData = {
+                title: "L'Amuravela",
+                text: 'Un texto que aparece al compartir',
+                url: 'https://amuravela.com'
+            }
+            const socialButtons = document.querySelector('.social-share-button');
+            // Share must be triggered by "user activation"
+            socialButtons.addEventListener('click', async () => {
+                try {
+                    await navigator.share(shareData);
+                } catch(err) {
+                    console.error(err);
+                }
+            });
+        }
+    </script>
 {{ end }}
