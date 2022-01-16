@@ -59,9 +59,9 @@ con todos los demás Santus.
 Desde entonces, aunque se seguía celebrando la procesión llevando el Santo a la Ribera no había Amuravela.
 Durante el año 1913 se intentó reponer pero no fue así.
 
-En 1946 se recuperó esta gran tradición : el Alcalde de Cudillero D. Luis Antolín y D. Luis Tejerina llegaron a un acuerdo con el cura de entonces, D. Juan Méndez, para que se recitara L'Amuravela sin la presencia de San Pedro.
-
 ![Foto antigua de L'Amuravela](/images/lamuravela-03.jpg)
+
+En 1946 se recuperó esta gran tradición : el Alcalde de Cudillero D. Luis Antolín y D. Luis Tejerina llegaron a un acuerdo con el cura de entonces, D. Juan Méndez, para que se recitara L'Amuravela sin la presencia de San Pedro.
 
 Una de las personas que más ha hecho para que esta tradición se mantuviera ha sido Elvira Bravo, autora del Sermón desde 1947 hasta su muerte en 1986.
 
@@ -69,15 +69,17 @@ Otra de las personas destacadas en la labor de recuperación y mantenimiento de 
 
 Al año siguiente, 1985, Cesáreo Marqués Valle toma el relevo y desde entonces es el actual recitador de L'Amuravela. Desde el año 1995, también es su autor. Gracias a su amor a Cudillero, esta ancestral tradición no se ha perdido y en su ánimo está mantenerla y promocionarla todo lo que se merece.
 
-El día 29 de Junio de 2005, se convierte en una fecha histórica : se recupera una tradición durante más de un siglo anhelada por todos los pixuetos y muy especialmente, en los últimos años, por su actual autor y recitador, Cesáreo Marqués : la presencia de San Pedro.
-
 ![Foto antigua de L'Amuravela](/images/lamuravela-04.jpg)
+
+El día 29 de Junio de 2005, se convierte en una fecha histórica : se recupera una tradición durante más de un siglo anhelada por todos los pixuetos y muy especialmente, en los últimos años, por su actual autor y recitador, Cesáreo Marqués : la presencia de San Pedro.
 
 Recordando un poco la historia, nos encontramos con un artículo del diario El Comercio (Gijón), con fecha 3 de Julio de 1884, el cual explica, que el 29 de Junio de 1884, el recitador de L’Amuravela, “Xuan de la Cuca”, a través de algunos versos del Sermón, desencadena un enfrentamiento con el Clero de aquella época, que ve en todo ello una conducta irreverente hacia la imagen de San Pedro, presente en el acto, en la Ribera, como tradicionalmente venía sucediendo todos los años.
 
 Aquella fecha, marcó un tiempo excesivamente largo sin San Pedro, pues al año siguiente (1885), la imagen, y hasta este año 2005, no ha estado presente en el Sermón.
 
 Las reuniones previas, en las que participaron la Comisión de Festejos, Cesáreo Marqués, Comunidad Parroquial y el párroco D. José Pérez Barcia, fructificaron con un acuerdo histórico para Cudillero, pues si es historia la ausencia, ahora lo es la presencia de San Pedro, con todos los demás Santos en la Ribera, para escuchar el Sermón.
+
+![Foto antigua de L'Amuravela](/images/lamuravela-05.jpg)
 
 En el año 1976, esta fiesta fue declarada de INTERES TURISTICO.
 

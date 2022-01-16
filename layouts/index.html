@@ -18,7 +18,7 @@
         <div class="section__content">
             <h2 class="section__title">¿Qué es L'Amuravela?</h2>
             <p>
-                L'Amuravela es una tradición heredada de generación en generación como demostración de la especial devoción que el pueblo pixueto siente por su Patrón San Pedro, medio religiosa y medio profana, por lo que se define como un sermón laico y que consta de dos partes, el relato al Santo y la maniobra de saludo.
+                L'Amuravela es un sermón laico, una tradición medio religiosa y medio profana heredada de generación en generación como demostración de la especial devoción que el pueblo pixueto siente por su Patrón San Pedro y que consta de dos partes, el relato al Santo y la maniobra de saludo.
             </p>
         </div>
     </section>
@@ -43,7 +43,14 @@
             </p>
             <p>
                 La fecha de la próxima Amuravela es: <br/>
-                <b><time datetime="2022-06-29T13:00:00">{{ time.Format "2 January 2006 15:04" "2022-06-29T13:00:00" }}</time></b>.
+                <b><time id="date"></time></b>
+                <script>
+                    const today = new Date();
+                    const year = today > new Date(today.getFullYear(), 06, 29) ? today.getFullYear() + 1 : today.getFullYear();
+                    const date = new Date (year, 06, 29, 13, 00);
+                    document.getElementById("date").setAttribute("datetime", date.toISOString());
+                    document.getElementById("date").innerText = `${date.toDateString()} ${date.toLocaleTimeString()}`;
+                </script>
             </p>
         </div>
     </section>
