@@ -48,6 +48,7 @@
             <div>
                 <h3 id="share-cta-title">¿Vas a estar viendo L'Amuravela? ¡Compártelo!</h3>
                 <div class="social-share">
+                    <a class="social-share-button" id="share-button" role="button" target="_blank" rel="noreferrer"></a>
                     <a class="social-share-button facebook" role="button" target="_blank" rel="noreferrer"
                         href="https://www.facebook.com/sharer/sharer.php?u=https://amuravela.com&p[title]=L'Amuravela"></a>
                     <a class="social-share-button twitter" role="button" target="_blank" rel="noreferrer"
@@ -133,23 +134,23 @@
         const today = new Date();
         const year = today > new Date(today.getFullYear(), '06', '29') ? today.getFullYear() + 1 : today.getFullYear();
         const date = new Date (year, '06', '29', '13', '00');
+
         document.getElementById("date").setAttribute("datetime", date.toISOString());
-        document.getElementById("date").innerText = `${date.toDateString()} ${date.toLocaleTimeString()}`;
+        document.getElementById("date").innerText = date.toLocaleString('{{.Lang}}', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
 
         if (today.valueOf() === date.valueOf()) {
             document.getElementById("share-cta-title").innerText = "¿Estás viendo L'Amuravela? ¡Compártelo!";
         }
 
         // Trigger web share API when on mobile
-        if (navigator.canShare && /Mobi|Android/i.test(navigator.userAgent)) {
+        if (navigator.canShare) {
             const shareData = {
                 title: "L'Amuravela",
-                text: 'Un texto que aparece al compartir',
+                text: "En #Cuideiru viendo L'Amuravela 😎",
                 url: 'https://amuravela.com'
             }
-            const socialButtons = document.querySelector('.social-share-button');
             // Share must be triggered by "user activation"
-            socialButtons.addEventListener('click', async () => {
+            document.getElementById('share-button').addEventListener('click', async () => {
                 try {
                     await navigator.share(shareData);
                 } catch(err) {
