@@ -16,47 +16,41 @@
 
     <section>
         <div class="section__content">
-            <h2 class="section__title">¿Qué es L'Amuravela?</h2>
-            <p>
-                L'Amuravela es un sermón laico, una tradición medio religiosa y medio profana heredada de generación en generación como demostración de la especial devoción que el pueblo pixueto siente por su Patrón San Pedro y que consta de dos partes, el relato al Santo y la maniobra de saludo.
-            </p>
+            <h2 class="section__title">{{ i18n "whatT"}}</h2>
+            <p>{{ i18n "whatP1"}}</p>
         </div>
     </section>
 
     <section>
         <div class="section__content">
-            <h2 class="section__title">¿Dónde se celebra L'Amuravela?</h2>
-            <p>
-                L'Amuravela es de las costumbres más antiguas de Cudillero (Principado de Asturias) y se celebra en la Ribera junto a la plaza del Sable, en pleno centro del casco antiguo del pueblo.
-            </p>
+            <h2 class="section__title">{{ i18n "whereT"}}</h2>
+            <p>{{ i18n "whereP1"}}</p>
             <a class="button" role="button" target="_blank" rel="noreferrer"
                 href="https://www.google.es/maps/dir//43.5633611,-6.1458889/@43.5633611,-6.1480776,17z"
-                aria-label="¿Cómo llegar a L'Amuravela?">Cómo llegar <span class="arrow-right">&#8594;</span></a>
+                aria-label="{{ i18n "howToGetThere"}}">{{ i18n "howToGetThere"}} <span class="arrow-right">&#8594;</span></a>
         </div>
     </section>
 
     <section>
         <div class="section__content">
-            <h2 class="section__title">¿Cuándo se celebra L'Amuravela?</h2>
+            <h2 class="section__title">{{ i18n "whenT"}}</h2>
+            <p>{{ i18n "whenP1"}}</p>
             <p>
-                L'Amuravela se celebra durante las fiestas patronales de Cudillero, todos los años el día de San Pedro, el 29 de Junio.
-            </p>
-            <p>
-                La fecha de la próxima Amuravela es: <br/>
+                {{ i18n "nextDateIs"}} <br/>
                 <b><time id="date">...</time></b>
             </p>
             <div>
-                <h3 id="share-cta-title">¿Vas a estar viendo L'Amuravela? ¡Compártelo!</h3>
+                <h3 id="share-cta-title">{{ i18n "gonnaWatchShareCTA"}}</h3>
                 <div class="social-share">
-                    <a class="social-share-button" id="share-button" role="button" target="_blank" rel="noreferrer"></a>
-                    <a class="social-share-button facebook" role="button" target="_blank" rel="noreferrer"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https://amuravela.com&p[title]=L'Amuravela"></a>
-                    <a class="social-share-button twitter" role="button" target="_blank" rel="noreferrer"
-                        href="https://twitter.com/share?text=L'Amuravela&url=https://amuravela.com"></a>
-                    <a class="social-share-button pinterest" role="button" target="_blank" rel="noreferrer"
-                        href="http://pinterest.com/pin/create/button/?url=https://amuravela.com&description=L'Amuravela"></a>
-                    <a class="social-share-button whatsapp" role="button" target="_blank" rel="noreferrer"
-                        href="https://api.whatsapp.com/send?text=L'Amuravela: https://amuravela.com"></a>
+                    <a class="social-share-button" id="share-button" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} {{ i18n "mobile"}}"></a>
+                    <a class="social-share-button facebook" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Facebook"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https://amuravela.com&p[title]={{ i18n "shareMessage"}}"></a>
+                    <a class="social-share-button twitter" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Twitter"
+                        href="https://twitter.com/share?text={{ i18n "shareMessage"}}&url=https://amuravela.com"></a>
+                    <a class="social-share-button pinterest" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Pinterest"
+                        href="http://pinterest.com/pin/create/button/?url=https://amuravela.com&description={{ i18n "shareMessage"}}"></a>
+                    <a class="social-share-button whatsapp" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} WhatsApp"
+                        href="https://api.whatsapp.com/send?text={{ i18n "shareMessage"}} https://amuravela.com"></a>
                 </div>
             </div>
         </div>
@@ -65,16 +59,12 @@
     {{ with .Site.GetPage "history" }}
         <section>
             <div class="section__content">
-                <h2 class="section__title">Historia de L'Amuravela</h2>
-                <p>
-                    No se sabe exactamente cuándo fue el comienzo de esta tradición. Según diversos comentarios y estudios, podría datar de hace más de 400 años (hacia 1569), época en que tuvo lugar la construcción de la Iglesia bajo la advocación de San Pedro.
-                </p>
-                <p>
-                    Durante esa época habían vuelto los marineros que acompañaron a D. Alvaro Menéndez en la Conquista de la Florida, embarcados en una nave construida en Cudillero, "El Espíritu Santo". Durante ese viaje aprendieron el saludo que se hacía al Almirante y quisieron hacer lo mismo con su Santo Patrono...
-                </p>
+                <h2 class="section__title">{{ i18n "historyT"}}</h2>
+                <p>{{ i18n "historyP1"}}</p>
+                <p>{{ i18n "historyP2"}}</p>
                 <a class="button" role="button"
                     href="{{.Permalink}}"
-                    aria-label="Historia de L'Amuravela">Saber más <span class="arrow-right">&#8594;</span></a>
+                    aria-label="{{ i18n "historyT"}}">{{ i18n "readMore"}} <span class="arrow-right">&#8594;</span></a>
             </div>
         </section>
     {{ end }}
@@ -82,13 +72,11 @@
     {{ with .Site.GetPage "amuravelas" }}
         <section>
             <div class="section__content">
-                <h2 class="section__title">Todas las Amuravelas desde 1995</h2>
-                <p>
-                    A lo largo de los años se ha ido recopilando y digitalizando las Amuravelas desde 1995 para garantizar su prevalencia en el tiempo y permitir compartir esta tradición con el resto del mundo.
-                </p>
+                <h2 class="section__title">{{ i18n "amuravelasT"}}</h2>
+                <p>{{ i18n "amuravelasP1"}}</p>
                 <a class="button" role="button"
                     href="{{.Permalink}}"
-                    aria-label="{{.Title}}">Ver todas las Amuravelas <span class="arrow-right">&#8594;</span></a>
+                    aria-label="{{.Title}}">{{ i18n "readEveryAmuravela"}} <span class="arrow-right">&#8594;</span></a>
             </div>
         </section>
     {{ end }}
@@ -96,13 +84,11 @@
     {{ with .Site.GetPage "authors" }}
         <section>
             <div class="section__content">
-                <h2 class="section__title">Autores de L'Amuravela a lo largo de la historia</h2>
-                <p>
-                    Ha habido multitud de autores a lo largo de los siglos de L'Amuravela, actualmente se conservan registros de pocos en la historia reciente, el resto de información está fragmentada o se ha perdido para siempre.
-                </p>
+                <h2 class="section__title">{{ i18n "authorsT"}}</h2>
+                <p>{{ i18n "authorsP1"}}</p>
                 <a class="button" role="button"
                     href="{{.Permalink}}"
-                    aria-label="Autores de L'Amuravela">Ver todos los autores <span class="arrow-right">&#8594;</span></a>
+                    aria-label="{{ i18n "seeEveryAuthor"}}">{{ i18n "seeEveryAuthor"}} <span class="arrow-right">&#8594;</span></a>
             </div>
         </section>
     {{ end }}
@@ -110,13 +96,11 @@
     {{ with .Site.GetPage "reciters" }}
         <section>
             <div class="section__content">
-                <h2 class="section__title">Recitadores de L'Amuravela a lo largo de la historia</h2>
-                <p>
-                    En multiples ocasiones la persona que recita L'Amuravela no es el autor de la misma, por ello se distingue la persona que la escribe y la persona que la <i>echa</i>.
-                </p>
+                <h2 class="section__title">{{ i18n "recitersT"}}</h2>
+                <p>{{ i18n "recitersP1"}}</p>
                 <a class="button" role="button"
                     href="{{.Permalink}}"
-                    aria-label="Recitadores de L'Amuravela">Ver todos los recitadores <span class="arrow-right">&#8594;</span></a>
+                    aria-label="{{ i18n "seeEveryReciter"}}">{{ i18n "seeEveryReciter"}} <span class="arrow-right">&#8594;</span></a>
             </div>
         </section>
     {{ end }}
@@ -139,14 +123,14 @@
         document.getElementById("date").innerText = date.toLocaleString('{{.Lang}}', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
 
         if (today.valueOf() === date.valueOf()) {
-            document.getElementById("share-cta-title").innerText = "¿Estás viendo L'Amuravela? ¡Compártelo!";
+            document.getElementById("share-cta-title").innerText = "{{ i18n "watchingShareCTA"}}";
         }
 
         // Trigger web share API when on mobile
         if (navigator.canShare) {
             const shareData = {
                 title: "L'Amuravela",
-                text: "En #Cuideiru viendo L'Amuravela 😎",
+                text: "{{ i18n "shareMessage"}}",
                 url: 'https://amuravela.com'
             }
             // Share must be triggered by "user activation"
