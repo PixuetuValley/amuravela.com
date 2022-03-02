@@ -1,11 +1,76 @@
+# General
+
 [home]
 other = "Home"
+[goBackTop]
+other = "Go back up"
+[mobile]
+other = "mobile"
+
+# Homepage
+
 [readLast]
 other = "Read last Amuravela"
+[whatT]
+other = "What is L'Amuravela?"
+[whatP1]
+other = "L'Amuravela es un sermón laico, una tradición medio religiosa y medio profana heredada de generación en generación como demostración de la especial devoción que el pueblo pixueto siente por su Patrón San Pedro y que consta de dos partes, el relato al Santo y la maniobra de saludo."
+[whereT]
+other = "Where is L'Amuravela celebrated?"
+[whereP1]
+other = "L'Amuravela es de las costumbres más antiguas de Cudillero (Principado de Asturias) y se celebra en la Ribera junto a la plaza del Sable, en pleno centro del casco antiguo del pueblo."
+[howToGetThere]
+other = "How to get to L'Amuravela?"
+[whenT]
+other = "When is L'Amuravela celebrated?"
+[whenP1]
+other = "L'Amuravela se celebra durante las fiestas patronales de Cudillero, todos los años el día de San Pedro, el 29 de Junio."
+[nextDateIs]
+other = "La fecha de la próxima Amuravela es:"
+[gonnaWatchShareCTA]
+other = "¿Vas a estar viendo L'Amuravela? ¡Compártelo!"
+[watchingShareCTA]
+other = "¿Estás viendo L'Amuravela? ¡Compártelo!"
+[shareOn]
+other = "Compartir en"
+[historyT]
+other = "History of L'Amuravela"
+[historyP1]
+other = "No se sabe exactamente cuándo fue el comienzo de esta tradición. Según diversos comentarios y estudios, podría datar de hace más de 400 años (hacia 1569), época en que tuvo lugar la construcción de la Iglesia bajo la advocación de San Pedro."
+[historyP2]
+other = "Durante esa época habían vuelto los marineros que acompañaron a D. Alvaro Menéndez en la Conquista de la Florida, embarcados en una nave construida en Cudillero, “El Espíritu Santo”. Durante ese viaje aprendieron el saludo que se hacía al Almirante y quisieron hacer lo mismo con su Santo Patrono..."
+[readMore]
+other = "Saber más"
+[amuravelasT]
+other = "Every Amuravelas since 1995"
+[amuravelasP1]
+other = "A lo largo de los años se ha ido recopilando y digitalizando las Amuravelas desde 1995 para garantizar su prevalencia en el tiempo y permitir compartir esta tradición con el resto del mundo."
+[readEveryAmuravela]
+other = "Ver todas las Amuravelas"
+[authorsT]
+other = "Authors of L'Amuravela throughout history"
+[authorsP1]
+other = "Ha habido multitud de autores a lo largo de los siglos de L'Amuravela, actualmente se conservan registros de pocos en la historia reciente, el resto de información está fragmentada o se ha perdido para siempre."
+[seeEveryAuthor]
+other = "Ver todos los autores de L'Amuravela"
+[recitersT]
+other = "Reciters of L'Amuravela throughout history"
+[recitersP1]
+other = "En multiples ocasiones la persona que recita L'Amuravela no es el autor de la misma, por ello se distingue la persona que la escribe y la persona que la echa."
+[seeEveryReciter]
+other = "Ver todos los recitadores de L'Amuravela"
+[shareMessage]
+other = "In #Cuideiru watching L'Amuravela 😎"
+
+# Single
+
 [writtenBy]
 other = "Written by"
 [recitedBy]
 other = "Recited by"
+
+# 404 page
+
 [notFound]
 other = "Page not found"
 [goBackHome]
