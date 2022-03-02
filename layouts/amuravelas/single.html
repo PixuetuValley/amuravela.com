@@ -51,8 +51,8 @@
         if (navigator.canShare) {
             const shareData = {
                 title: "{{ .Title }}",
-                text: "{{ .Title }}",
-                url: 'https://amuravela.com'
+                text: "{{ .Description }}",
+                url: '{{ .Permalink }}'
             }
             // Share must be triggered by "user activation"
             document.getElementById('share-button').addEventListener('click', async () => {
