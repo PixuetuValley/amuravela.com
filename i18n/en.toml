@@ -4,6 +4,8 @@
 other = "Home"
 [goBackTop]
 other = "Go back up"
+[shareOn]
+other = "Share on"
 [mobile]
 other = "mobile"
 
@@ -14,51 +16,49 @@ other = "Read last Amuravela"
 [whatT]
 other = "What is L'Amuravela?"
 [whatP1]
-other = "L'Amuravela es un sermón laico, una tradición medio religiosa y medio profana heredada de generación en generación como demostración de la especial devoción que el pueblo pixueto siente por su Patrón San Pedro y que consta de dos partes, el relato al Santo y la maniobra de saludo."
+other = "L'Amuravela is a lay sermon, a half-religious and half-profane tradition inherited from generation to generation as a demonstration of the special devotion that the Pixueto people feel for their Patron Saint Peter and consisting of two parts, the story to the Saint and the greeting maneuver."
 [whereT]
 other = "Where is L'Amuravela celebrated?"
 [whereP1]
-other = "L'Amuravela es de las costumbres más antiguas de Cudillero (Principado de Asturias) y se celebra en la Ribera junto a la plaza del Sable, en pleno centro del casco antiguo del pueblo."
+other = "L'Amuravela is one of the oldest customs of Cudillero (Principality of Asturias) and is held in the Ribera next to the Plaza del Sable, in the heart of the old village."
 [howToGetThere]
 other = "How to get to L'Amuravela?"
 [whenT]
 other = "When is L'Amuravela celebrated?"
 [whenP1]
-other = "L'Amuravela se celebra durante las fiestas patronales de Cudillero, todos los años el día de San Pedro, el 29 de Junio."
+other = "L'Amuravela is celebrated during the patron saint festivities of Cudillero, every year on the day of San Pedro, on June 29th."
 [nextDateIs]
-other = "La fecha de la próxima Amuravela es:"
+other = "The date of the next Amuravela is:"
 [gonnaWatchShareCTA]
-other = "¿Vas a estar viendo L'Amuravela? ¡Compártelo!"
+other = "Are you going to be watching L'Amuravela? Share it!"
 [watchingShareCTA]
-other = "¿Estás viendo L'Amuravela? ¡Compártelo!"
-[shareOn]
-other = "Compartir en"
+other = "Are you watching L'Amuravela? Share it!"
 [historyT]
 other = "History of L'Amuravela"
 [historyP1]
-other = "No se sabe exactamente cuándo fue el comienzo de esta tradición. Según diversos comentarios y estudios, podría datar de hace más de 400 años (hacia 1569), época en que tuvo lugar la construcción de la Iglesia bajo la advocación de San Pedro."
+other = "It is not known exactly when this tradition began. According to various comments and studies, it could date from more than 400 years ago (around 1569), when the construction of the church took place under the invocation of Saint Peter."
 [historyP2]
-other = "Durante esa época habían vuelto los marineros que acompañaron a D. Alvaro Menéndez en la Conquista de la Florida, embarcados en una nave construida en Cudillero, “El Espíritu Santo”. Durante ese viaje aprendieron el saludo que se hacía al Almirante y quisieron hacer lo mismo con su Santo Patrono..."
+other = "During that time the sailors who accompanied D. Alvaro Menéndez in the Conquest of Florida had returned, who embarked on a ship built in Cudillero, "El Espíritu Santo". During that trip they learned the greeting that was made to the admiral and wanted to do the same with their Patron Saint..."
 [readMore]
-other = "Saber más"
+other = "Read more"
 [amuravelasT]
 other = "Every Amuravelas since 1995"
 [amuravelasP1]
-other = "A lo largo de los años se ha ido recopilando y digitalizando las Amuravelas desde 1995 para garantizar su prevalencia en el tiempo y permitir compartir esta tradición con el resto del mundo."
+other = "Over the years, the Amuravelas have been collected and digitized since 1995 to guarantee their prevalence over time and allow this tradition to be shared with the rest of the world."
 [readEveryAmuravela]
-other = "Ver todas las Amuravelas"
+other = "Read every Amuravela"
 [authorsT]
 other = "Authors of L'Amuravela throughout history"
 [authorsP1]
-other = "Ha habido multitud de autores a lo largo de los siglos de L'Amuravela, actualmente se conservan registros de pocos en la historia reciente, el resto de información está fragmentada o se ha perdido para siempre."
+other = "There have been many authors throughout the centuries of L'Amuravela, currently records of few in recent history are preserved, the rest of the information is fragmented or has been lost forever."
 [seeEveryAuthor]
-other = "Ver todos los autores de L'Amuravela"
+other = "See all authors of L'Amuravela"
 [recitersT]
 other = "Reciters of L'Amuravela throughout history"
 [recitersP1]
-other = "En multiples ocasiones la persona que recita L'Amuravela no es el autor de la misma, por ello se distingue la persona que la escribe y la persona que la echa."
+other = "On multiple occasions the person who recites L'Amuravela is not the author of it, so the person who authors it and the person who recites it out."
 [seeEveryReciter]
-other = "Ver todos los recitadores de L'Amuravela"
+other = "See all reciters of L'Amuravela"
 [shareMessage]
 other = "In #Cuideiru watching L'Amuravela 😎"
 

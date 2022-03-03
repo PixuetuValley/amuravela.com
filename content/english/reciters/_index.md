@@ -1,9 +1,9 @@
 +++
 draft = false
 
-title = "Todas las amuravelas"
-slug = "amuravelas"
-description = "Listado de todas las Amuravelas desde 95"
+title = "Recitadores de L'Amuravela"
+slug = "recitadores"
+description = "Todos los recitadores de L'Amuravela"
 summary = "Lorem ipsum dolor sit amet"
 
 [image]
@@ -11,7 +11,7 @@ summary = "Lorem ipsum dolor sit amet"
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/amuravelas/"
+    url = "https://amuravela.com/en/authors/"
 
 [sitemap]
   changefreq = "monthly"

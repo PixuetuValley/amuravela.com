@@ -4,6 +4,8 @@
 other = "Inicio"
 [goBackTop]
 other = "Volver arriba"
+[shareOn]
+other = "Compartir en"
 [mobile]
 other = "móvil"
 
@@ -29,8 +31,6 @@ other = "La fecha de la próxima Amuravela es:"
 other = "¿Vas a estar viendo L'Amuravela? ¡Compártelo!"
 [watchingShareCTA]
 other = "¿Estás viendo L'Amuravela? ¡Compártelo!"
-[shareOn]
-other = "Compartir en"
 [historyT]
 other = "Historia de L'Amuravela"
 [historyP1]

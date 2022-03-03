@@ -1,15 +1,21 @@
 +++
 draft = false
-date = "2019-12-12T23:59:59+02:00"
-publishdate = "2019-12-12T23:59:59+02:00"
+date = "1997-06-29T12:00:00+02:00"
+publishdate = "1997-06-29T12:00:00+02:00"
 
 title = "L'Amuravela 1997"
 
-description = ""
+description = "El sermón de L'Amuravela de 1997 como fue recitado en las fiestas de Cudillero el día de San Pedro de ese mismo año."
 
 [author]
     name = "Cesáreo Marqués Valle"
     homepage = "/authors/cesario-marques-valle/"
+    image=""
+    bio=""
+
+[reciter]
+    name = "Cesáreo Marqués Valle"
+    homepage = "/reciters/cesario-marques-valle/"
     image=""
     bio=""
 
@@ -23,7 +29,7 @@ description = ""
 
 +++
 
-En el nombri de Jesús\
+> En el nombri de Jesús\
 y la Virgen Soberana,\
 vou ichar L'Amuravela\
 comu San Pedru asperaba.
@@ -575,11 +581,11 @@ pa poder cantar con garbu,\
 la copla que lus pixuatus\
 heredamus desdi antañu!
 
-¡MIENTRAS CUDILLERO VIVA\
+> ¡MIENTRAS CUDILLERO VIVA\
 Y DURI LA FUENTI'L CANTU,\
 VA SAN PEDRO A LA RIBERA,\
 CON TODOS LOS DEMAS SANTOS!
 
-¡Amura vela!¡Isa vela!\
+> ¡Amura vela!¡Isa vela!\
 ¡Fuego a babor!¡Fuego a estribor!\
 ¡¡¡Viva Pedro!!!
