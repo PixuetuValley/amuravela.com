@@ -35,7 +35,7 @@ Entonces el capitán penetra en la barca. Una vez en ella, desenvaina su espada,
 Entre sus primeros recitadores podemos destacar a : Xuaco Gaitano, Unvela, Xustín y Felipón.
 
 L'Amuravela se suspendió varias veces por oposición de los párrocos, lo que daba lugar a diferentes cánticos y danzas en defensa de la misma.
-Uno de los primeros problemas surgidos ocurrió a mediados del siglo XIX, cuando al regreso de la procesión, los marineros pretendían que el Santo siguiera su trayectoria hacia la Ribera y el cura, con algunos feligreses, pretendía que regresara a la Iglesia. Al final se mantuvo la tradición y una vez terminado el acto, los marineros cantaban
+Uno de los primeros problemas surgidos ocurrió a mediados del siglo XIX, cuando al regreso de la procesión, los marineros pretendían que el Santo siguiera su trayectoria hacia la Ribera y el cura, con algunos feligreses, pretendía que regresara a la Iglesia. Al final se mantuvo la tradición y una vez terminado el acto, los marineros cantaban:
 
 > Si el señor cura no quiere,\
 que Felipe eche el sermón,\
