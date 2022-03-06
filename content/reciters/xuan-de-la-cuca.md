@@ -44,19 +44,23 @@ Se puede encontrar el reporte de este incidente en la [edición del 3 de Julio d
 
 El artículo lee así:
 
-De una correspondencia del Pito (Cudillero), que publica nuestro apreciable colega El Carbayon, tomamos lo siguiente:
+De una correspondencia del Pito (Cudillero), que publica nuestro apreciable colega _El Carbayon_, tomamos lo siguiente:
 
-El día de San Pedro, a las diez de la mañana, salió la procesion, y despues de recorrer las calles de costumbre, regresó hacia la playa, para celebrar lo que llama [L'Amuravela].
+El día de San Pedro, a las diez de la mañana, salió la procesion, y despues de recorrer las calles de costumbre, regresó hacia la playa, para celebrar lo que llama la _Marivela_ [sic].
 
-Las lanchas todas que habia en el puerto, los balcones y ventanas de las inmediaciones, todas las avenidas, el muelle mismo, estaban atestados de gente ansiosa de presenciar esta fiesta tradicional.
+Las lanchas todas que habia en el puerto, los balcones y ventanas de las inmediaciones, todas las avenidas, el muelle mismo, estaban atestados de gente ansiosa de presenciar esta _fiesta tradicional_.
 
-Ya sabreis en lo que consiste esta ceremonia. En la popa de una lancha se colocan dos cigantones, y en medio de estos San Pedro; a muy corta distancia está la cruz y los ciriales y tocando con estos el clero que acompaña a la procesion.
+Ya sabreis en lo que consiste esta ceremonia. En la popa de una lancha se colocan dos _xigantones_, y en medio de estos San Pedro; a muy corta distancia está la cruz y los ciriales y tocando con estos el clero que acompaña a la procesion.
 
-Súbese a la lancha Xuan de la Cuca, vestido como de Carnaval, pronuncia un sermón, en el que habla de todo; de la pesca, de las obras del puerto, del relój que el Ayuntamiento no acaba de poner en movimiento, del gremio de pescadores, de las revendedoras, de 108 contratistas de las referidas obras del puerto, concluyendo con amenazar a San Pedro, sino dá buena pesca, con quitarle las laves del cielo y entregárselas a San Juan.
+Súbese a la lancha _Xuan de la Cuca_, vestido como de Carnaval, pronuncia un _sermón_, en el que habla de todo; de la pesca, de las obras del puerto, del relój que el Ayuntamiento no acaba de poner en movimiento, del gremio de pescadores, de las revendedoras, de 108 contratistas de las referidas obras del puerto, concluyendo con amenazar a San Pedro, sino dá buena pesca, con quitarle las laves del cielo y entregárselas a San Juan.
 
-Saca despues el sable en adman de luchar con el santo, prenden fuego a los xigantes, arden estos, mientras San Pedro esta en medio de los dos, y después recogen la imagen y en compañía de los demás la llevan a la iglesia.
+Saca despues el sable en adman de luchar con el santo, prenden fuego a los _xigantes_, arden estos, mientras San Pedro esta en medio de los dos, y después recogen la imagen y en compañía de los demás la llevan a la iglesia.
 
-Esto sera una tradicion, pero convengamos en que hay tradiciones que rebajan á los pueblos. Hace años se intentó evitar esta profanacion, pero estuvo en poco el que no hubiera que lamentar desgracias. Por la tarde y por la noche, rindieron los marineros culto a Baco y las marineras bailaron la danza, con el [estribillo] de:
+Esto sera una tradicion, pero convengamos en que hay tradiciones que rebajan a los pueblos.
+
+Hace años se intentó evitar esta profanacion, pero estuvo en poco el que no hubiera que lamentar desgracias.
+
+Por la tarde y por la noche, rindieron los marineros culto a _Baco_ y las marineras bailaron la danza, con el [estribillo] de:
 
 > No hacen falta los señores\
 para hacer esta funcion,\
