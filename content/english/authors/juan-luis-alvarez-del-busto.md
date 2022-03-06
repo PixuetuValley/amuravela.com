@@ -16,9 +16,9 @@ description = ""
 [image]
     src = "https://placehold.it/600x600"
 
-[alternatives.en]
-    code = "en"
-    url = "https://amuravela.com/en/authors/juan-luis-alvarez-del-busto/"
+[alternatives.es]
+    code = "es"
+    url = "https://amuravela.com/authors/juan-luis-alvarez-del-busto/"
 
 [sitemap]
   changefreq = "monthly"

@@ -16,9 +16,9 @@ description = ""
 [image]
     src = "https://placehold.it/600x600"
 
-[alternatives.en]
-    code = "en"
-    url = "https://amuravela.com/en/reciters/antonio-garcia-novo-diego/"
+[alternatives.es]
+    code = "es"
+    url = "https://amuravela.com/reciters/antonio-garcia-novo-diego/"
 
 [sitemap]
   changefreq = "monthly"

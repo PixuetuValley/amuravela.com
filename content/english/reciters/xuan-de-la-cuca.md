@@ -16,9 +16,9 @@ description = ""
 [image]
     src = "https://placehold.it/600x600"
 
-[alternatives.en]
-    code = "en"
-    url = "https://amuravela.com/en/reciters/xuan-de-la-cuca/"
+[alternatives.es]
+    code = "es"
+    url = "https://amuravela.com/reciters/xuan-de-la-cuca/"
 
 [sitemap]
   changefreq = "monthly"

@@ -16,9 +16,9 @@ description = ""
 [image]
     src = "https://placehold.it/600x600"
 
-[alternatives.en]
-    code = "en"
-    url = "https://amuravela.com/en/authors/elvira-bravo-fernandez-ahuja/"
+[alternatives.es]
+    code = "es"
+    url = "https://amuravela.com/authors/elvira-bravo-fernandez-ahuja/"
 
 [sitemap]
   changefreq = "monthly"
