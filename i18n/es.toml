@@ -72,6 +72,6 @@ other = "Recitada por"
 # 404 page
 
 [notFound]
-other = "¡Aya! Paez que ti pirdisti"
+other = "Página no encontrada"
 [goBackHome]
 other = "Volver pa casa"
