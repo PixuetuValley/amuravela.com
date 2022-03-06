@@ -27,4 +27,4 @@ description = ""
 
 +++
 
-Cronista Oficial de Cudillero, nieto de Elvira Bravo e hijo de Toto, fue el encargado de escribir el sermón en el año 1994
+Official Chronicler of Cudillero, grandson of Elvira Bravo and son of Toto, was in charge of writing the sermon in 1994.

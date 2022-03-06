@@ -27,10 +27,11 @@ description = ""
 
 +++
 
-Recitador de L'Amuravela hacia el año 1900 o 1901. Iba a la procesión en la presidencia, con una chaqueta blanca, una banda y un sombrero muy raro en la mano. Fue con motivo de haberse extralimitado con los versos del sermón, por lo que el párroco se negó a que continuara en los años sucesivos. L'Amuravela fue suspendida hasta el año 1946.
-Alguno de los versos de la discordia fueron :
+Reciter of L'Amuravela around the year 1900 or 1901. He went to the procession in the presidency, with a white jacket, a sash and a very strange hat in his hand. It was because of having gone too far with the verses of the sermon, so the parish priest refused to allow him to continue in the following years. L'Amuravela was suspended until 1946.
 
-> Si falta pescao o pan\
-d'un sablazo vas al suelo;\
-cojo las llaves del Cielo,\
-y se las doy a San Xuan.
+Some of the verses of discord were:
+
+> If there is no fish or bread,\
+by sword you go to the ground,\
+I take the keys to heaven,\
+and I give them to Saint John

@@ -27,4 +27,4 @@ description = ""
 
 +++
 
-Importante colaborador en cuanto al resurgimiento del secular sermón de L'Amuravela. Tras casi medio siglo de no celebrarse, él se encargó de recitar los versos en 1947, 1949, 1950, 1951, 1952 y 1953.
+Important collaborator in terms of the resurgence of the secular sermon of L'Amuravela. After almost half a century of not being celebrated, he was in charge of reciting the verses in 1947, 1949, 1950, 1951, 1952 and 1953.

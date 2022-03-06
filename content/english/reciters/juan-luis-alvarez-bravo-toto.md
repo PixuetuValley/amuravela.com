@@ -27,11 +27,11 @@ description = ""
 
 +++
 
-Recitador de L'Amuravela durante 32 años. Había sido apuntador de Diego. En el año 1948, cuando tenía 19 años, debido a que Diego se había enrolado en un barco que andaba al bonito con base en San Juan de la Arena, en lugar de descansar el día de San Pedro le correspondió el de la festividad de dicha localidad, San Juan. Al no encontrar a un voluntario, fue cuando "Totó" hizo su debut.
+Reciter of L'Amuravela for 32 years. He had been Diego's prompter. In the year 1948, when he was 19 years old, due to the fact that Diego had enlisted in a boat that went to the bonito based in San Juan de la Arena, instead of resting on the day of San Pedro, he was given the day of the festivity of said town, San Juan. Not finding a volunteer, it was when "Totó" made his debut.
 
-Posteriormente, a partir del año 1954 y hasta 1984, de forma ininterrumpida, ha sido el gran recitador del típico sermón pixueto, siempre escrito durante esta época por su madre Elvira Bravo. A la muerte de ésta, 1986, toma la responsabilidad de redactar L'Amuravela, hasta el año 1993. En 1994, fue escrita por su hijo Juan Luis Alvarez del Busto.
+Subsequently, from 1954 to 1984, without interruption, he has been the great reciter of the typical pixueto sermon, always written during this time by his mother Elvira Bravo. Upon her death, in 1986, he took on the responsibility of writing L'Amuravela, until 1993. In 1994, it was written by her son Juan Luis Alvarez del Busto.
 
-En 1984 se despidió en L'Amuravela diciendo :
+In 1984 he said goodbye at L'Amuravela saying:
 
-> ¡Adiós todus lus uyantis!\
-¡Adiós, patrón, hasta el Cialu!
+> Goodbye all of you hearing!\
+Goodbye, boss, see you in Heaven!

@@ -27,12 +27,12 @@ description = ""
 
 +++
 
-Nace en Cudillero el 3 de Diciembre de 1892. Hija de Otilia Fernández-Ahuja y Agustín Bravo, "Roque", ilustrado farmacéutico de tantas publicaciones asturianas, escritor en prosa y verso.
+Born in Cudillero on December 3, 1892. Daughter of Otilia Fernández-Ahuja and Agustín Bravo, "Roque", illustrated pharmacist of many Asturian publications, writer of prose and verse.
 
-Hija Predilecta de Cudillero, en 1985.
+Honorary Citizen of Cudillero, in 1985.
 
-Profesora de piano, titulada en el Conservatorio de Madrid. Fue directora de diversos colectivos culturales de la villa de Cudillero, Teatro, Coral y Folklore, llevando uno de ellos su nombre. Gran conocedora de la cultura pixueta, de sus costumbres, de sus gentes y su historia. Gracias a su labor se han recuperado y mantenido muchos bailes y tradiciones pixuetas como danzas, giraldillas, villancicos, "Perlindango" (baile más típico y exclusivo de Cudillero), "Temperendengue", "La Red", etc., todos ellos con un estilo y gracia inimitables.
+Piano teacher, graduated from the Madrid Conservatory. She was the director of various cultural groups in the town of Cudillero, Theater, Coral and Folklore, one of them bearing her name. Very knowledgeable about the pixueto culture, its customs, its people and its history. Thanks to her work, many pixueto dances and traditions have been recovered and maintained, such as dances, giraldillas, Christmas carols, "Perlindango" (the most typical and exclusive dance of Cudillero), "Temperendengue", "La Red", etc., all of them with a inimitable style and grace.
 
-Ha sido autora de escritos referidos a estampas típicas pixuetas, así como estudios, ensayos y poemas, como "La puerta del Cielo", "La Cacaina", "Dialectología pixueta", "A San Pedro Apóstol", "Cudillero", etc.
+She has been the author of writings referring to typical pixueto prints, as well as studies, essays and poems, such as "La Puerta del Cielo", "La Cacaina", "Pixueta Dialectology", "A San Pedro Apóstol", "Cudillero", etc.
 
-Desde 1947 y hasta su muerte en 1986, fue la autora del Sermón de L'Amuravela. Nunca bajaba la mañana de San Pedro a escucharla, porque según según sus palabras "no me gusta que digan que la he hecho yo.......la hace San Pedro y el pueblo".
+From 1947 until her death in 1986, she was the author of the L'Amuravela Sermon. She never came down from San Pedro in the morning to listen to it, because according to her words, "I don't like when people say that I made it... San Pedro and the people make it."

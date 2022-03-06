@@ -27,26 +27,26 @@ description = ""
 
 +++
 
-En el año 1985 Cesáreo Marqués Valle toma el relevo de "Totó", recitador durante 32 años del sermón laico pixueto de L'Amuravela. "Totó" lo presentó en L'Amuravela de 1984 de la siguiente forma :
+In 1985 Cesáreo Marqués Valle took over from "Totó", reciter for 32 years of the pixueto lay sermon L'Amuravela. "Totó" presented it in L'Amuravela of 1984 in the following way:
 
-> You ya téu sostitutu\
-qu'ha facellu con aciartu :\
-cristinau, pixuatu y mozu,\
-asperu lu arricibais\
-con amor y con agradu.
+> I already have a substitute\
+that you have to do it rightly:\
+Christian, pixueto and young,\
+I hope you receive him\
+with love and with pleasure.
 
-En el año 1995 asume la responsabilidad de ser también su autor. Ha sido según sus palabras "una decisión tomada con el ánimo de que Cudillero nunca se quede sin L'Amuravela".
+In 1995 he assumed the responsibility of also being its author. It has been in his words "a decision taken with the aim that Cudillero never runs out of L'Amuravela".
 
-Además de ser el autor y recitador de L’Amuravela, también fue el recitador, desde 1980 hasta 2018, de uno de los actos religiosos más queridos durante la Semana Santa en Cudillero : El Calvario, que se lleva a cabo en la noche de Jueves Santo.
+In addition to being the author and reciter of L'Amuravela, he was also the reciter, from 1980 to 2018, of one of the most beloved religious acts during Holy Week in Cudillero: El Calvario, which takes place on the night of Holy Thursday.
 
-En el año 2005 es distinguido por el Instituto Selgas con el Diploma de Honor, galardón que distingue a la persona o entidad que haya destacado por sus actividades en pro de la educación o cultura en Cudillero y Muros de Nalón.
+In 2005 he was distinguished by the Selgas Institute with the Diploma of Honor, an award that distinguishes the person or entity that has stood out for its activities in favor of education or culture in Cudillero and Muros de Nalón.
 
-En Agosto de 2006, dentro de la 4ª Edición de los Premios de Teatro Costumbrista Asturiano organizados por el Centro Cultural "Teatro Prendes" de Candás recibe el Premio Honorífico "Aurora Sánchez".
+In August 2006, within the 4th Edition of the Asturian Costumbrista Theater Awards organized by the Cultural Center "Teatro Prendes" of Candás receives the Honorary Award "Aurora Sánchez".
 
-El día 29 de Junio de 2007, recibe el Premio de la Cofradía de Jesús Nazareno y San Pedro Apóstol de Cudillero.
+On June 29, 2007, he received the Prize of the Brotherhood of Jesus Nazarene and San Pedro Apóstol de Cudillero.
 
-El 5 de Abril de 2009, recibe la Beca y el Diploma de Honor de la Asociación Antiguos Alumnos Selgas de Cudillero por la labor que ha desarrollado en favor de la cultura en el concejo de Cudillero.
+On April 5, 2009, he received the Scholarship and the Diploma of Honor of the Selgas de Cudillero Alumni Association for the work he has developed in favor of culture in the council of Cudillero.
 
-El Ayuntamiento de Cudillero le hace entrega del título de HIJO PREDILECTO durante el Pleno extraordinario celebrado el día 5 de Septiembre de 2009. De este modo, la corporación le reconoce «la labor desinteresada  en defensa de la cultura y las tradiciones pixuetas, una labor que ha contribuido notablemente a la difusión de L'Amuravela como una de las costumbres más típicas y específicas del municipio».
+The City Council of Cudillero gives him the title of HONORARY CITIZEN during the extraordinary plenary session held on September 5, 2009. In this way, the corporation recognizes him "the selfless work in defense of the culture and traditions of Pixuetas, a work that has contributed significantly to the dissemination of L'Amuravela as one of the most typical and specific customs of the municipality".
 
-Ese mismo día y con motivo de la celebración del Día de Asturias en la capital del concejo, el Ayuntamiento de Cudillero ha editado un libro en el que se recogen los primeros quince sermones de L’Amuravela, desde 1995 hasta 2009, escritos y recitados por Cesáreo Marqués.
+That same day and on the occasion of the celebration of the Day of Asturias in the capital of the council, the City Council of Cudillero has published a book in which the first fifteen sermons of L'Amuravela are collected, from 1995 to 2009, written and recited by Cesáreo Marqués.

@@ -27,9 +27,10 @@ description = ""
 
 +++
 
-En el año 1983, "Totó" tomó la decisión de dejar L'Amuravela. Diversos acontecimientos le obligaron a continuar hasta 1984, pero ya buscando un sustituto.
-Al año siguiente, 1985, Cesáreo Marqués Valle toma el relevo y desde entonces es el actual recitador de L'Amuravela.
+In 1983, "Totó" made the decision to leave L'Amuravela. Various events forced him to continue until 1984, but he was already looking for a substitute.
 
-Según palabras de "Totó" : "hemos tenido mucha suerte, porque Cesáreo da la medida y la talla".
+The following year, 1985, Cesáreo Marqués Valle took over and since then he has been the current reciter of L'Amuravela.
 
-Desde el año 1995, también es su autor.
+In the words of "Totó": "we have been very lucky, because Cesáreo gives the measure and the size".
+
+Since 1995, he is also its author.

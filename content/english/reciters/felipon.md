@@ -27,4 +27,4 @@ description = ""
 
 +++
 
-No hay información sobre Felipón más allá del registro de su participación como recitador de L'Amuravela.
+There is no information about Felipón beyond the record of his participation as reciter of L'Amuravela.

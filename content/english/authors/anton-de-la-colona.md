@@ -27,6 +27,6 @@ description = ""
 
 +++
 
-En el año 1946, tras haber estado suspendida desde el año 1902, se repuso L'Amuravela sin la presencia de San Pedro. Antón de la Colona fue el primero que la inauguró. Fue el recitador y autor del sermón, con ayuda de Elvira Bravo.
+In 1946, after having been suspended since 1902, L'Amuravela was revived without the presence of San Pedro. Antón de la Colona was the first to inaugurate it. He was the reciter and author of the sermon, with the help of Elvira Bravo.
 
-Según palabras de Juan Luis Alvarez Bravo "Totó" : "Mi madre Elvira Bravo, hizo L'Amuravela desde el año 1946 y ayudó a Antón de la Colona que fue quien la hizo ese año, por cierto, en castellano. La hizo Antón de la Colona, mi madre la corrigió, no en ideas, sino en la parte técnica, en cuestión de rimas, etc.".
+In the words of Juan Luis Alvarez Bravo "Totó": "My mother Elvira Bravo, made L'Amuravela since 1946 and helped Antón de la Colona who was the one who made it that year, by the way, in Spanish. Antón de la Colona made it, my mother corrected it, not in ideas, but in the technical part, in terms of rhymes, etc.

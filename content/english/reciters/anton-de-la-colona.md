@@ -27,4 +27,4 @@ description = ""
 
 +++
 
-En el año 1946, tras haber estado suspendia desde el año 1902, se repuso L'Amuravela sin la presencia de San Pedro. Antón de la Colona fue el primero que la inauguró. Fue el recitador y autor del sermón, con ayuda de Elvira Bravo. Era un marinero viejo, muy inteligente, improvisador y gran recitador de romances. Al año siguiente murió.
+In 1946, after having been suspended since 1902, L'Amuravela was restored without the presence of San Pedro. Antón de la Colona was the first to inaugurate it. He was the reciter and author of the sermon, with the help of Elvira Bravo. He was an old sailor, very intelligent, an improviser and a great reciter of ballads. The following year he died.

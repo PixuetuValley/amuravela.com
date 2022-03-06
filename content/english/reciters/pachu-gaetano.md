@@ -28,4 +28,4 @@ description = ""
 
 +++
 
-No hay información sobre Pachu Gaetano más allá del registro de su participación como recitador de L'Amuravela.
+There is no information about Pachu Gaetano beyond the record of his participation as reciter of L'Amuravela.
