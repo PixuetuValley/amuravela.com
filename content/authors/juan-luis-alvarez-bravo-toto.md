@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/authors/juan-luis-alvarez-bravo-toto/"
+    url = "/en/authors/juan-luis-alvarez-bravo-toto/"
 
 [sitemap]
   changefreq = "monthly"

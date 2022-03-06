@@ -9,13 +9,13 @@ description = ""
 
 [author]
     name = "Cesáreo Marqués Valle"
-    homepage = "/authors/cesario-marques-valle/"
+    homepage = "/en/authors/cesario-marques-valle/"
     image=""
     bio=""
 
 [reciter]
     name = "Cesáreo Marqués Valle"
-    homepage = "/reciters/cesario-marques-valle/"
+    homepage = "/en/reciters/cesario-marques-valle/"
     image=""
     bio=""
 

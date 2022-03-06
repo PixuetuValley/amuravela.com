@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/reciters/antonio-garcia-novo-diego/"
+    url = "/en/reciters/antonio-garcia-novo-diego/"
 
 [sitemap]
   changefreq = "monthly"

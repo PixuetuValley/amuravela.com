@@ -12,7 +12,11 @@
         {{ if eq (string .LanguageName) (string $.Site.Language.LanguageName) }}
             <strong>{{ .LanguageName }}</strong>
         {{ else }}
-            <a href="{{ . | absURL }}">{{ .LanguageName }}</a>
+            {{ if isset $.Page.Params.Alternatives .Lang }}
+                <a href="{{ ($.Page.Params.Alternatives.Get .Lang).Url | absURL }}">{{ .LanguageName }}</a>
+            {{ else }}
+                <a href="{{ . | absURL }}">{{ .LanguageName }}</a>
+            {{ end }}
         {{ end }}
     {{ end }}
 </div>

@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.es]
     code = "es"
-    url = "https://amuravela.com/authors/anton-de-la-colona/"
+    url = "/authors/anton-de-la-colona/"
 
 [sitemap]
   changefreq = "monthly"

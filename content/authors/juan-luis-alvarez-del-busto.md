@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/authors/juan-luis-alvarez-del-busto/"
+    url = "/en/authors/juan-luis-alvarez-del-busto/"
 
 [sitemap]
   changefreq = "monthly"

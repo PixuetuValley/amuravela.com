@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.es]
     code = "es"
-    url = "https://amuravela.com/authors/cesario-marques-valle/"
+    url = "/authors/cesario-marques-valle/"
 
 [sitemap]
   changefreq = "monthly"

@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/reciters/cesario-marques-valle/"
+    url = "/en/reciters/cesario-marques-valle/"
 
 [sitemap]
   changefreq = "monthly"

@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/reciters/pachu-gaetano/"
+    url = "/en/reciters/pachu-gaetano/"
 
 [sitemap]
   changefreq = "monthly"

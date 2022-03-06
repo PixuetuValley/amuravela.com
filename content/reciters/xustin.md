@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/reciters/xustin/"
+    url = "/en/reciters/xustin/"
 
 [sitemap]
   changefreq = "monthly"

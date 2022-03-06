@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/reciters/xuan-de-la-cuca/"
+    url = "/en/reciters/xuan-de-la-cuca/"
 
 [sitemap]
   changefreq = "monthly"

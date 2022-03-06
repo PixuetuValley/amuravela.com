@@ -11,7 +11,7 @@ summary = "Lorem ipsum dolor sit amet"
 
 [alternatives.en]
     code = "es"
-    url = "https://amuravela.com/authors/"
+    url = "/authors/"
 
 [sitemap]
   changefreq = "monthly"

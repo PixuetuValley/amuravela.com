@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.es]
     code = "es"
-    url = "https://amuravela.com/reciters/felipon/"
+    url = "/reciters/felipon/"
 
 [sitemap]
   changefreq = "monthly"

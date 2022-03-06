@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/reciters/unvela/"
+    url = "/en/reciters/unvela/"
 
 [sitemap]
   changefreq = "monthly"

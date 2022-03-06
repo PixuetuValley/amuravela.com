@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/reciters/alegre/"
+    url = "/en/reciters/alegre/"
 
 [sitemap]
   changefreq = "monthly"

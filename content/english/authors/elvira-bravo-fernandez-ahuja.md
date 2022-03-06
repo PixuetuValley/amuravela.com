@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.es]
     code = "es"
-    url = "https://amuravela.com/authors/elvira-bravo-fernandez-ahuja/"
+    url = "/authors/elvira-bravo-fernandez-ahuja/"
 
 [sitemap]
   changefreq = "monthly"

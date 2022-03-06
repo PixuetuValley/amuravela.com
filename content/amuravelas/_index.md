@@ -11,7 +11,7 @@ summary = "Lorem ipsum dolor sit amet"
 
 [alternatives.en]
     code = "en"
-    url = "https://amuravela.com/en/amuravelas/"
+    url = "/en/amuravelas/"
 
 [sitemap]
   changefreq = "monthly"
