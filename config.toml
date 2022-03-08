@@ -9,7 +9,7 @@ disableKinds = ["taxonomy", "term"]
         contentDir = "content"
         languageName = "Español"
         languageCode = "es"
-        title = "L'Amuravela - Cultura e historia de Cudillero ✒️"
+        title = "L'Amuravela - Cultura e historia de Cudillero 📜"
         description = "Web oficial del sermón de L'Amuravela, fiesta de interés turístico dedicada a San Pedro celebrada en la villa pixueta: Cudillero."
         weight = 1
     [languages.en]
