@@ -1,4 +1,30 @@
 {{ define "main" }}
+    <nav class="menu">
+        <input type="checkbox" id="menu-toggle">
+        <div class="menu-button">
+            <label for="menu-toggle" role="button" aria-label="{{ i18n "menu"}}">
+                <svg id="menu" width="35" height="35">
+                    <line x1="0" y1="3" x2="35" y2="3" stroke="#37301E" stroke-width="3"/>
+                    <line x1="0" y1="17" x2="25" y2="17" stroke="#37301E" stroke-width="3"/>
+                    <line x1="0" y1="32" x2="35" y2="32" stroke="#37301E" stroke-width="3"/>
+                </svg>
+                <svg id="cross" height="35" width="35">
+                    <line x1="0" y1="0" x2="35" y2="35" stroke="#37301E" stroke-width="3"/>
+                    <line x1="0" y1="35" x2="35" y2="0" stroke="#37301E" stroke-width="3"/>
+                </svg>
+            </label>
+        </div>
+        <ul class="menu-list">
+            <li><div class="circle"> </div><a href="#what">{{ i18n "whatM"}}</a> </li>
+            <li><div class="circle"> </div><a href="#where">{{ i18n "whereM"}}</a> </li>
+            <li><div class="circle"> </div><a href="#when">{{ i18n "whenM"}}</a> </li>
+            <li><div class="circle"> </div><a href="#history">{{ i18n "historyM" }}</a> </li>
+            <li><div class="circle"> </div><a href="#amuravelas">{{ i18n "amuravelasM"}}</a> </li>
+            <li><div class="circle"> </div><a href="#authors">{{ i18n "authorsM"}}</a> </li>
+            <li><div class="circle"> </div><a href="#reciters">{{ i18n "recitersM"}}</a> </li>
+        </ul>
+    </nav>
+
     <div class="hero">
         <div class="hero__content">
             <h1 class="title">L'Amuravela</h1>
@@ -117,21 +143,11 @@
         const menuLinks = document.querySelectorAll('nav.menu li');
         const mainSections = document.querySelectorAll('main section');
 
-        menuLinks.forEach(v=> {
-            v.onclick = (()=> {
-                setTimeout(()=> {
-                    menuLinks.forEach(j=> j.classList.remove('active'))
-                    v.classList.add('active')
-                }, 300)
-            })
-        });
-
         window.onscroll = (()=> {
-            mainSections.forEach((v,i)=> {
-                let rect = v.getBoundingClientRect().y
-                if (rect < window.innerHeight - 500) {
-                    menuLinks.forEach(v => v.classList.remove('active'))
-                    menuLinks[i].classList.add('active')
+            mainSections.forEach((section, index) => {
+                if (section.getBoundingClientRect().y < 300) {
+                    menuLinks.forEach(link => link.classList.remove('active'))
+                    menuLinks[index].classList.add('active');
                 }
             })
         })

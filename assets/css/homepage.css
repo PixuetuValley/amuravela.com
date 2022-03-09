@@ -3,6 +3,66 @@
 @import "partials/footer.css";
 
 main {
+    nav.menu {
+        z-index: 1;
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: white;
+        border-radius: 0 5px 5px 0;
+        padding: .5rem;
+        box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
+        input[type=checkbox] {
+            display: none;
+        }
+        .menu-button {
+            svg {
+                margin: .5rem auto;
+            }
+            label {
+                #menu {
+                    display: block;
+                }
+                #cross {
+                    display: none;
+                }
+            }
+        }
+        input[type=checkbox]:checked ~ .menu-button label {
+            #menu {
+                display: none;
+            }
+            #cross {
+                display: block;
+            }
+        }
+        input[type=checkbox]:checked ~ .menu-list {
+            display: block;
+        }
+        .menu-list {
+            display: none;
+            overflow: hidden;
+            padding: .5rem;
+            list-style: none;
+            li {
+                padding: .5rem;
+                .circle {
+                    display: inline-block;
+                    margin-right: 1rem;
+                    height: .5rem;
+                    width: .5rem;
+                    border-radius: .5rem;
+                    border: 2px solid #37301E;
+                }
+                &.active .circle{
+                    background-color: #37301E;
+                }
+            }
+        }
+    }
     .hero {
         display:flex;
         flex-direction:column;
@@ -26,7 +86,6 @@ main {
 
     blockquote {
         color: #37301E;
-        background-color: #FFFFFF;
         font-size: 2rem;
         margin: 3rem 0;
         position: relative;
@@ -45,39 +104,16 @@ main {
             text-align: center;
         }
     }
-}
-
-header {
-    nav.menu {
-        z-index: 1;
-        display: block;
-        position: fixed;
-        input[type=checkbox] {
-            display: none;
-        }
-        input[type=checkbox]:checked ~ ul {
-            display: block;
-        }
-        ul {
-            display: none;
-            position: fixed;
-            top: 50px;
-            left: 0;
-            margin: 0;
-            padding: 0 0 0 .5rem;
-            list-style: none;
-            li {
-                padding: .5rem;
-                &.active{
-                    font-weight: 700;
-                }
-            }
-        }
+    .closing-quote {
+        margin: 12rem 0;
     }
 }
 
 @media only screen and (max-width: 800px) {
     main {
+        nav.menu {
+            top: 75%;
+        }
         .hero {
             .hero__content {
                 .title {
