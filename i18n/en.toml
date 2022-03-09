@@ -11,18 +11,26 @@ other = "mobile"
 
 # Homepage
 
+[menu]
+other = "MENU"
 [readLast]
 other = "Read last Amuravela"
+[whatM]
+other = "What is L'Amuravela?"
 [whatT]
 other = "What is L'Amuravela?"
 [whatP1]
 other = "L'Amuravela is a lay sermon, a half-religious and half-profane tradition inherited from generation to generation as a demonstration of the special devotion that the Pixueto people feel for their Patron Saint Peter and consisting of two parts, the story to the Saint and the greeting maneuver."
+[whereM]
+other = "Where is L'Amuravela?"
 [whereT]
 other = "Where is L'Amuravela celebrated?"
 [whereP1]
 other = "L'Amuravela is one of the oldest customs of Cudillero (Principality of Asturias) and is held in the Ribera next to the Plaza del Sable, in the heart of the old village."
 [howToGetThere]
 other = "How to get to L'Amuravela?"
+[whenM]
+other = "When is L'Amuravela?"
 [whenT]
 other = "When is L'Amuravela celebrated?"
 [whenP1]
@@ -33,6 +41,8 @@ other = "The date of the next Amuravela is:"
 other = "Are you going to be watching L'Amuravela? Share it!"
 [watchingShareCTA]
 other = "Are you watching L'Amuravela? Share it!"
+[historyM]
+other = "History of L'Amuravela"
 [historyT]
 other = "History of L'Amuravela"
 [historyP1]
@@ -41,18 +51,24 @@ other = "It is not known exactly when this tradition began. According to various
 other = "During that time the sailors who accompanied D. Alvaro Menéndez in the Conquest of Florida had returned, who embarked on a ship built in Cudillero, “El Espíritu Santo”. During that trip they learned the greeting that was made to the admiral and wanted to do the same with their Patron Saint..."
 [readMore]
 other = "Read more"
+[amuravelasM]
+other = "Every Amuravela"
 [amuravelasT]
-other = "Every Amuravelas since 1995"
+other = "Every Amuravela since 1995"
 [amuravelasP1]
 other = "Over the years, the Amuravelas have been collected and digitized since 1995 to guarantee their prevalence over time and allow this tradition to be shared with the rest of the world."
 [readEveryAmuravela]
 other = "Read every Amuravela"
+[authorsM]
+other = "Authors of L'Amuravela"
 [authorsT]
 other = "Authors of L'Amuravela throughout history"
 [authorsP1]
 other = "There have been many authors throughout the centuries of L'Amuravela, currently records of few in recent history are preserved, the rest of the information is fragmented or has been lost forever."
 [seeEveryAuthor]
 other = "See all authors of L'Amuravela"
+[recitersM]
+other = "Reciters of L'Amuravela"
 [recitersT]
 other = "Reciters of L'Amuravela throughout history"
 [recitersP1]

@@ -11,16 +11,24 @@ other = "móvil"
 
 # Homepage
 
+[menu]
+other = "MENÚ"
+[whatM]
+other = "¿Qué es L'Amuravela?"
 [whatT]
 other = "¿Qué es L'Amuravela?"
 [whatP1]
 other = "L'Amuravela es un sermón laico, una tradición medio religiosa y medio profana heredada de generación en generación como demostración de la especial devoción que el pueblo pixueto siente por su Patrón San Pedro y que consta de dos partes, el relato al Santo y la maniobra de saludo."
+[whereM]
+other = "¿Dónde se celebra L'Amuravela?"
 [whereT]
 other = "¿Dónde se celebra L'Amuravela?"
 [whereP1]
 other = "L'Amuravela es de las costumbres más antiguas de Cudillero (Principado de Asturias) y se celebra en la Ribera junto a la plaza del Sable, en pleno centro del casco antiguo del pueblo."
 [howToGetThere]
 other = "¿Cómo llegar a L'Amuravela?"
+[whenM]
+other = "¿Cuándo se celebra L'Amuravela?"
 [whenT]
 other = "¿Cuándo se celebra L'Amuravela?"
 [whenP1]
@@ -31,6 +39,8 @@ other = "La fecha de la próxima Amuravela es:"
 other = "¿Vas a estar viendo L'Amuravela? ¡Compártelo!"
 [watchingShareCTA]
 other = "¿Estás viendo L'Amuravela? ¡Compártelo!"
+[historyM]
+other = "Historia de L'Amuravela"
 [historyT]
 other = "Historia de L'Amuravela"
 [historyP1]
@@ -39,18 +49,24 @@ other = "No se sabe exactamente cuándo fue el comienzo de esta tradición. Seg�
 other = "Durante esa época habían vuelto los marineros que acompañaron a D. Alvaro Menéndez en la Conquista de la Florida, embarcados en una nave construida en Cudillero, “El Espíritu Santo”. Durante ese viaje aprendieron el saludo que se hacía al Almirante y quisieron hacer lo mismo con su Santo Patrono..."
 [readMore]
 other = "Saber más"
+[amuravelasM]
+other = "Todas las Amuravelas"
 [amuravelasT]
 other = "Todas las Amuravelas desde 1995"
 [amuravelasP1]
 other = "A lo largo de los años se ha ido recopilando y digitalizando las Amuravelas desde 1995 para garantizar su prevalencia en el tiempo y permitir compartir esta tradición con el resto del mundo."
 [readEveryAmuravela]
 other = "Ver todas las Amuravelas"
+[authorsM]
+other = "Autores de L'Amuravela"
 [authorsT]
 other = "Autores de L'Amuravela a lo largo de la historia"
 [authorsP1]
 other = "Ha habido multitud de autores a lo largo de los siglos de L'Amuravela, actualmente se conservan registros de pocos en la historia reciente, el resto de información está fragmentada o se ha perdido para siempre."
 [seeEveryAuthor]
 other = "Ver todos los autores de L'Amuravela"
+[recitersM]
+other = "Recitadores de L'Amuravela"
 [recitersT]
 other = "Recitadores de L'Amuravela a lo largo de la historia"
 [recitersP1]

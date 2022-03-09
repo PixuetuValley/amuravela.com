@@ -14,14 +14,14 @@
         </div>
     </div>
 
-    <section>
+    <section id="what">
         <div class="section__content">
             <h2 class="section__title">{{ i18n "whatT"}}</h2>
             <p>{{ i18n "whatP1"}}</p>
         </div>
     </section>
 
-    <section>
+    <section id="where">
         <div class="section__content">
             <h2 class="section__title">{{ i18n "whereT"}}</h2>
             <p>{{ i18n "whereP1"}}</p>
@@ -31,7 +31,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="when">
         <div class="section__content">
             <h2 class="section__title">{{ i18n "whenT"}}</h2>
             <p>{{ i18n "whenP1"}}</p>
@@ -57,7 +57,7 @@
     </section>
 
     {{ with .Site.GetPage "history" }}
-        <section>
+        <section id="history">
             <div class="section__content">
                 <h2 class="section__title">{{ i18n "historyT"}}</h2>
                 <p>{{ i18n "historyP1"}}</p>
@@ -70,7 +70,7 @@
     {{ end }}
 
     {{ with .Site.GetPage "amuravelas" }}
-        <section>
+        <section id="amuravelas">
             <div class="section__content">
                 <h2 class="section__title">{{ i18n "amuravelasT"}}</h2>
                 <p>{{ i18n "amuravelasP1"}}</p>
@@ -82,7 +82,7 @@
     {{ end }}
 
     {{ with .Site.GetPage "authors" }}
-        <section>
+        <section id="authors">
             <div class="section__content">
                 <h2 class="section__title">{{ i18n "authorsT"}}</h2>
                 <p>{{ i18n "authorsP1"}}</p>
@@ -94,7 +94,7 @@
     {{ end }}
 
     {{ with .Site.GetPage "reciters" }}
-        <section>
+        <section id="reciters">
             <div class="section__content">
                 <h2 class="section__title">{{ i18n "recitersT"}}</h2>
                 <p>{{ i18n "recitersP1"}}</p>
@@ -112,6 +112,30 @@
             ¡¡¡Viva Pedro!!!
         </blockquote>
     </section>
+
+    <script defer>
+        const menuLinks = document.querySelectorAll('nav.menu li');
+        const mainSections = document.querySelectorAll('main section');
+
+        menuLinks.forEach(v=> {
+            v.onclick = (()=> {
+                setTimeout(()=> {
+                    menuLinks.forEach(j=> j.classList.remove('active'))
+                    v.classList.add('active')
+                }, 300)
+            })
+        });
+
+        window.onscroll = (()=> {
+            mainSections.forEach((v,i)=> {
+                let rect = v.getBoundingClientRect().y
+                if (rect < window.innerHeight - 500) {
+                    menuLinks.forEach(v => v.classList.remove('active'))
+                    menuLinks[i].classList.add('active')
+                }
+            })
+        })
+    </script>
 
     <script defer>
         // Calculate next event date

@@ -1,3 +1,26 @@
+{{- if .Page.IsHome -}}
+<nav class="menu">
+    <input type="checkbox" id="checkbox-toggle">
+    <label for="checkbox-toggle" role="button">
+        <svg viewBox="0 0 325 65" width="125" height="25">
+            <rect width="100" height="5" rx="2" fill="#37301e"></rect>
+            <rect y="30" width="75" height="5" rx="2" fill="#37301e"></rect>
+            <rect y="60" width="100" height="5" rx="2" fill="#37301e"></rect>
+            <text y="50" x="125" fill="#37301e" font-size="60">{{ i18n "menu"}}</text>
+        </svg>
+    </label>
+    <ul>
+        <li class="active"> <a href="#what"> {{ i18n "whatM"}} </a> </li>
+        <li> <a href="#where"> {{ i18n "whereM"}} </a> </li>
+        <li> <a href="#when"> {{ i18n "whenM"}} </a> </li>
+        <li> <a href="#history"> {{ i18n "historyM" }} </a> </li>
+        <li> <a href="#amuravelas"> {{ i18n "amuravelasM"}} </a> </li>
+        <li> <a href="#authors"> {{ i18n "authorsM"}} </a> </li>
+        <li> <a href="#reciters"> {{ i18n "recitersM"}} </a> </li>
+    </ul>
+</nav>
+{{- end -}}
+
 <div class="breadcrumbs">
     {{- if not .Page.IsHome -}}
         {{ range $index, $breadcrumb := $.Scratch.Get "breadcrumb" }}

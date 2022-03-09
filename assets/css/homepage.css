@@ -47,6 +47,35 @@ main {
     }
 }
 
+header {
+    nav.menu {
+        z-index: 1;
+        display: block;
+        position: fixed;
+        input[type=checkbox] {
+            display: none;
+        }
+        input[type=checkbox]:checked ~ ul {
+            display: block;
+        }
+        ul {
+            display: none;
+            position: fixed;
+            top: 50px;
+            left: 0;
+            margin: 0;
+            padding: 0 0 0 .5rem;
+            list-style: none;
+            li {
+                padding: .5rem;
+                &.active{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 800px) {
     main {
         .hero {
@@ -63,7 +92,7 @@ main {
             font-size: 1.5rem;
         }
         section {
-            padding: 1.5rem;
+            padding: 1.25rem;
             .section__content {
                 max-width: 100%;
             }
