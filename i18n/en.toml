@@ -11,8 +11,8 @@ other = "mobile"
 
 # Homepage
 
-[menu]
-other = "MENU"
+[header]
+other = "Header"
 [readLast]
 other = "Read last Amuravela"
 [whatM]

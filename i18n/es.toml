@@ -11,8 +11,8 @@ other = "móvil"
 
 # Homepage
 
-[menu]
-other = "MENÚ"
+[header]
+other = "Inicio"
 [whatM]
 other = "¿Qué es L'Amuravela?"
 [whatT]

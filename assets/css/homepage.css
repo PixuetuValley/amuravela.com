@@ -9,46 +9,28 @@ main {
         left: 0;
         top: 50%;
         transform: translateY(-50%);
-        background-color: white;
-        border-radius: 0 5px 5px 0;
-        padding: .5rem;
-        box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
-        -webkit-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
-        -moz-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
-        input[type=checkbox] {
-            display: none;
-        }
-        .menu-button {
-            svg {
-                margin: .5rem auto;
-            }
-            label {
-                #menu {
-                    display: block;
-                }
-                #cross {
-                    display: none;
-                }
-            }
-        }
-        input[type=checkbox]:checked ~ .menu-button label {
-            #menu {
-                display: none;
-            }
-            #cross {
-                display: block;
-            }
-        }
-        input[type=checkbox]:checked ~ .menu-list {
-            display: block;
-        }
         .menu-list {
-            display: none;
+            display: block;
             overflow: hidden;
-            padding: .5rem;
+            padding: .25rem;
             list-style: none;
+            transition: .5s;
+            -webkit-transition: .5s;
+            &:hover {
+                background-color: rgba(255, 255, 255, .75);
+                box-shadow: 0 0 10px 20px rgba(255, 255, 255, .75);
+            }
+            &:hover a.text {
+                opacity: 1;
+            }
             li {
                 padding: .5rem;
+                a.text {
+                    opacity: 0;
+                    transition: .5s;
+                    -webkit-transition: .5s;
+                    text-shadow: 0 0 10px #fff;
+                }
                 .circle {
                     display: inline-block;
                     margin-right: 1rem;
@@ -72,6 +54,9 @@ main {
         justify-content: center;
         align-items: center;
         .hero__content {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
             .title {
                 margin: 0 0 3rem 0;
             }
@@ -105,14 +90,23 @@ main {
         }
     }
     .closing-quote {
-        margin: 12rem 0;
+        margin: 24rem .5rem;
     }
 }
 
 @media only screen and (max-width: 800px) {
     main {
+        padding-left: 1rem;
         nav.menu {
-            top: 75%;
+            .menu-list {
+                &:hover{
+                    background-color: transparent;
+                    box-shadow: none;
+                }
+            }
+            .menu-list a.text {
+                display: none;
+            }
         }
         .hero {
             .hero__content {
@@ -132,6 +126,9 @@ main {
             .section__content {
                 max-width: 100%;
             }
+        }
+        .closing-quote {
+            margin: 8rem .5rem;
         }
     }
 }
