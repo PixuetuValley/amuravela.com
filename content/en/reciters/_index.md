@@ -2,16 +2,15 @@
 draft = false
 
 title = "Reciters of L'Amuravela"
-slug = "reciters"
+
 description = "Every reciter of L'Amuravela"
-summary = "Lorem ipsum dolor sit amet"
 
 [image]
     src = "https://placehold.it/600x600"
 
-[alternatives.en]
+[alternatives.es]
     code = "es"
-    url = "/authors/"
+    url = "/reciters/"
 
 [sitemap]
   changefreq = "monthly"

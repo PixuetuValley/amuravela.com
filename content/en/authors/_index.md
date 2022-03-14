@@ -2,9 +2,8 @@
 draft = false
 
 title = "Authors of L'Amuravela"
-slug = "authors"
+
 description = "Every author of L'Amuravela"
-summary = "Lorem ipsum dolor sit amet"
 
 [image]
     src = "https://placehold.it/600x600"
