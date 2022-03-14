@@ -11,12 +11,3 @@
 {{- partial "head/og-metas.html" . -}}
 {{- partial "head/twitter-cards-metas.html" . -}}
 {{- partial "head/pwa-metas.html" . -}}
-{{- partial "head/styles.html" . -}}
-
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ $.Site.Params.googleAnalytics }}"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ $.Site.Params.googleAnalytics }}');
-  </script>
