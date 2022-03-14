@@ -2,7 +2,11 @@
     {{- if not .Page.IsHome -}}
         {{ range $index, $breadcrumb := $.Scratch.Get "breadcrumb" }}
             {{ if ne $index 0 }} / {{ end }}
-            <a href='{{ $breadcrumb.url }}'>{{ $breadcrumb.name }}</a>
+            {{ if ne $breadcrumb.url $.Page.Permalink }}
+                <a href='{{ $breadcrumb.url }}'>{{ $breadcrumb.name }}</a>
+            {{- else -}}
+                <strong>{{ $breadcrumb.name }}</strong>
+            {{- end -}}
         {{ end }}
     {{- end -}}
 </div>

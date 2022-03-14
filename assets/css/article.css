@@ -63,6 +63,16 @@ main {
             }
         }
     }
+    .water-mark {
+        height: 100vh;
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        box-shadow: 0px 0px 20px #fff;
+        opacity: .075;
+        oveflow: hidden;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -93,6 +103,10 @@ main {
                 margin-top: 2rem;
                 font-size: 1.25rem;
             }
+        }
+        .water-mark {
+            height: inherit;
+            width: 100vw;
         }
     }
 }

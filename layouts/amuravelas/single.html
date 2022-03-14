@@ -7,6 +7,7 @@
 {{ end }}
 
 {{ define "main" }}
+    <img lazy="true" class="water-mark" src="/images/ilustracion-la-ribera.png" alt="{{ i18n "watermark"}}">
     <article>
         <div class="summary">
             <h1 class="title">{{ .Title }}</h1>
@@ -20,6 +21,8 @@
                         </a>
                     </span>
                 </p>
+            {{ end }}
+            {{ if isset .Params "reciter" }}
                 <p>
                     <span class="reciter">
                         {{ i18n "recitedBy" }} <br/>
@@ -28,18 +31,18 @@
                         </a>
                     </span>
                 </p>
-                <div class="social-share">
-                    <a class="social-share-button" id="share-button" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} {{ i18n "mobile"}}"></a>
-                    <a class="social-share-button facebook" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Facebook"
-                        href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"></a>
-                    <a class="social-share-button twitter" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Twitter"
-                        href="https://twitter.com/share?&url={{ .Permalink }}"></a>
-                    <a class="social-share-button pinterest" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Pinterest"
-                        href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}"></a>
-                    <a class="social-share-button whatsapp" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} WhatsApp"
-                        href="https://api.whatsapp.com/send?text={{ .Permalink }}"></a>
-                </div>
             {{ end }}
+            <div class="social-share">
+                <a class="social-share-button" id="share-button" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} {{ i18n "mobile"}}"></a>
+                <a class="social-share-button facebook" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Facebook"
+                    href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"></a>
+                <a class="social-share-button twitter" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Twitter"
+                    href="https://twitter.com/share?&url={{ .Permalink }}"></a>
+                <a class="social-share-button pinterest" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Pinterest"
+                    href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}"></a>
+                <a class="social-share-button whatsapp" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} WhatsApp"
+                    href="https://api.whatsapp.com/send?text={{ .Permalink }}"></a>
+            </div>
         </div>
         <div class="content">
             {{.Content}}
