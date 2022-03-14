@@ -30,6 +30,7 @@ main {
                     transition: .5s;
                     -webkit-transition: .5s;
                     text-shadow: 0 0 10px #fff;
+                    border-bottom: none;
                 }
                 .circle {
                     display: inline-block;
@@ -39,8 +40,13 @@ main {
                     border-radius: .5rem;
                     border: 2px solid #37301E;
                 }
-                &.active .circle{
-                    background-color: #37301E;
+                &.active {
+                    .circle {
+                        background-color: #37301E;
+                    }
+                    .text {
+                        opacity: 1;
+                    }
                 }
             }
         }

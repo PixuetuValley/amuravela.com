@@ -147,6 +147,8 @@
         const menuLinks = document.querySelectorAll('nav.menu li');
         const mainSections = document.querySelectorAll('main section');
 
+        analyzeScroll();
+
         window.addEventListener('scroll', () => {
             scrolling = true;
         }, { passive: true });
@@ -154,14 +156,18 @@
         setInterval(() => {
             if (scrolling) {
                 scrolling = false;
-                mainSections.forEach((section, index) => {
-                    if (section.getBoundingClientRect().y < 300) {
-                        menuLinks.forEach(link => link.classList.remove('active'))
-                        menuLinks[index].classList.add('active');
-                    }
-                });
+                analyzeScroll();
             }
         }, 100);
+
+        function analyzeScroll() {
+            mainSections.forEach((section, index) => {
+                if (section.getBoundingClientRect().y < 300) {
+                    menuLinks.forEach(link => link.classList.remove('active'))
+                    menuLinks[index].classList.add('active');
+                }
+            });
+        }
     </script>
 
     <script async>
