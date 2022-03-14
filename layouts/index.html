@@ -142,22 +142,29 @@
         </blockquote>
     </div>
 
-    <script defer>
+    <script async>
+        let scrolling = false;
         const menuLinks = document.querySelectorAll('nav.menu li');
         const mainSections = document.querySelectorAll('main section');
 
-        window.onscroll = (()=> {
-            mainSections.forEach((section, index) => {
-                console.log(section.id, section.getBoundingClientRect().y)
-                if (section.getBoundingClientRect().y < 300) {
-                    menuLinks.forEach(link => link.classList.remove('active'))
-                    menuLinks[index].classList.add('active');
-                }
-            })
-        })
+        window.addEventListener('scroll', () => {
+            scrolling = true;
+        }, { passive: true });
+
+        setInterval(() => {
+            if (scrolling) {
+                scrolling = false;
+                mainSections.forEach((section, index) => {
+                    if (section.getBoundingClientRect().y < 300) {
+                        menuLinks.forEach(link => link.classList.remove('active'))
+                        menuLinks[index].classList.add('active');
+                    }
+                });
+            }
+        }, 250);
     </script>
 
-    <script defer>
+    <script async>
         // Calculate next event date
         const today = new Date();
         const year = today > new Date(today.getFullYear(), '06', '29') ? today.getFullYear() + 1 : today.getFullYear();
