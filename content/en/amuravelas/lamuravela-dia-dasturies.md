@@ -2,20 +2,30 @@
 draft = false
 date = "2009-09-05T12:00:00+02:00"
 publishdate = "2009-09-05T12:00:00+02:00"
-title = "L'Amuravela - Día d'Asturies"
+
+title = "L'Amuravela - Día d'Asturies 2009"
+
 description = ""
+
 [author]
     name = "Cesáreo Marqués Valle"
     homepage = "/en/authors/cesario-marques-valle/"
     image=""
     bio=""
+
 [reciter]
     name = "Cesáreo Marqués Valle"
     homepage = "/en/reciters/cesario-marques-valle/"
     image=""
     bio=""
+
 [image]
     src = ""
+
+[alternatives.es]
+    code = "es"
+    url = "/amuravelas/lamuravela-dia-dasturies/"
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

@@ -3,8 +3,7 @@ draft = false
 
 title = "Todas las amuravelas"
 slug = "amuravelas"
-description = "Listado de todas las Amuravelas desde 95"
-summary = "Lorem ipsum dolor sit amet"
+description = "Listado de todas las Amuravelas transcritas y digitalizadas desde 1995."
 
 [image]
     src = "https://placehold.it/600x600"

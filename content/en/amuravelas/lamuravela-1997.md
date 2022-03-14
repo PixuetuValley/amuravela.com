@@ -22,6 +22,10 @@ description = "El sermón de L'Amuravela de 1997 como fue recitado en las fiesta
 [image]
     src = ""
 
+[alternatives.es]
+    code = "es"
+    url = "/amuravelas/lamuravela-1997/"
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

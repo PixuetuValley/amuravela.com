@@ -3,9 +3,9 @@ draft = false
 date = "2001-03-03T12:00:00+02:00"
 publishdate = "2001-03-03T12:00:00+02:00"
 
-title = "L'Amuravela a la Santina"
+title = "L'Amuravela a la Santina 2001"
 
-description = ""
+description = "El sermón extraordinario de L'Amuravela dedicado a la Santina en 2001."
 
 [author]
     name = "Cesáreo Marqués Valle"
@@ -21,6 +21,10 @@ description = ""
 
 [image]
     src = ""
+
+[alternatives.en]
+    code = "en"
+    url = "/en/amuravelas/lamuravela-a-la-santina/"
 
 [sitemap]
   changefreq = "monthly"

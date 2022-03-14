@@ -1,10 +1,9 @@
 +++
 draft = false
 
-title = "Every Amuravela"
-slug = "amuravelas"
-description = "List of every Amuravela since 1995"
-summary = "Lorem ipsum dolor sit amet"
+title = "Every Amuravela since 1995"
+
+description = "List of every Amuravela since 1995 transcribed and digitalized."
 
 [image]
     src = "https://placehold.it/600x600"

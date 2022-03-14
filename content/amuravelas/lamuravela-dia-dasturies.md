@@ -2,20 +2,30 @@
 draft = false
 date = "2009-09-05T12:00:00+02:00"
 publishdate = "2009-09-05T12:00:00+02:00"
-title = "L'Amuravela - Día d'Asturies"
-description = ""
+
+title = "L'Amuravela - Día d'Asturies 2009"
+
+description = "El sermón extraordinario de L'Amuravela por el Día de Asturias de 2009, celebrado en Cudillero."
+
 [author]
     name = "Cesáreo Marqués Valle"
     homepage = "/authors/cesario-marques-valle/"
     image=""
     bio=""
+
 [reciter]
     name = "Cesáreo Marqués Valle"
     homepage = "/reciters/cesario-marques-valle/"
     image=""
     bio=""
+
 [image]
     src = ""
+
+[alternatives.en]
+    code = "en"
+    url = "/en/amuravelas/lamuravela-dia-dasturies/"
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

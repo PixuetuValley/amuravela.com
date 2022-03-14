@@ -22,6 +22,10 @@ description = "El sermón de L'Amuravela de 2021 como fue recitado en las fiesta
 [image]
     src = ""
 
+[alternatives.es]
+    code = "es"
+    url = "/amuravelas/lamuravela-2021/"
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

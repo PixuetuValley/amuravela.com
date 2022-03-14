@@ -22,6 +22,10 @@ description = "El sermón de L'Amuravela de 2012 como fue recitado en las fiesta
 [image]
     src = ""
 
+[alternatives.es]
+    code = "es"
+    url = "/amuravelas/lamuravela-2012/"
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

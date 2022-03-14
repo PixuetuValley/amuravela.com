@@ -3,7 +3,7 @@ draft = false
 date = "2001-03-03T12:00:00+02:00"
 publishdate = "2001-03-03T12:00:00+02:00"
 
-title = "L'Amuravela a la Santina"
+title = "L'Amuravela a la Santina 2001"
 
 description = ""
 
@@ -21,6 +21,10 @@ description = ""
 
 [image]
     src = ""
+
+[alternatives.es]
+    code = "es"
+    url = "/amuravelas/lamuravela-a-la-santina/"
 
 [sitemap]
   changefreq = "monthly"
