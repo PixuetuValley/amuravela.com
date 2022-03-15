@@ -11,9 +11,9 @@
     <article>
         <div class="summary">
             <h1 class="title">{{ .Title }}</h1>
+            {{.Content}}
         </div>
         <div class="content">
-            {{.Content}}
             <ul class="list">
                 {{ range where .Pages "Section" "reciters" }}
                     <li>
