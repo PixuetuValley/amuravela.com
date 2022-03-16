@@ -14,17 +14,15 @@ main {
             position: sticky;
             text-align: center;
             align-items: center;
-            max-height: 720px;
-            max-width: 720px;
-            min-width: 320px;
-            margin-right: 8rem;
+            width: 50vw;
+            padding: 4rem;
             h1 {
                 font-size: 4rem;
             }
         }
         .content {
-            max-width: 720px;
-            min-width: 320px;
+            width: 50vw;
+            padding: 4rem;
             flex-direction: column;
             text-align: center;
             font-size: 1.5rem;
@@ -74,18 +72,20 @@ main {
             flex-direction: column;
             justify-content: start;
             align-items: center;
-            padding: 1rem;
+            padding: 0;
             .summary {
                 top: 0;
                 position: relative;
-                max-width: 100%;
-                margin-right: 0;
+                width: 100vw;
+                padding: 1rem;
                 h1 {
                     font-size: 3rem;
                 }
             }
             .content {
-                max-width: 100%;
+                width: 100vw;
+                padding: 0;
+                margin: 0 0 2rem 0;
                 font-size: 1.25rem;
             }
         }
