@@ -7,7 +7,7 @@ description = "Lorem ipsum dolor sit amet"
 summary = "Lorem ipsum dolor sit amet"
 
 [image]
-    src = "https://placehold.it/600x600"
+    src = ""
 
 [alternatives.es]
     code = "es"

@@ -3,11 +3,7 @@ draft = false
 
 title = "Historia de L'Amuravela"
 slug = "historia-de-lamuravela"
-description = "Lorem ipsum dolor sit amet"
-summary = "Lorem ipsum dolor sit amet"
-
-[image]
-    src = "https://placehold.it/600x600"
+description = "La Amuravela es una de las tradiciones mas antiguas del pueblo de Cudillero, esto es lo que sabemos de su historia."
 
 [alternatives.en]
     code = "en"
