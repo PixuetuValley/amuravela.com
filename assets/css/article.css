@@ -73,7 +73,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 920px) {
     main {
         article {
             flex-direction: column;
