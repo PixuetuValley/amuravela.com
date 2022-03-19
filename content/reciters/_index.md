@@ -6,7 +6,7 @@ title = "Recitadores de L'Amuravela"
 description = "Todos los recitadores de L'Amuravela"
 
 [image]
-    src = "https://placehold.it/600x600"
+    src = ""
 
 [alternatives.en]
     code = "en"

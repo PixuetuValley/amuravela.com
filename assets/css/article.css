@@ -8,8 +8,9 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        padding: 0 0 0 3rem;
         .summary {
-            top: 100px;
+            top: 0;
             position: sticky;
             text-align: center;
             align-items: center;
@@ -75,7 +76,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 920px) {
     main {
         article {
             flex-direction: column;

@@ -11,6 +11,9 @@
     <article>
         <div class="summary">
             <h1 class="title">{{ .Title }}</h1>
+            {{ with .Params.image.src }}
+                <img lazy="true" class="image" src="{{ . }}" alt="{{ $.Params.Title }}">
+            {{ end }}
             <div class="social-share">
                 <a class="social-share-button" id="share-button" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} {{ i18n "mobile"}}"></a>
                 <a class="social-share-button facebook" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Facebook"
