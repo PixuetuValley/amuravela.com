@@ -18,6 +18,7 @@ main {
             padding: 4rem;
             h1 {
                 font-size: 4rem;
+                margin-top: .5rem;
             }
         }
         .content {
@@ -31,7 +32,6 @@ main {
             }
             .list {
                 list-style-type: none;
-                margin: 3rem 0 0 0;
                 padding: 0;
                 border-bottom: 1px #5c5c5c solid;
                 li {
@@ -91,8 +91,8 @@ main {
                 font-size: 1.25rem;
             }
         }
-    }
-    .watermark {
-        width: 100vw;
+        .watermark {
+            width: 100vw;
+        }
     }
 }
