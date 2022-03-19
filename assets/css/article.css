@@ -15,7 +15,7 @@ main {
             align-items: center;
             max-height: 720px;
             width: 50vw;
-            padding: 4rem;
+            padding: 3rem;
             h1 {
                 font-size: 4rem;
                 margin-top: .5rem;
@@ -37,7 +37,7 @@ main {
             text-align: center;
             font-size: 1.5rem;
             width: 50vw;
-            padding: 4rem;
+            padding: 3rem;
             p {
                 width: 100%;
             }
