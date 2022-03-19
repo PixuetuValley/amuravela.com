@@ -14,7 +14,7 @@ description = ""
     bio=""
 
 [image]
-    src = ""
+    src = "/images/toto.jpeg"
 
 [alternatives.en]
     code = "en"
