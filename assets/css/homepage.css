@@ -120,6 +120,7 @@ main {
             }
         }
     }
+
     .closing-quote {
         margin: 24rem .5rem;
     }
@@ -156,6 +157,15 @@ main {
             padding: 1.25rem;
             .section__content {
                 max-width: 100%;
+            }
+        }
+        .contact-form {
+            input, textarea {
+                font-size: 1.1rem;
+                margin: .5rem auto;
+            }
+            label {
+                font-size: 1.25rem;
             }
         }
         .closing-quote {
