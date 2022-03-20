@@ -8,7 +8,6 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding: 0 0 0 3rem;
         .summary {
             top: 0;
             position: sticky;
@@ -16,9 +15,10 @@ main {
             align-items: center;
             max-height: 720px;
             width: 50vw;
-            padding: 4rem;
+            padding: 3rem;
             h1 {
                 font-size: 4rem;
+                margin-top: .5rem;
             }
             .author,
             .reciter {
@@ -27,13 +27,17 @@ main {
                     font-size: 1.25rem;
                 }
             }
+            img {
+                max-height: 300px;
+                margin: auto;
+            }
         }
         .content {
             flex-direction: column;
             text-align: center;
             font-size: 1.5rem;
             width: 50vw;
-            padding: 4rem;
+            padding: 3rem;
             p {
                 width: 100%;
             }
@@ -62,15 +66,17 @@ main {
             }
         }
     }
-    .water-mark {
-        height: 100vh;
+    .watermark {
         z-index: -1;
         position: fixed;
         top: 0;
         left: 0;
-        box-shadow: 0px 0px 20px #fff;
-        opacity: .075;
-        oveflow: hidden;
+        height: 100vh;
+        width: 50vw;
+        opacity: .05;
+        background-image: url('/images/ilustracion-la-ribera.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
@@ -100,12 +106,10 @@ main {
             .content {
                 width: 100%;
                 padding: 1rem;
-                margin-top: 2rem;
                 font-size: 1.25rem;
             }
         }
-        .water-mark {
-            height: inherit;
+        .watermark {
             width: 100vw;
         }
     }
