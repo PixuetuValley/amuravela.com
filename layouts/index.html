@@ -3,28 +3,43 @@
         <ul class="menu-list">
             <li>
                 <a href="#header" class="circle" aria-label="{{ i18n "header"}}"></a>
-                <a href="#header" class="text">{{ i18n "header"}}</a> </li>
+                <a href="#header" class="text">{{ i18n "header"}}</a>
+            </li>
             <li>
                 <a href="#what" class="circle" aria-label="{{ i18n "whatM"}}"></a>
-                <a href="#what" class="text">{{ i18n "whatM"}}</a> </li>
+                <a href="#what" class="text">{{ i18n "whatM"}}</a>
+            </li>
             <li>
                 <a href="#where" class="circle" aria-label="{{ i18n "whereM"}}"></a>
-                <a href="#where" class="text">{{ i18n "whereM"}}</a> </li>
+                <a href="#where" class="text">{{ i18n "whereM"}}</a>
+            </li>
             <li>
                 <a href="#when" class="circle" aria-label="{{ i18n "whenM"}}"></a>
                 <a href="#when" class="text">{{ i18n "whenM"}}</a> </li>
             <li>
                 <a href="#history" class="circle" aria-label="{{ i18n "historyM" }}"></a>
-                <a href="#history" class="text">{{ i18n "historyM" }}</a> </li>
+                <a href="#history" class="text">{{ i18n "historyM" }}</a>
+            </li>
             <li>
                 <a href="#amuravelas" class="circle" aria-label="{{ i18n "amuravelasM"}}"></a>
-                <a href="#amuravelas" class="text">{{ i18n "amuravelasM"}}</a> </li>
+                <a href="#amuravelas" class="text">{{ i18n "amuravelasM"}}</a>
+            </li>
             <li>
                 <a href="#authors" class="circle" aria-label="{{ i18n "authorsM"}}"></a>
-                <a href="#authors" class="text">{{ i18n "authorsM"}}</a> </li>
+                <a href="#authors" class="text">{{ i18n "authorsM"}}</a>
+            </li>
             <li>
                 <a href="#reciters" class="circle" aria-label="{{ i18n "recitersM"}}"></a>
-                <a href="#reciters" class="text">{{ i18n "recitersM"}}</a> </li>
+                <a href="#reciters" class="text">{{ i18n "recitersM"}}</a>
+            </li>
+            <li>
+                <a href="#vocabulary" class="circle" aria-label="{{ i18n "vocabularyM"}}"></a>
+                <a href="#vocabulary" class="text">{{ i18n "vocabularyM"}}</a>
+            </li>
+            <li>
+                <a href="#contact" class="circle" aria-label="{{ i18n "contactM"}}"></a>
+                <a href="#contact" class="text">{{ i18n "contactM"}}</a>
+            </li>
         </ul>
     </nav>
 
@@ -93,7 +108,7 @@
                 <p>{{ i18n "historyP2"}}</p>
                 <a class="button" role="button"
                     href="{{.Permalink}}"
-                    aria-label="{{ i18n "historyT"}}">{{ i18n "readMore"}} <span class="arrow-right">&#8594;</span></a>
+                    aria-label="{{ i18n "historyT"}}">{{ i18n "seeHistory"}} <span class="arrow-right">&#8594;</span></a>
             </div>
         </section>
     {{ end }}
@@ -105,7 +120,7 @@
                 <p>{{ i18n "amuravelasP1"}}</p>
                 <a class="button" role="button"
                     href="{{.Permalink}}"
-                    aria-label="{{.Title}}">{{ i18n "readEveryAmuravela"}} <span class="arrow-right">&#8594;</span></a>
+                    aria-label="{{.Title}}">{{ i18n "seeAmuravelas"}} <span class="arrow-right">&#8594;</span></a>
             </div>
         </section>
     {{ end }}
@@ -117,7 +132,7 @@
                 <p>{{ i18n "authorsP1"}}</p>
                 <a class="button" role="button"
                     href="{{.Permalink}}"
-                    aria-label="{{ i18n "seeEveryAuthor"}}">{{ i18n "seeEveryAuthor"}} <span class="arrow-right">&#8594;</span></a>
+                    aria-label="{{ i18n "seeAuthors"}}">{{ i18n "seeAuthors"}} <span class="arrow-right">&#8594;</span></a>
             </div>
         </section>
     {{ end }}
@@ -129,10 +144,36 @@
                 <p>{{ i18n "recitersP1"}}</p>
                 <a class="button" role="button"
                     href="{{.Permalink}}"
-                    aria-label="{{ i18n "seeEveryReciter"}}">{{ i18n "seeEveryReciter"}} <span class="arrow-right">&#8594;</span></a>
+                    aria-label="{{ i18n "seeReciters"}}">{{ i18n "seeReciters"}} <span class="arrow-right">&#8594;</span></a>
             </div>
         </section>
     {{ end }}
+
+    {{ with .Site.GetPage "vocabulary" }}
+        <section id="vocabulary">
+            <div class="section__content">
+                <h2 class="section__title">{{ i18n "vocabularyT"}}</h2>
+                <p>{{ i18n "vocabularyP1"}}</p>
+                <a class="button" role="button"
+                    href="{{.Permalink}}"
+                    aria-label="{{ i18n "seeVocabulary"}}">{{ i18n "seeVocabulary"}} <span class="arrow-right">&#8594;</span></a>
+            </div>
+        </section>
+    {{ end }}
+
+    <section id="contact">
+        <div class="section__content">
+            <h2 class="section__title">{{ i18n "contactT"}}</h2>
+            <p>{{ i18n "contactP1"}}</p>
+            <form class="contact-form" id="contact-form">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_subject" value="Nuevo mensaje desde amuravela.com">
+                <input type="hidden" name="_template" value="box">
+                <textarea id="contact-content" aria-label="{{ i18n "contactL1"}}" placeholder="{{ i18n "contactPh1"}}" name="content" rows="6"></textarea>
+                <input id="contact-submit" type="submit" value="{{ i18n "contactSubmit"}}">
+            </form>
+        </div>
+    </section>
 
     <div>
         <blockquote class="closing-quote">
@@ -199,5 +240,27 @@
                 }
             });
         }
+    </script>
+
+    <script async>
+        const form = document.getElementById('contact-form');
+
+        form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            document.getElementById('contact-submit').disabled= true;
+            document.getElementById('contact-submit').value= '...';
+            fetch("https://formsubmit.co/ajax/cesareomarques@gmail.com", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json; charset=UTF-8',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(Object.fromEntries(new FormData(event.target)))
+            })
+            .then(response => {
+                document.getElementById('contact-submit').value= '{{ i18n "contactSubmitted"}}';
+            })
+            .catch(error => console.log(error));
+        }, false);
     </script>
 {{ end }}

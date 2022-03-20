@@ -47,7 +47,7 @@ other = "Historia de L'Amuravela"
 other = "No se sabe exactamente cuándo fue el comienzo de esta tradición. Según diversos comentarios y estudios, podría datar de hace más de 400 años (hacia 1569), época en que tuvo lugar la construcción de la Iglesia bajo la advocación de San Pedro."
 [historyP2]
 other = "Durante esa época habían vuelto los marineros que acompañaron a D. Alvaro Menéndez en la Conquista de la Florida, embarcados en una nave construida en Cudillero, “El Espíritu Santo”. Durante ese viaje aprendieron el saludo que se hacía al Almirante y quisieron hacer lo mismo con su Santo Patrono..."
-[readMore]
+[seeHistory]
 other = "Saber más"
 [amuravelasM]
 other = "Todas las Amuravelas"
@@ -55,7 +55,7 @@ other = "Todas las Amuravelas"
 other = "Todas las Amuravelas desde 1995"
 [amuravelasP1]
 other = "A lo largo de los años se ha ido recopilando y digitalizando las Amuravelas desde 1995 para garantizar su prevalencia en el tiempo y permitir compartir esta tradición con el resto del mundo."
-[readEveryAmuravela]
+[seeAmuravelas]
 other = "Ver todas las Amuravelas"
 [authorsM]
 other = "Autores de L'Amuravela"
@@ -63,7 +63,7 @@ other = "Autores de L'Amuravela"
 other = "Autores de L'Amuravela a lo largo de la historia"
 [authorsP1]
 other = "Ha habido multitud de autores a lo largo de los siglos de L'Amuravela, actualmente se conservan registros de pocos en la historia reciente, el resto de información está fragmentada o se ha perdido para siempre."
-[seeEveryAuthor]
+[seeAuthors]
 other = "Ver todos los autores de L'Amuravela"
 [recitersM]
 other = "Recitadores de L'Amuravela"
@@ -71,8 +71,30 @@ other = "Recitadores de L'Amuravela"
 other = "Recitadores de L'Amuravela a lo largo de la historia"
 [recitersP1]
 other = "En multiples ocasiones la persona que recita L'Amuravela no es el autor de la misma, por ello se distingue la persona que la escribe y la persona que la echa."
-[seeEveryReciter]
+[seeReciters]
 other = "Ver todos los recitadores de L'Amuravela"
+[vocabularyM]
+other = "Vocabulario pixueto"
+[vocabularyT]
+other = "Vocabulario pixueto"
+[vocabularyP1]
+other = "L'Amuravala es recitada en pixueto, un dialecto del asturiano exclusivo de Cudillero, aquí encontraras una selección de palabras utilizadas en diversas Amuravelas."
+[seeVocabulary]
+other = "Leer vocabulario pixueto"
+[contactM]
+other = "Buzón de sugerencias"
+[contactT]
+other = "Deja tus sugerencias"
+[contactP1]
+other = "L'Amuravala es un sermón para poner al día a San Pedro sobre los acontecimientos del último año. ¿Tienes alguna noticia, rumor o sugerencia? ¡Déjalos aquí directamente al autor de L'Amuravela de manera anónima!"
+[contactL1]
+other = "Noticia, rumor o sugerencia para L'Amuravela"
+[contactPh1]
+other = "Tu contribución..."
+[contactSubmit]
+other = "Enviar"
+[contactSubmitted]
+other = "¡Gracias por tu contribución!"
 [shareMessage]
 other = "En #Cuideiru viendo L'Amuravela 😎"
 

@@ -49,7 +49,7 @@ other = "History of L'Amuravela"
 other = "It is not known exactly when this tradition began. According to various comments and studies, it could date from more than 400 years ago (around 1569), when the construction of the church took place under the invocation of Saint Peter."
 [historyP2]
 other = "During that time the sailors who accompanied D. Alvaro Menéndez in the Conquest of Florida had returned, who embarked on a ship built in Cudillero, “El Espíritu Santo”. During that trip they learned the greeting that was made to the admiral and wanted to do the same with their Patron Saint..."
-[readMore]
+[seeHistory]
 other = "Read more"
 [amuravelasM]
 other = "Every Amuravela"
@@ -57,7 +57,7 @@ other = "Every Amuravela"
 other = "Every Amuravela since 1995"
 [amuravelasP1]
 other = "Over the years, the Amuravelas have been collected and digitized since 1995 to guarantee their prevalence over time and allow this tradition to be shared with the rest of the world."
-[readEveryAmuravela]
+[seeAmuravelas]
 other = "Read every Amuravela"
 [authorsM]
 other = "Authors of L'Amuravela"
@@ -65,7 +65,7 @@ other = "Authors of L'Amuravela"
 other = "Authors of L'Amuravela throughout history"
 [authorsP1]
 other = "There have been many authors throughout the centuries of L'Amuravela, currently records of few in recent history are preserved, the rest of the information is fragmented or has been lost forever."
-[seeEveryAuthor]
+[seeAuthors]
 other = "See all authors of L'Amuravela"
 [recitersM]
 other = "Reciters of L'Amuravela"
@@ -73,8 +73,30 @@ other = "Reciters of L'Amuravela"
 other = "Reciters of L'Amuravela throughout history"
 [recitersP1]
 other = "On multiple occasions the person who recites L'Amuravela is not the author of it, so the person who authors it and the person who recites it out."
-[seeEveryReciter]
+[seeReciters]
 other = "See all reciters of L'Amuravela"
+[vocabularyM]
+other = "Pixueto vocabulary"
+[vocabularyT]
+other = "Pixueto vocabulary"
+[vocabularyP1]
+other = "L'Amuravala is recited in Pixueto, a dialect exclusive to the village of Cudillero."
+[seeVocabulary]
+other = "Read Pixueto vocabulary"
+[contactM]
+other = "Suggestions mailbox"
+[contactT]
+other = "Leave your suggestions"
+[contactP1]
+other = "L'Amuravala is a sermon to update St. Peter on the events of the last year. Do you have any news, gossip or suggestions? Leave them here directly to Amuravelas's author anonymously!"
+[contactL1]
+other = "News, gossip or suggestions about L'Amuravela"
+[contactPh1]
+other = "Your contribution..."
+[contactSubmit]
+other = "Send"
+[contactSubmitted]
+other = "Thank you for your contribution!"
 [shareMessage]
 other = "In #Cuideiru watching L'Amuravela 😎"
 

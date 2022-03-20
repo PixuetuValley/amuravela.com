@@ -95,6 +95,31 @@ main {
             text-align: center;
         }
     }
+
+    .contact-form {
+        margin-top: 2rem;
+        text-align: left;
+        input, textarea {
+            font-family: 'Times New Roman', serif;
+            font-size: 1.25rem;
+            border: 1px solid #333;
+            color: #333;
+            margin: 1rem auto;
+            padding: 1rem;
+            width: 100%;
+            max-width: 100%;
+        }
+        label {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        input[type="submit"] {
+            cursor: pointer;
+            &:disabled {
+                cursor: default;
+            }
+        }
+    }
     .closing-quote {
         margin: 24rem .5rem;
     }
