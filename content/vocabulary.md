@@ -25,3 +25,7 @@ description = "L'Amuravela se recita en pixueto, un dialecto del Asturiano exclu
 **Abarique:** Red grande que se utiliza para pescar sardina y bocarte.
 
 **Abartexar:** Amontonar.
+
+...
+
+...
