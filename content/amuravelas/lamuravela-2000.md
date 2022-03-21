@@ -579,7 +579,7 @@ desdi lu altu del Cialu:
 > ¡MIENTRAS CUDILLERO VIVA\
 Y DURI LA FUENTI’L CANTU,\
 VA SAN PEDRU A LA RIBERA,\
-CON TODOS LOS DEMAS SANTOS!
+CON TODOS LOS DEMÁS SANTOS!
 
 > ¡Amura vela! ¡Isa vela!\
 ¡Fuego a babor! ¡Fuego a estribor!\

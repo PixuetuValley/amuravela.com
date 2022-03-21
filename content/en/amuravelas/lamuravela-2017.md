@@ -750,7 +750,7 @@ ya siampri ti didicamus:
 > ¡MIENTRAS CUDILLERO VIVA\
 Y DURI LA FUENTI’L CANTU,\
 VA SAN PEDRU A LA RIBERA\
-CON TODUS LUS DEMAS SANTUS!
+CON TODUS LUS DEMÁS SANTUS!
 
 > ¡Amura vela! ¡Isa vela!\
 ¡Fuego a babor! ¡Fuego a estribor!\
