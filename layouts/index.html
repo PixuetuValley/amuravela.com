@@ -173,7 +173,7 @@
                 <input type="hidden" name="_subject" value="Nuevo mensaje desde amuravela.com">
                 <input type="hidden" name="_template" value="box">
                 <textarea id="contact-content" aria-label="{{ i18n "contactL1"}}" placeholder="{{ i18n "contactPh1"}}" name="content" rows="6"></textarea>
-                <input id="contact-submit" type="submit" value="{{ i18n "contactSubmit"}}">
+                <button id="contact-submit">{{ i18n "contactSubmit"}}</button>
             </form>
         </div>
     </section>
@@ -212,70 +212,6 @@
                 }
             });
         }
-    </script>
-
-    <script async>
-        // Calculate next event date
-        const today = new Date();
-        const year = today > new Date(today.getFullYear(), '06', '29') ? today.getFullYear() + 1 : today.getFullYear();
-        const date = new Date (year, '05', '29', '13', '00');
-
-        document.getElementById("date").setAttribute("datetime", date.toISOString());
-        document.getElementById("date").innerText = date.toLocaleString('{{.Lang}}', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
-
-        if (today.valueOf() === date.valueOf()) {
-            document.getElementById("share-cta-title").innerText = "{{ i18n "watchingShareCTA"}}";
-        }
-    </script>
-
-    <script async>
-        if (! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            document.getElementById('directions-button').href = 'https://www.google.es/maps/dir//43.5633611,-6.1458889/@43.5633611,-6.1480776,17z';
-        } else {
-            document.getElementById('directions-button').href = 'geo:43.5633611,-6.1458889';
-        }
-    </script>
-
-    <script async>
-        if (navigator.canShare) {
-            const shareData = {
-                title: "L'Amuravela",
-                text: "{{ i18n "shareMessage"}}",
-                url: 'https://amuravela.com'
-            }
-            // Share must be triggered by "user activation"
-            document.getElementById('share-button').addEventListener('click', async () => {
-                try {
-                    await navigator.share(shareData);
-                } catch(err) {
-                    console.error(err);
-                }
-            });
-        } else {
-            document.getElementById('share-button').remove();
-        }
-    </script>
-
-    <script async>
-        const form = document.getElementById('contact-form');
-
-        form.addEventListener("submit", (event) => {
-            event.preventDefault();
-            document.getElementById('contact-submit').disabled= true;
-            document.getElementById('contact-submit').value= '...';
-            fetch("https://formsubmit.co/ajax/40d4fa9d5f7d9e39b931dfc55c017bc6", {
-                method: "POST",
-                headers: {
-                    'Content-Type': 'application/json; charset=UTF-8',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify(Object.fromEntries(new FormData(event.target)))
-            })
-            .then(response => {
-                document.getElementById('contact-submit').value= '{{ i18n "contactSubmitted"}}';
-            })
-            .catch(error => console.log(error));
-        }, false);
     </script>
 
     <script async>
@@ -326,5 +262,71 @@
         };
 
         document.body.appendChild(script);
+    </script>
+
+    <script async>
+        if (! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            document.getElementById('directions-button').href = 'https://www.google.es/maps/dir//43.5633611,-6.1458889/@43.5633611,-6.1480776,17z';
+        } else {
+            document.getElementById('directions-button').href = 'geo:43.5633611,-6.1458889';
+        }
+    </script>
+
+    <script async>
+        // Calculate next event date
+        const today = new Date();
+        const year = today > new Date(today.getFullYear(), '06', '29') ? today.getFullYear() + 1 : today.getFullYear();
+        const date = new Date (year, '05', '29', '13', '00');
+
+        document.getElementById("date").setAttribute("datetime", date.toISOString());
+        document.getElementById("date").innerText = date.toLocaleString('{{.Lang}}', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
+
+        if (today.valueOf() === date.valueOf()) {
+            document.getElementById("share-cta-title").innerText = "{{ i18n "watchingShareCTA"}}";
+        }
+    </script>
+
+    <script async>
+        if (navigator.canShare) {
+            const shareData = {
+                title: "L'Amuravela",
+                text: "{{ i18n "shareMessage"}}",
+                url: 'https://amuravela.com'
+            }
+            // Share must be triggered by "user activation"
+            document.getElementById('share-button').addEventListener('click', async () => {
+                try {
+                    await navigator.share(shareData);
+                } catch(err) {
+                    console.error(err);
+                }
+            });
+        } else {
+            document.getElementById('share-button').remove();
+        }
+    </script>
+
+    <script async>
+        const form = document.getElementById('contact-form');
+        const submitButton = document.getElementById('contact-submit');
+
+        submitButton.addEventListener("click", (event) => {
+            event.preventDefault();
+            submitButton.disabled = true;
+            submitButton.innerText = '...';
+
+            fetch("https://formsubmit.co/ajax/40d4fa9d5f7d9e39b931dfc55c017bc6", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json; charset=UTF-8',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(Object.fromEntries(new FormData(form)))
+            })
+            .then(response => {
+                submitButton.innerText = '{{ i18n "contactSubmitted"}}';
+            })
+            .catch(error => console.log(error));
+        }, false);
     </script>
 {{ end }}

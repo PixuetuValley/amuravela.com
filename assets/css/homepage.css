@@ -113,7 +113,7 @@ main {
     .contact-form {
         margin-top: 2rem;
         text-align: left;
-        input, textarea {
+        input, textarea, button {
             font-family: 'Times New Roman', serif;
             font-size: 1.25rem;
             border: 1px solid #333;
@@ -123,14 +123,19 @@ main {
             width: 100%;
             max-width: 100%;
         }
-        label {
-            font-size: 1.5rem;
-            font-weight: 700;
-        }
-        input[type="submit"] {
-            cursor: pointer;
+        button {
+            background-color: #eee;
             &:disabled {
                 cursor: default;
+                color: #666;
+            }
+            &:disabled:hover {
+                cursor: default;
+                background-color: #eee;
+            }
+            &:hover {
+                cursor: pointer;
+                background-color: #ccc;
             }
         }
     }
