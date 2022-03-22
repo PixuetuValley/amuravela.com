@@ -13,10 +13,7 @@ description = "L'Amuravela se recita en pixueto, un dialecto del Asturiano exclu
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
-
 +++
-
-### Página en construcción.
 
 ### A
 

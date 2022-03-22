@@ -8,19 +8,23 @@
 
 {{ define "main" }}
     <div class="watermark"></div>
-    <article>
-        <div class="summary">
-            <h1 class="title">{{ .Title }}</h1>
-            {{.Content}}
-        </div>
-        <div class="content">
-            <ul class="list">
-                {{ range where .Pages "Section" "authors" }}
-                    <li>
-                        <a href="{{.Permalink}}">{{.Title}} <span class="arrow-right">&#8594;</span></a>
-                    </li>
-                {{ end }}
-            </ul>
-        </div>
-    </article>
+    <div class="container">
+        <section>
+            <div class="summary">
+                <h1 class="title">{{ .Title }}</h1>
+                {{.Content}}
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <ul class="list">
+                    {{ range where .Pages "Section" "authors" }}
+                        <li>
+                            <a href="{{.Permalink}}">{{.Title}} <span class="arrow-right">&#8594;</span></a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </section>
+    </div>
 {{ end }}

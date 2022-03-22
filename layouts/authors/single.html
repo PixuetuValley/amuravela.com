@@ -8,41 +8,45 @@
 
 {{ define "main" }}
     <div class="watermark"></div>
-    <article>
-        <div class="summary">
-            <h1 class="title">{{ .Title }}</h1>
-            {{ with .Params.image.src }}
-                <img lazy="true" class="image" src="{{ . }}" alt="{{ $.Params.Title }}">
-            {{ end }}
-            <div class="social-share">
-                <a class="social-share-button" id="share-button" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} {{ i18n "mobile"}}"></a>
-                <a class="social-share-button facebook" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Facebook"
-                    href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"></a>
-                <a class="social-share-button twitter" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Twitter"
-                    href="https://twitter.com/share?&url={{ .Permalink }}"></a>
-                <a class="social-share-button pinterest" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Pinterest"
-                    href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}"></a>
-                <a class="social-share-button whatsapp" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} WhatsApp"
-                    href="https://api.whatsapp.com/send?text={{ .Permalink }}"></a>
+    <div class="container">
+        <section>
+            <div class="summary">
+                <h1 class="title">{{ .Title }}</h1>
+                {{ with .Params.image.src }}
+                    <img lazy="true" class="image" src="{{ . }}" alt="{{ $.Params.Title }}">
+                {{ end }}
+                <div class="social-share">
+                    <a class="social-share-button" id="share-button" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} {{ i18n "mobile"}}"></a>
+                    <a class="social-share-button facebook" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Facebook"
+                        href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"></a>
+                    <a class="social-share-button twitter" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Twitter"
+                        href="https://twitter.com/share?&url={{ .Permalink }}"></a>
+                    <a class="social-share-button pinterest" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} Pinterest"
+                        href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}"></a>
+                    <a class="social-share-button whatsapp" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} WhatsApp"
+                        href="https://api.whatsapp.com/send?text={{ .Permalink }}"></a>
+                </div>
             </div>
-        </div>
-        <div class="content">
-            {{.Content}}
-            {{/*
-            {{ $pieces := where (where .Site.Pages "Section" "amuravelas") "Params.author.homepage" .RelPermalink }}
-            {{ if gt (len $pieces) 0 }}
-                <p>Las obras escritas por {{ .Title }} son:</p>
-                <ul class="list">
-                    {{ range $pieces }}
-                        <li>
-                            <a href="{{.Permalink}}">{{.Title}} <span class="arrow-right">&#8594;</span></a>
-                        </li>
-                    {{ end }}
-                </ul>
-            {{ end }}
-            */}}
-        </div>
-    </article>
+        </section>
+        <section>
+            <article class="content">
+                {{.Content}}
+                {{/*
+                {{ $pieces := where (where .Site.Pages "Section" "amuravelas") "Params.author.homepage" .RelPermalink }}
+                {{ if gt (len $pieces) 0 }}
+                    <p>Las obras escritas por {{ .Title }} son:</p>
+                    <ul class="list">
+                        {{ range $pieces }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}} <span class="arrow-right">&#8594;</span></a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+                */}}
+            </article>
+        </section>
+    </div>
 
     <script async>
         if (navigator.canShare) {
