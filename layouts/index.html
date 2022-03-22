@@ -69,8 +69,11 @@
         <div class="section__content">
             <h2 class="section__title">{{ i18n "whereT"}}</h2>
             <p>{{ i18n "whereP1"}}</p>
+
+            <div id="map"></div>
+
             <a class="button" role="button" target="_blank" rel="noreferrer"
-                href="https://www.google.es/maps/dir//43.5633611,-6.1458889/@43.5633611,-6.1480776,17z"
+                id="directions-button"
                 aria-label="{{ i18n "howToGetThere"}}">{{ i18n "howToGetThere"}} <span class="arrow-right">&#8594;</span></a>
         </div>
     </section>
@@ -223,8 +226,17 @@
         if (today.valueOf() === date.valueOf()) {
             document.getElementById("share-cta-title").innerText = "{{ i18n "watchingShareCTA"}}";
         }
+    </script>
 
-        // Trigger web share API when on mobile
+    <script async>
+        if (! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            document.getElementById('directions-button').href = 'https://www.google.es/maps/dir//43.5633611,-6.1458889/@43.5633611,-6.1480776,17z';
+        } else {
+            document.getElementById('directions-button').href = 'geo:43.5633611,-6.1458889';
+        }
+    </script>
+
+    <script async>
         if (navigator.canShare) {
             const shareData = {
                 title: "L'Amuravela",
@@ -239,6 +251,8 @@
                     console.error(err);
                 }
             });
+        } else {
+            document.getElementById('share-button').remove();
         }
     </script>
 
@@ -262,5 +276,55 @@
             })
             .catch(error => console.log(error));
         }, false);
+    </script>
+
+    <script async>
+        const script = document.createElement('script');
+        script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBvIwLP-_i4MctPUk2NKFrjHgbmPGsyplI&callback=initMap&v=weekly';
+        script.async = true;
+
+        window.initMap = function() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: 43.5633611, lng: -6.1458889 },
+                zoom: 15,
+                mapId: 'a8bbcfd6dae4f6af',
+                disableDefaultUI: true,
+                mapTypeControl: false,
+                scaleControl: true,
+                zoomControl: true,
+                zoomControlOptions: {
+                    style: google.maps.ZoomControlStyle.SMALL
+                },
+                streetViewControl: false,
+            });
+            const marker = new google.maps.Marker({
+                map: map,
+                position: { lat: 43.5633611, lng: -6.1458889 },
+                clickable: true,
+                title: "La Ribera",
+                icon: {
+                    path: 'M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z',
+                    anchor: new google.maps.Point(384/2,512),
+                    fillColor: "#333",
+                    fillOpacity: 1,
+                    strokeWeight: 1,
+                    strokeColor: "#333",
+                    scale: 0.08,
+                },
+            });
+            const contentString = '<strong>La Ribera</strong><p>{{ i18n "mapP1"}}</p>';
+            const infoWindow = new google.maps.InfoWindow({
+                content: contentString,
+            });
+            marker.addListener("click", () => {
+                infoWindow.open({
+                    anchor: marker,
+                    map,
+                    shouldFocus: false,
+                });
+            });
+        };
+
+        document.body.appendChild(script);
     </script>
 {{ end }}

@@ -32,7 +32,6 @@
     </article>
 
     <script async>
-        // Trigger web share API when on mobile
         if (navigator.canShare) {
             const shareData = {
                 title: "{{ .Title }}",
@@ -47,6 +46,8 @@
                     console.error(err);
                 }
             });
+        } else {
+            document.getElementById('share-button').remove();
         }
     </script>
 {{ end }}
