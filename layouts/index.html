@@ -74,6 +74,7 @@
 
             <a class="button" role="button" target="_blank" rel="noreferrer"
                 id="directions-button"
+                href="https://www.google.es/maps/dir/43.5633611,-6.1458889/@43.5633611,-6.1480776,17z"
                 aria-label="{{ i18n "howToGetThere"}}">{{ i18n "howToGetThere"}} <span class="arrow-right">&#8594;</span></a>
         </div>
     </section>
@@ -262,14 +263,6 @@
         };
 
         document.body.appendChild(script);
-    </script>
-
-    <script async>
-        if (! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            document.getElementById('directions-button').href = 'https://www.google.es/maps/dir//43.5633611,-6.1458889/@43.5633611,-6.1480776,17z';
-        } else {
-            document.getElementById('directions-button').href = 'geo:43.5633611,-6.1458889';
-        }
     </script>
 
     <script async>
