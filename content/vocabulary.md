@@ -22,6 +22,10 @@ description = "L'Amuravela se recita en pixueto, un dialecto del Asturiano exclu
 
 **Abartexar:** Amontonar.
 
+...
+
+...
+
 ### B
 
 ---
