@@ -14,7 +14,7 @@ description = ""
     bio=""
 
 [image]
-    src = "/images/antonio-garcia-novo-diego.jpeg"
+    src = "/images/antonio-garcia-novo-diego.jpg"
 
 [alternatives.en]
     code = "en"

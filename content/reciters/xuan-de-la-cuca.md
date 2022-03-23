@@ -38,9 +38,9 @@ y se las doy a San Xuan.
 
 Se puede encontrar el reporte de este incidente en la [edición del 3 de Julio de 1884 del periódico El Comercio de Gijón](https://hemeroteca.elcomercio.es/03/07/1884/2/817ffbba04e38378df77ae8f3515e7f5.html?subedition=GIJ):
 
-![Recorte de periódico mencionando L'Amuravela - Parte 1](/images/amuravela-el-comercio-1884-parte-1.jpeg)
+![Recorte de periódico mencionando L'Amuravela - Parte 1](/images/amuravela-el-comercio-1884-parte-1.jpg)
 
-![Recorte de periódico mencionando L'Amuravela - Parte 2](/images/amuravela-el-comercio-1884-parte-2.jpeg)
+![Recorte de periódico mencionando L'Amuravela - Parte 2](/images/amuravela-el-comercio-1884-parte-2.jpg)
 
 El artículo lee así:
 

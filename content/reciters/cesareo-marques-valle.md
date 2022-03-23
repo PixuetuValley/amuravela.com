@@ -14,7 +14,7 @@ description = ""
     bio=""
 
 [image]
-    src = "/images/cesareo-marques-valle.jpeg"
+    src = "/images/cesareo-marques-valle.jpg"
 
 [alternatives.en]
     code = "en"

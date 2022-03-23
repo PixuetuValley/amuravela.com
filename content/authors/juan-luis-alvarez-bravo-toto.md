@@ -14,7 +14,7 @@ description = ""
     bio=""
 
 [image]
-    src = "/images/juan-luis-alvarez-bravo-toto.jpeg"
+    src = "/images/juan-luis-alvarez-bravo-toto.jpg"
 
 [alternatives.en]
     code = "en"
