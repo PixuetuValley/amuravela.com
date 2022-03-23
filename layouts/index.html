@@ -161,10 +161,12 @@
                 <a class="button" role="button"
                     href="{{.Permalink}}"
                     aria-label="{{ i18n "seePixueto"}}">{{ i18n "seePixueto"}} <span class="arrow-right">&#8594;</span></a>
-                <br>
-                <a class="button" role="button"
-                    href="{{.Permalink}}"
-                    aria-label="{{ i18n "seeVocabulary"}}">{{ i18n "seeVocabulary"}} <span class="arrow-right">&#8594;</span></a>
+                {{ with $.Site.GetPage "vocabulary" }}
+                    <br>
+                    <a class="button" role="button"
+                        href="{{ .Permalink}}"
+                        aria-label="{{ i18n "seeVocabulary"}}">{{ i18n "seeVocabulary"}} <span class="arrow-right">&#8594;</span></a>
+                {{ end }}
             </div>
         </section>
     {{ end }}
