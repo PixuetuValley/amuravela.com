@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.es]
     code = "es"
-    url = "/authors/cesario-marques-valle/"
+    url = "/authors/cesareo-marques-valle/"
 
 [sitemap]
   changefreq = "monthly"

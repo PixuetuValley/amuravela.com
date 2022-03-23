@@ -18,7 +18,7 @@ description = ""
 
 [alternatives.en]
     code = "en"
-    url = "/en/reciters/cesario-marques-valle/"
+    url = "/en/reciters/cesareo-marques-valle/"
 
 [sitemap]
   changefreq = "monthly"

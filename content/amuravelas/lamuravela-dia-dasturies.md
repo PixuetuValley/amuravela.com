@@ -9,13 +9,13 @@ description = "El sermón extraordinario de L'Amuravela por el Día de Asturias 
 
 [author]
     name = "Cesáreo Marqués Valle"
-    homepage = "/authors/cesario-marques-valle/"
+    homepage = "/authors/cesareo-marques-valle/"
     image=""
     bio=""
 
 [reciter]
     name = "Cesáreo Marqués Valle"
-    homepage = "/reciters/cesario-marques-valle/"
+    homepage = "/reciters/cesareo-marques-valle/"
     image=""
     bio=""
 

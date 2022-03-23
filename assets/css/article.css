@@ -32,7 +32,7 @@ main {
                     }
                 }
                 img {
-                    max-height: 350px;
+                    max-height: 500px;
                     margin: auto;
                 }
             }
@@ -109,7 +109,7 @@ main {
             section {
                 .summary {
                     img {
-                        max-height: 250px;
+                        max-height: 300px;
                         margin: auto;
                     }
                 }

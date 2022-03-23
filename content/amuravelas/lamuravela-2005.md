@@ -9,13 +9,13 @@ description = "El sermón de L'Amuravela de 2005 como fue recitado en las fiesta
 
 [author]
     name = "Cesáreo Marqués Valle"
-    homepage = "/authors/cesario-marques-valle/"
+    homepage = "/authors/cesareo-marques-valle/"
     image=""
     bio=""
 
 [reciter]
     name = "Cesáreo Marqués Valle"
-    homepage = "/reciters/cesario-marques-valle/"
+    homepage = "/reciters/cesareo-marques-valle/"
     image=""
     bio=""
 
