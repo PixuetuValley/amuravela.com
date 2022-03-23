@@ -80,7 +80,9 @@ other = "El lenguaje pixueto"
 [pixuetoT]
 other = "El lenguaje pixueto"
 [pixuetoP1]
-other = "L'Amuravela es recitada en pixueto, un dialecto del asturiano exclusivo de Cudillero, aquí encontraras una selección de palabras utilizadas en diversas Amuravelas."
+other = "El pixueto es un dialecto del asturiano exclusivo del pueblo de Cudillero y es el lenguaje en el que se escribe y recita tradicionalmente L'Amuravela."
+[pixuetoP2]
+other = "Incluso si buscas el significado de una palabra en pixueto que has escuchado recientemente o leido en alguna Amuravela puedes consultar nuestro vocabulario:"
 [seePixueto]
 other = "Saber más sobre el pixueto"
 [seeVocabulary]

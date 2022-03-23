@@ -105,7 +105,7 @@ main {
             }
             a {
                 display: inline-block;
-                margin-top: 2rem;
+                margin: 2rem;
             }
         }
     }
