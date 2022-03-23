@@ -50,7 +50,7 @@ other = "No se sabe exactamente cuándo fue el comienzo de esta tradición. Seg�
 [historyP2]
 other = "Durante esa época habían vuelto los marineros que acompañaron a D. Alvaro Menéndez en la Conquista de la Florida, embarcados en una nave construida en Cudillero, “El Espíritu Santo”. Durante ese viaje aprendieron el saludo que se hacía al Almirante y quisieron hacer lo mismo con su Santo Patrono..."
 [seeHistory]
-other = "Saber más"
+other = "Saber más sobre L'Amuravela"
 [amuravelasM]
 other = "Todas las Amuravelas"
 [amuravelasT]
@@ -75,12 +75,14 @@ other = "Recitadores de L'Amuravela a lo largo de la historia"
 other = "En multiples ocasiones la persona que recita L'Amuravela no es el autor de la misma, por ello se distingue la persona que la escribe y la persona que la echa."
 [seeReciters]
 other = "Ver todos los recitadores"
-[vocabularyM]
-other = "Vocabulario pixueto"
-[vocabularyT]
-other = "Vocabulario pixueto"
-[vocabularyP1]
+[pixuetoM]
+other = "El lenguaje pixueto"
+[pixuetoT]
+other = "El lenguaje pixueto"
+[pixuetoP1]
 other = "L'Amuravela es recitada en pixueto, un dialecto del asturiano exclusivo de Cudillero, aquí encontraras una selección de palabras utilizadas en diversas Amuravelas."
+[seePixueto]
+other = "Saber más sobre el pixueto"
 [seeVocabulary]
 other = "Leer vocabulario pixueto"
 [contactM]

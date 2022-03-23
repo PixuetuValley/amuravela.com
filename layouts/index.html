@@ -33,8 +33,8 @@
                 <a href="#reciters" class="text">{{ i18n "recitersM"}}</a>
             </li>
             <li>
-                <a href="#vocabulary" class="circle" aria-label="{{ i18n "vocabularyM"}}"></a>
-                <a href="#vocabulary" class="text">{{ i18n "vocabularyM"}}</a>
+                <a href="#pixueto" class="circle" aria-label="{{ i18n "pixuetoM"}}"></a>
+                <a href="#pixueto" class="text">{{ i18n "pixuetoM"}}</a>
             </li>
             <li>
                 <a href="#contact" class="circle" aria-label="{{ i18n "contactM"}}"></a>
@@ -153,11 +153,15 @@
         </section>
     {{ end }}
 
-    {{ with .Site.GetPage "vocabulary" }}
-        <section id="vocabulary">
+    {{ with .Site.GetPage "pixueto" }}
+        <section id="pixueto">
             <div class="section__content">
-                <h2 class="section__title">{{ i18n "vocabularyT"}}</h2>
-                <p>{{ i18n "vocabularyP1"}}</p>
+                <h2 class="section__title">{{ i18n "pixuetoT"}}</h2>
+                <p>{{ i18n "pixuetoP1"}}</p>
+                <a class="button" role="button"
+                    href="{{.Permalink}}"
+                    aria-label="{{ i18n "seePixueto"}}">{{ i18n "seePixueto"}} <span class="arrow-right">&#8594;</span></a>
+                <br>
                 <a class="button" role="button"
                     href="{{.Permalink}}"
                     aria-label="{{ i18n "seeVocabulary"}}">{{ i18n "seeVocabulary"}} <span class="arrow-right">&#8594;</span></a>

@@ -77,12 +77,14 @@ other = "Reciters of L'Amuravela throughout history"
 other = "On multiple occasions the person who recites L'Amuravela is not the author of it, so the person who authors it and the person who recites it out."
 [seeReciters]
 other = "See all reciters"
-[vocabularyM]
+[pixuetoM]
 other = "Pixueto vocabulary"
-[vocabularyT]
+[pixuetoT]
 other = "Pixueto vocabulary"
-[vocabularyP1]
+[pixuetoP1]
 other = "L'Amuravela is recited in Pixueto, a dialect exclusive to the village of Cudillero."
+[seePixueto]
+other = "Read more about the Pixueto"
 [seeVocabulary]
 other = "Read Pixueto vocabulary"
 [contactM]
