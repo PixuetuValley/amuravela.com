@@ -11,8 +11,7 @@ description = "L'Amuravela se recita en pixueto, un dialecto del Asturiano exclu
   filename = "sitemap.xml"
 +++
 
-[A](#a) · [B](#b) · [C](#c) · [CH](#ch) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [LL](#ll)\
-[M](#m) · [N](#n) · [Ñ](#ñ) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
+[A](#a) · [B](#b) · [C](#c) · [CH](#ch) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [LL](#ll) · [M](#m) · [N](#n) · [Ñ](#ñ) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 
 ### A
 
