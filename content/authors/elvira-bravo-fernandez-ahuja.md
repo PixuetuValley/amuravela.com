@@ -7,14 +7,8 @@ title = "Elvira Bravo Fernández-Ahúja"
 
 description = ""
 
-[author]
-    name = ""
-    homepage = ""
-    image=""
-    bio=""
-
 [image]
-    src = ""
+    src = "/images/elvira-bravo-fernandez-ahuja.jpg"
 
 [alternatives.en]
     code = "en"
