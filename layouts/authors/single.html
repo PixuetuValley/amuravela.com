@@ -31,7 +31,6 @@
         <section>
             <article class="content">
                 {{.Content}}
-                {{/*
                 {{ $pieces := where (where .Site.Pages "Section" "amuravelas") "Params.author.homepage" .RelPermalink }}
                 {{ if gt (len $pieces) 0 }}
                     <p>Las obras escritas por {{ .Title }} son:</p>
@@ -43,7 +42,6 @@
                         {{ end }}
                     </ul>
                 {{ end }}
-                */}}
             </article>
         </section>
     </div>
