@@ -35,7 +35,7 @@ vou ichar L’ Amuravela\
 comu San Pedru asperaba\
 comu lu desea ‘l puablu\
 ya ‘l Gremiu, que n’ us Festejus\
-yá la parti interesada.
+yá la parti enteresada.
 
 iGloriosu Patrón San Pedru,\
 Apóstul el de más fama,\
@@ -48,7 +48,7 @@ Poucu tengu que cuntati:\
 En’ u que toca a esti puablu\
 de pesca, ¿qué vou diciti?\
 si hay quian non ganóu un perru..?\
-El mijor foi Barrabas,\
+El mijor foi Barrabás,\
 que foi pescar al sarreu\
 ya ‘n vez de garrar botonas\
 trouxu un raposu bian prietu.\
@@ -57,11 +57,11 @@ de tuliña... a lu que veu\
 vénunus p'acá esa plaga\
 d'esi llongueirón pequeñu\
 qu’ hasta pa velu de cerca\
-pricisasi d'ispijuelus;\
+pricísasi d'ispijualus;\
 quiar apuntar el chicharru\
-peru damus el camelus\
+peru damus el camelu,\
 déixasi ver ya dispuás\
-iscuándisi mas pa diantru.\
+iscuándisi más pa diantru.\
 Ven ichanus una manu\
 co la tu Fé n'el Maestru.
 
@@ -85,35 +85,35 @@ diáruni las diaz en Pravia\
 ya cuandu llegóu a Cuideiru\
 taba ‘l Sol unda en Santa Ana.
 
-¿Ya quián ya'l Santu encargau\
-(has dicimilu en cunfianza)\
-de virar l’ aguya al tiampu\
-que non aciarta migaya?\
-O tá chochu o nun tá cuardu\
+¿Ya quián ya'l Santu encargáu\
+(has dicímilu en cunfianza)\
+de virar l’aguya al tiampu\
+que nun aciarta migaya?\
+Ou tá chochu ou nun tá cuardu\
 porqui bona nus la arma.\
 Lus mazanus de don Piu \
-diarun mazanas n'Iviarnu\
-el vranu venu en Freberu\
-ya en Mayu hasta fríu feixu;\
+diarun mazanas n'iviarnu,\
+el vranu venu en freberu\
+ya en mayu hasta fríu feixu;\
 ¿quiás más que venu la niavi\
-en esti mes que corremus?\
+n´esti mes en que corremus?\
 Lus viantus cambian de rumbu\
 más que un virón de lus neñus,\
 cuandu piansas ya foranu,\
-cambia pa viantu gallegu.
+guálvisi viantu gallegu.
 
 D'estus trastornus que pasan\
 ¿sabis lu que  mus allegra?:\
 Ver lloucas a las aldianas,\
 que nun sabin cuandu seman\
-nin cuándu coin las indianaso\
+nin cuándu coin las indianas.\
 Quéixansi de que hay siquia,\
 de que ahora vénuis l'agua\
-cuandu non la nisicitan...\
+cuandu nun la nisicitan...\
 Siampri tán RAÑA QUE RAÑA\
-ya ganan más que "Ruschil",\
+ya ganan mâs que "Ruschil",\
 esi xudiu de fama.\
-Nu is faigas plizca de casu\
+Nu is faigas plizca casu\
 déixalas que s'iscombatan.
 
 Munchu nuavu hay n'esti mundu,\
@@ -127,7 +127,7 @@ de billotas u outrus cuantus?\
 Ya, non piansis, non morremus\
 tamus durinus ya tiasus.
 
-¿Güisti?: Van metesi ahora\
+¿Güisti?: Van metési ahora\
 co la Lluna ya lus cuarnus,\
 quiarin dir a vesitalla\
 (pa mi qu’ han robai lus "cuartus").\
@@ -148,11 +148,11 @@ Pos, que lu sepas, Patrón,\
 ahí non quixarun metenus,\
 dicin que España nun cabi\
 peru tamus tan contentus.\
-¡Tar mezclaus con esa xanti\
+¡Tar mezcláus con esa xanti\
 que falan comu lus perrus,\
 qu’ andan mitiándusi en guerras\
 pa que outrus lus ayudemus…!\
-Non son plizca de fiar;\
+Nun son plizca de fiar;\
 si nus metin n'esi cuantu,\
 ellus iscapan, siguru,\
 tapan ya déixannus diantru.
@@ -166,15 +166,15 @@ Has enterati, San Pedru,\
 lu mesmu la fai el diañu\
 pa engolvenus n'el ifiarnu.
 
-Non taba de más, Patrón,\
+Nun taba de más, Patrón,\
 qu'icharas una mirada\
 ya repararas el Puartu:\
 ¿Non ti paez comu a mi,\
-que tán mal lus Inginiarus?\
+que tán mal lus inginiarus?\
 Cuartus llevarun abondus\
 peru non séi qué fixarun,\
 cada vez tamus pior,\
-fondiar apenas podemus.\
+fundiar apenas podemus.\
 Tamus temblandu, miou probi.\
 querán facer outru arreglu\
 ya que non nus quedi mar\
@@ -185,11 +185,11 @@ Ya has dicii a San Miguel\
 cuandu non tea de faema,\
 venga dar el día que poda\
 un pasiín po la Tiarra\
-ya vaya po lus comercius\
+ya vaya po lus cumercius\
 a contrastar bian las pesas,\
 porqui entri papel ya mermas\
 non mus da nin pa un yantar\
-lu que nus vendin n’ a tienda.
+lu que nus vendin n´a tienda.
 
 Al "Campuamor", en Uviadu,\
 fuarun bellar las rapazas\
@@ -200,33 +200,33 @@ daba gloria contemplallas,\
 si nu is diarun un bon premiu\
 non foi que non lu ganaran;\
 peru'l públicu d’ Uviadu\
-aplaudiólas que rabiaba\
+aplaudióluas que rabiaba,\
 ya dispuás de bellar ellas\
 quedóu la sala midiada.\
 Al puablu en muy bon llugar\
 deixarun estas rapazas\
-a que Cuideiru en Asturias\
+pa que Cuideiru en Asturias\
 poda figurar con fama.
 
 Ya, falandu de muyaris,\
 vou dar aqui una puntada:\
-Nun hay quián las encarrili,\
+Nun hay quián las incarrili,\
 andan del todu rigualtas:\
 Fuman, biabin, guian "haigas"\
 ya montan en becicleta,\
 van en avión po lus airis,\
-son soldaus ya hasta torean;\
+son soldáus ya hasta torean;\
 menus faer lu que debin\
 nu hay cousa en que non si metan.\
-Guay non hay que pretendellas,\
-son ellas las que lu arreglan\
+Guay nun hay que pretendellas,\
+son ellas las que lu arreglan,\
 ya non puadis discuidati\
-que di siguida t'inredan.\
+que disiguida t'inredan.\
 Ellas son las que ti plizcan\
 ya las que fan las zalemas...\
 You ya nun tou n'esus pasus…\
 peru siántulu, non creas;\
-ya non quieru ixpansionami\
+ya non quiaru ixpansionami\
 por si anda la muyar cerca.
 
 Díguti que tá arreglau\
@@ -237,7 +237,7 @@ nin mendati lus calzonis\
 nin cuásiqui faer la balda.\
 Nun quiarin porque ¿nun sabis?,\
 llevan las uñas pintadas\
-ya de pimentón nus llabius\
+ya de pementón nus llabius\
 una llibra bian pesada.\
 Pinturas ya marimachus…\
 bian el diañu las engaña.\
@@ -250,16 +250,16 @@ ya pensar que Xuan yá Xuana.
 
 Ahora ya vamus deixati\
 por si algunu ti reclama.\
-iSan Pedru, hasta el outru añu!\
+¡San Pedru, hasta l´ outru añu!\
 Aténdenus co la tu gracia,\
-ayudanus en’a mar\
+ayúdanus en’a mar\
 pa ganar lu que fai falta\
 pa sustentanus el cuarpu\
 ya pa salvanus el alma,\
 ya has abrir prontu la puarta\
 si algún pixuatu ti llama,\
 anque sea un mijicanu\
-por ser rumbousus de facha\
+por ser rumbousus de facha,\
 qu’nviarun pa las Fiastas\
 siati mil pesetas llargas.
 
@@ -270,12 +270,12 @@ ya volvan p'acá a gastalla.
 
 A la Cumisión las gracias\
 por lu muchu que trabaya\
-ya por rifar esi radiu\
-que todus lus sonis canta\
-ya con tal qu’a mi mi toqui\
+ya por rifar esi arrradiu\
+que todus lus sonis canta,\
+ya con tal qu’a mí mi toqui\
 déxuvus que faigáis trampa.
 
-¡Viva Pedru, viva Pablu,\
+iViva Pedru, viva Pablu,\
 San Xuan, San Roqui y "Compaña"!\
 iQue viva ‘l Gobernador\
 ya ‘l Alcaldi, que Dios quera\
@@ -287,7 +287,7 @@ que paemi fuarun milenta!\
 de la mar ya de la tiarra\
 que vivan esas rapazas\
 que bellarun pa las Fiastas,\
-tamian las que nun bellarun,\
+tamián las que nun bellarun,\
 que vivan todas las neñas\
 ya pa que nun tean rañandu:\
 ¡Vivan un piacín las viayas!\
