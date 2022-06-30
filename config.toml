@@ -44,3 +44,7 @@ disableKinds = ["taxonomy", "term"]
 [[module.mounts]]
   source = "assets/images"
   target = "static/images"
+
+[[module.mounts]]
+  source = "static"
+  target = "static"
