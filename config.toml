@@ -33,3 +33,14 @@ disableKinds = ["taxonomy", "term"]
     publisherLogo = "/logo.png"
     publisherLogoWidth = 600
     publisherLogoHeight = 60
+
+[imaging]
+  anchor = 'Smart'
+  bgColor = '#FFFFFF'
+  hint = 'photo'
+  quality = 90
+  resampleFilter = 'Box'
+
+[[module.mounts]]
+  source = "assets/images"
+  target = "static/images"

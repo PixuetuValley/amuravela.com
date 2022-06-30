@@ -1,0 +1,42 @@
+@import "partials/base.css";
+@import "partials/header.css";
+@import "partials/footer.css";
+
+main {
+    margin: 2rem;
+    .container {
+        width: 100%;
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .content {
+                h1 {
+                    text-align: center;
+                }
+            }
+            #gallery {
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    main {
+        .container {
+
+        }
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    main {
+        .container {
+            flex-direction: column;
+        }
+    }
+}

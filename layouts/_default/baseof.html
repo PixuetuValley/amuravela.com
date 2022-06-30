@@ -28,5 +28,6 @@
 			gtag('js', new Date());
 			gtag('config', '{{ $.Site.Params.googleAnalytics }}');
 		</script>
+		{{- block "scripts" . }}{{- end }}
 	</body>
 </html>
