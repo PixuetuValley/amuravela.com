@@ -274,7 +274,7 @@
     <script async>
         // Calculate next event date
         const today = new Date();
-        const year = today > new Date(today.getFullYear(), '06', '29') ? today.getFullYear() + 1 : today.getFullYear();
+        const year = today > new Date(today.getFullYear(), '05', '29') ? today.getFullYear() + 1 : today.getFullYear();
         const date = new Date (year, '05', '29', '13', '00');
 
         document.getElementById("date").setAttribute("datetime", date.toISOString());
