@@ -118,7 +118,7 @@ description = "L'Amuravela se recita en pixueto, un dialecto del Asturiano exclu
 **Baldrayu:** Demonio; dícese de la persona con mala intención; también “desechos”, “restos”.\
 **Balgana:** Pereza.\
 **Balumeru:** Mentiroso, enredador.\
-Balvoliar Hablar a lo loco, sin sentido.\
+**Balvoliar:** Hablar a lo loco, sin sentido.\
 **Bamboyar:** Aparentar, presumir.\
 **Barbuyar:** Balbucear.\
 **Bardasca:** Vara.\
@@ -235,7 +235,7 @@ Balvoliar Hablar a lo loco, sin sentido.\
 **Cuspir:** Escupir.\
 **Cuspíu:**** Escupido; en sentido figurado “igual que” (ej.: “ya cuspíu a sóu pa - es igual que su padre”).\
 **Custumi:** Costumbre.\
-**Cuyar:** Cuchara.\
+**Cuyar:** Cuchara.
 
 ### CH
 
@@ -259,7 +259,7 @@ Balvoliar Hablar a lo loco, sin sentido.\
 **Chuchar:** Besar.\
 **Chumacera:** Pieza en la que se inserta el tolete o chama para con el estruapu, sujetar el remo.\
 **Chumbar:** Lanzarse al agua.\
-**Chuquinar:** Chocar.\
+**Chuquinar:** Chocar.
 
 ### D
 
@@ -414,10 +414,10 @@ Balvoliar Hablar a lo loco, sin sentido.\
 **Folechus:** Helechos.\
 **Fonduchu:** Ver cantu.\
 **Foranu:** Viento suave del norte.\
-Fornu.- Horno\
-Fracha.- Pequeño farol que los pescadores llevaban desde casa cuando iban a la mar.\
-**Franxualus:**** Postre típico. Ingredientes:** Leche, harina, azúcar, huevo y anís.\
-Freberu. febrero.\
+**Fornu:** Horno\
+**Fracha:** Pequeño farol que los pescadores llevaban desde casa cuando iban a la mar.\
+**Franxualus:** Postre típico. Ingredientes:** Leche, harina, azúcar, huevo y anís.\
+**Freberu:** Febrero.\
 **Fristañín:** Hebra de carne.\
 **Fualgu:** Aliento.\
 **Fuáu:** Fuego.\
@@ -456,7 +456,7 @@ Freberu. febrero.\
 **Guarnir:** Engañar, liar.\
 **Guasu:** Hueso.\
 **Guávada:** Hueva de un pez.\
-Guay Hoy.\
+**Guay:** Hoy.\
 **Guayus:** Ojos.\
 **Gueita:** Gaita.\
 **Güedeja:** Guedeja, mechón de pelo.\
@@ -499,7 +499,7 @@ Guay Hoy.\
 **Isboroñasi:** Derrumbarse.\
 **Iscaecer:** Olvidar.\
 **Iscoer:** Escoger.\
-Iscualas.- Escueles. Emn otras zonas de Asturias, escueles.\
+**Iscualas:** Escueles. Emn otras zonas de Asturias, escueles.\
 **Isficiar:** Confiar.\
 **Isputricar:** Hablar sin ton ni son; meterse o echar en contra de alguien.\
 **Isquibrir:** Escribir. el sustantivo correspondiente a este infinitivo es “isquibridor”.\
@@ -530,7 +530,7 @@ Iscualas.- Escueles. Emn otras zonas de Asturias, escueles.\
 
 **Lárima:** Lágrima.\
 **Lestazu:** Viento fuerte del este.\
-**Lesti:** Viento del este.\
+**Lesti:** Viento del este.
 
 ### LL
 
@@ -545,7 +545,7 @@ Iscualas.- Escueles. Emn otras zonas de Asturias, escueles.\
 **Llimiáu:** Babosa.\
 **Llingua:** Lengua\
 **Llinguatera:** Lenguaraz.\
-Llocántaru.- Bogavante. También, llubricanti.\
+**Llocántaru:** Bogavante. También, llubricanti.\
 **Llombada:** Guantada. También, caída.\
 **Llóndriga:** Nutria.\
 **Llonxi:** Lejos.\
@@ -572,7 +572,7 @@ Llocántaru.- Bogavante. También, llubricanti.\
 **Mangaráu:** Lío.\
 **Mareiru:** Bruma de mar húmeda.\
 **Mariaxi:** Charla entre pescadores, que tenía lugar generalmente en las compañas o en la taberna.\
-Marimanta. Fantasma.\
+**Marimanta:** Fantasma.\
 **Marmolecer:** Quedarse frío; helado.\
 **Marmoréu:** Mar en mal estado y con niebla.\
 **Marterizáu:** Martirizado.\
@@ -629,7 +629,7 @@ Marimanta. Fantasma.\
 **Ñargatesa:** Lagartija.\
 **Ñargatu:** Lagarto.\
 **Ñíu:** Nido.\
-Ñorta.- Aparejo que, al utilizarlo para pescar, se enreda y tiene muy difícil solución de arreglo.
+**Ñorta:** Aparejo que, al utilizarlo para pescar, se enreda y tiene muy difícil solución de arreglo.
 
 ### O
 
@@ -643,7 +643,7 @@ Marimanta. Fantasma.\
 ---
 
 **Pachecu:** Presumido, desafiante. Tambián, añoranza (Mal del pachecu)\
-Paecer.- Parecer.\
+**Paecer:** Parecer.\
 **Palangre:** Arte de pesca. Consiste en una línea quebrada de 5.000 metros de longitud, a lo largo de la cual se colocan 2.500 anzuelos, pendientes de hilos de nylon de una braza (1,83 metros).\
 **Palangrín:** Variante del palangre con el que se pesca fañeca, pancho, patarroxa y rubial, entre 60 y 70 brazas de profundidad.\
 **Palangrón:** Variante del arte del palangre, con el que se capturan barbadas y congrios entre 150 y 250 brazas.\
@@ -696,7 +696,7 @@ Paecer.- Parecer.\
 **Potera:** Plomo que se emplea para la pesca del calamar.\
 **Potreición:** Protección.\
 **Poutada:** Especie de ancla formada por dos palos y un pedazo de tabla, donde se atraviesa una pesada piedra.\
-Presona. Persona.\
+**Presona:** Persona.\
 **Pristía:** Gusto.\
 **Prúa:** Lluvia menuda.\
 **Prubitú:** Pobreza.\
@@ -710,7 +710,7 @@ Presona. Persona.\
 
 ---
 
-Quias.- Quieres.\
+**Quias:** Quieres.\
 **Quiñón:** Parte o sueldo que le corresponde a cada tripulante de una embarcación, una vez deducidos los gastos.\
 **Quiquirimanti:** Caracol.\
 **Quistión:** Cuestión.\
@@ -855,7 +855,7 @@ Sípida. Sosa.\
 **Tuliñal:** Muchas tuliñas rodeando bocartes.\
 **Turbón:** Bochorno.\
 **Turtía:** Tortilla.\
-**Tuvía:** Todavía. También, unda.\
+**Tuvía:** Todavía. También, unda.
 
 ### U
 
