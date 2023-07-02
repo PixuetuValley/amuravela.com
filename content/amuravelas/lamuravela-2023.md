@@ -346,7 +346,7 @@ cambeandui al propietariu\
 ya comu diz el reflán\
 con muchu cunucimiantu,\
 a Dios lu que yá de Dios\
-ya lu outru… que sea de Carlus.\
+ya lu outru… que sea de Carlus.
 
 En sin dami cuanta ¿guais?\
 en las Navidadis tamus,\
