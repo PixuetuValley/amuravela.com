@@ -25,10 +25,12 @@ other = "¿Dónde se celebra L'Amuravela?"
 other = "¿Dónde se celebra L'Amuravela?"
 [whereP1]
 other = "L'Amuravela es de las costumbres más antiguas de Cudillero (Principado de Asturias) y se celebra en la Ribera junto a la plaza del Sable, en pleno centro del casco antiguo del pueblo."
+[whereP2]
+other = "Se recomienda a los asistentes dejar los coches en el aparcamiento del puerto nuevo (salida 431 de la A-8) y dar un paseo de 5 minutos hasta el emplazamiento, por el cual se puede admirar la entrada al muelle viejo, el faro y el anfiteatro de Cudillero."
 [mapP1]
 other = "L'Amuravela se celebra en La Ribera, a la entrada del puerto de Cudillero, donde antiguamente se acumulaban las lanchas para su mantenimiento."
 [howToGetThere]
-other = "¿Cómo llegar a L'Amuravela?"
+other = "¿Cómo llegar a L'Amuravela en coche?"
 [whenM]
 other = "¿Cuándo se celebra L'Amuravela?"
 [whenT]

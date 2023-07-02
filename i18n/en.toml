@@ -27,10 +27,12 @@ other = "Where is L'Amuravela?"
 other = "Where is L'Amuravela celebrated?"
 [whereP1]
 other = "L'Amuravela is one of the oldest customs of Cudillero (Principality of Asturias) and is held in the Ribera next to the Plaza del Sable, in the heart of the old village."
+[whereP2]
+other = "It is recommended to leave your car at the parking area of the harbour (exit 431 of highway A-8) and take a walk for 5 minutes to the final location, along which you can admire the old harbour, the lighthouse and the anfitheatre of Cudillero."
 [mapP1]
 other = "L'Amuravela is celebrated on La Ribera, at the entrance to the port of Cudillero, where boats were formerly accumulated for maintenance."
 [howToGetThere]
-other = "How to get to L'Amuravela?"
+other = "How to get to L'Amuravela by car?"
 [whenM]
 other = "When is L'Amuravela?"
 [whenT]
