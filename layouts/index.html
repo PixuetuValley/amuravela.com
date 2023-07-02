@@ -257,7 +257,7 @@
                     scale: 0.08,
                 },
             });
-            const contentString = '<strong>La Ribera</strong><p>{{ i18n "mapP1"}}</p>';
+            const contentString = '<strong>La Ribera</strong><p>{{ i18n "mapP1"}}</p><br/><img lazy="true" src="/images/la-ribera-postal.jpg"/>';
             const infoWindow = new google.maps.InfoWindow({
                 content: contentString,
             });
@@ -267,6 +267,11 @@
                     map,
                     shouldFocus: false,
                 });
+            });
+            infoWindow.open({
+                anchor: marker,
+                map,
+                shouldFocus: false,
             });
         };
 
