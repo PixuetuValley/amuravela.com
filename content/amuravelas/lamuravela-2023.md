@@ -29,7 +29,7 @@ description = "El sermón de L'Amuravela de 2023 como fue recitado en las fiesta
   priority = 0.5
   filename = "sitemap.xml"
 
-+++\
++++
 
 > En el nombri de Jesús\
 y la Virgin Soberana,\
