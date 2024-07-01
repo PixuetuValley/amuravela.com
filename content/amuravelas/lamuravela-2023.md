@@ -809,7 +809,7 @@ desde magar de lus tiampus,\
 vou ricitati la copla\
 herencia de nuastru viayus,\
 que encoinus el corazón\
-al güilla lus pixuatus.\
+al güilla lus pixuatus.
 
 > ¡MIENTRAS CUDILLERO VIVA\
 Y DURI LA FUENTI’L CANTU,\
