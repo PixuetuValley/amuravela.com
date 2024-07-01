@@ -16,7 +16,7 @@
             <strong>{{ .LanguageName }}</strong>
         {{ else }}
             {{ if isset $.Page.Params.Alternatives .Lang }}
-                <a href="{{ ($.Page.Params.Alternatives.Get .Lang).Url | absURL }}">{{ .LanguageName }}</a>
+                <a href="{{ (index $.Page.Params.Alternatives .Lang).Url | absURL }}">{{ .LanguageName }}</a>
             {{ else }}
                 <a href="{{ . | absURL }}">{{ .LanguageName }}</a>
             {{ end }}

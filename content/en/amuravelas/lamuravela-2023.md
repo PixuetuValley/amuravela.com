@@ -22,7 +22,7 @@ description = "El sermón de L'Amuravela de 2023 como fue recitado en las fiesta
 [image]
     src = ""
 
-[alternatives.en]
+[alternatives.es]
     code = "es"
     url = "/amuravelas/lamuravela-2023/"
 
