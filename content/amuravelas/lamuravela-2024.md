@@ -24,7 +24,7 @@ description = "El sermón de L'Amuravela de 2024 como fue recitado en las fiesta
 
 [alternatives.en]
     code = "en"
-    url = "/en/amuravelas/lamuravela-2023/"
+    url = "/en/amuravelas/lamuravela-2024/"
 
 [sitemap]
   changefreq = "monthly"
