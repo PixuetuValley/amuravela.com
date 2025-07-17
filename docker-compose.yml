@@ -1,4 +1,3 @@
-version: '3'
 services:
   web:
     image: klakegg/hugo:ext-alpine

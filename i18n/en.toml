@@ -6,6 +6,8 @@ other = "Home"
 other = "Go back up"
 [shareOn]
 other = "Share on"
+[watchVideo]
+other = "Watch video"
 [mobile]
 other = "mobile"
 

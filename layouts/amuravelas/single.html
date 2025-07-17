@@ -8,6 +8,17 @@
 
 {{ define "main" }}
     <div class="watermark"></div>
+    {{ if isset .Params "video" }}
+    <div id="video-container" class="video-container">
+        <iframe
+            id="video-iframe"
+            src="https://www.youtube.com/embed/{{ .Params.Video.Id }}?color=white&modestbranding=1&showinfo=0&rel=0&enablejsapi=1&playerapiid=ytplayer"
+            title="{{ .Params.Video.Title | default .Title }}"
+            frameborder="0"
+            referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+    </div>
+    {{ end }}
     <div class="container">
         <section>
             <div class="summary">
@@ -44,7 +55,17 @@
                     <a class="social-share-button whatsapp" role="button" target="_blank" rel="noreferrer" aria-label="{{ i18n "shareOn"}} WhatsApp"
                         href="https://api.whatsapp.com/send?text={{ .Permalink }}"></a>
                 </div>
+                {{ if isset .Params "video" }}
+                <p>
+                    <span id="video-button" class="video-button">
+                        <a href="#">
+                            {{ i18n "watchVideo" }} <span class="arrow-right">&#8594;</span>
+                        </a>
+                    </span>
+                </p>
+                {{ end }}
             </div>
+
         </section>
         <section>
             <article class="content content--center">
@@ -71,5 +92,18 @@
         } else {
             document.getElementById('share-button').remove();
         }
+
+        {{ if isset .Params "video" }}
+            document.getElementById('video-button').addEventListener('click', () => {
+                const videoContainer = document.getElementById('video-container');
+                videoContainer.classList.toggle('active');
+            });
+            document.getElementById('video-container').addEventListener('click', () => {
+                const videoContainer = document.getElementById('video-container');
+                videoContainer.classList.toggle('active');
+
+                document.getElementById('video-iframe').contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+            });
+        {{ end }}
     </script>
 {{ end }}

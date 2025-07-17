@@ -6,6 +6,8 @@ other = "Inicio"
 other = "Volver arriba"
 [shareOn]
 other = "Compartir en"
+[watchVideo]
+other = "Ver vídeo"
 [mobile]
 other = "móvil"
 

@@ -22,6 +22,10 @@ description = "El sermón de L'Amuravela de 2024 como fue recitado en las fiesta
 [image]
     src = ""
 
+[video]
+    title = "Sermón de L'Amuravela 2024 completo - San Pedro - Cudillero"
+    id = "qtHS2WDotT8"
+
 [alternatives.en]
     code = "en"
     url = "/en/amuravelas/lamuravela-2024/"

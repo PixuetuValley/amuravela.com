@@ -3,6 +3,27 @@
 @import "partials/footer.css";
 
 main {
+    .video-container {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        iframe {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            aspect-ratio: 16 / 9;
+        }
+        &.active {
+            display: block;
+        }
+    }
     .container {
         width: 100%;
         min-height: 90vh;
