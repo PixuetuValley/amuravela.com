@@ -16,26 +16,36 @@
             <li>
                 <a href="#when" class="circle" aria-label="{{ i18n "whenM"}}"></a>
                 <a href="#when" class="text">{{ i18n "whenM"}}</a> </li>
+            {{ with .Site.GetPage "history" }}
             <li>
                 <a href="#history" class="circle" aria-label="{{ i18n "historyM" }}"></a>
                 <a href="#history" class="text">{{ i18n "historyM" }}</a>
             </li>
+            {{ end }}
+            {{ with .Site.GetPage "amuravelas" }}
             <li>
                 <a href="#amuravelas" class="circle" aria-label="{{ i18n "amuravelasM"}}"></a>
                 <a href="#amuravelas" class="text">{{ i18n "amuravelasM"}}</a>
             </li>
+            {{ end }}
+            {{ with .Site.GetPage "authors" }}
             <li>
                 <a href="#authors" class="circle" aria-label="{{ i18n "authorsM"}}"></a>
                 <a href="#authors" class="text">{{ i18n "authorsM"}}</a>
             </li>
+            {{ end }}
+            {{ with .Site.GetPage "reciters" }}
             <li>
                 <a href="#reciters" class="circle" aria-label="{{ i18n "recitersM"}}"></a>
                 <a href="#reciters" class="text">{{ i18n "recitersM"}}</a>
             </li>
+            {{ end }}
+            {{ with .Site.GetPage "pixueto" }}
             <li>
                 <a href="#pixueto" class="circle" aria-label="{{ i18n "pixuetoM"}}"></a>
                 <a href="#pixueto" class="text">{{ i18n "pixuetoM"}}</a>
             </li>
+            {{ end }}
             <li>
                 <a href="#contact" class="circle" aria-label="{{ i18n "contactM"}}"></a>
                 <a href="#contact" class="text">{{ i18n "contactM"}}</a>
@@ -204,8 +214,16 @@
 
     <script async>
         let scrolling = false;
-        const menuLinks = document.querySelectorAll('nav.menu li');
-        const mainSections = document.querySelectorAll('main section');
+        const menuLinks = Array.from(document.querySelectorAll('nav.menu li'));
+        // Map each menu item to its target section via its link's href hash,
+        // so the highlight stays correct regardless of which sections render.
+        const navEntries = menuLinks
+            .map(li => {
+                const link = li.querySelector('a[href^="#"]');
+                const section = link ? document.getElementById(link.getAttribute('href').slice(1)) : null;
+                return { li, section };
+            })
+            .filter(entry => entry.section);
 
         analyzeScroll();
 
@@ -221,20 +239,20 @@
         }, 100);
 
         function analyzeScroll() {
-            mainSections.forEach((section, index) => {
-                if (section.getBoundingClientRect().y < 300) {
-                    menuLinks.forEach(link => link.classList.remove('active'))
-                    menuLinks[index].classList.add('active');
+            let active = null;
+            navEntries.forEach(entry => {
+                if (entry.section.getBoundingClientRect().top < 300) {
+                    active = entry;
                 }
             });
+            if (active) {
+                menuLinks.forEach(li => li.classList.remove('active'));
+                active.li.classList.add('active');
+            }
         }
     </script>
 
     <script async>
-        const script = document.createElement('script');
-        script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBvIwLP-_i4MctPUk2NKFrjHgbmPGsyplI&callback=initMap&v=weekly';
-        script.async = true;
-
         window.initMap = function() {
             const map = new google.maps.Map(document.getElementById("map"), {
                 center: { lat: 43.5633611, lng: -6.1458889 },
@@ -277,7 +295,30 @@
             });
         };
 
-        document.body.appendChild(script);
+        // Defer loading the Google Maps script until the map nears the viewport,
+        // so it never blocks the initial page load.
+        let mapsRequested = false;
+        function loadMaps() {
+            if (mapsRequested) return;
+            mapsRequested = true;
+            const script = document.createElement('script');
+            script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBvIwLP-_i4MctPUk2NKFrjHgbmPGsyplI&callback=initMap&v=weekly&loading=async';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        const mapEl = document.getElementById('map');
+        if (mapEl && 'IntersectionObserver' in window) {
+            const observer = new IntersectionObserver((entries, obs) => {
+                if (entries.some(entry => entry.isIntersecting)) {
+                    loadMaps();
+                    obs.disconnect();
+                }
+            }, { rootMargin: '300px' });
+            observer.observe(mapEl);
+        } else {
+            loadMaps();
+        }
     </script>
 
     <script async>

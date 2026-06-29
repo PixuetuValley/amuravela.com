@@ -76,6 +76,8 @@ main {
                 display: inline-flex;
                 align-items: center;
                 gap: .6rem;
+                /* No underline: it would run under the live dot. */
+                border-bottom: none;
             }
             .cta--live[hidden] {
                 display: none;

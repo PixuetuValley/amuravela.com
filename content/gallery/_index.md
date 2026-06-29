@@ -5,6 +5,11 @@ title = "Fotos de L'Amuravela"
 slug = "gallery"
 description = "Conoce la historia de la Amuravela a través del material fotográfico, imágenes actuales y antiguas de la tradición pixueta por excelencia."
 
+# Work-in-progress section: not rendered or listed until ready.
+[build]
+  render = "never"
+  list = "never"
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
