@@ -2,7 +2,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "image": "{{ .Page.Params.Image.Src | default "images/foto-antigua-lamuravela-05.jpg" | absURL }}",
+    "image": "{{ .Page.Params.Image.Src | default "logo.png" | absURL }}",
     "url": "{{ .Permalink }}",
     "headline": "{{ .Page.Title }}",
     "dateCreated": "{{ .Page.Date.Format "2006-01-02T15:04:05-07:00" }}",

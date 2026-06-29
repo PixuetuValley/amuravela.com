@@ -1,5 +1,5 @@
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Params.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta name="twitter:url" content="{{ .Permalink }}">
 <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.Description }}{{ else }}{{ .Description | default .Site.Params.Description }}{{ end }}">
-<meta name="twitter:image" content="{{ .Params.Image.Src | default "images/foto-antigua-lamuravela-05.jpg" | absURL }}">
+<meta name="twitter:image" content="{{ .Params.Image.Src | default "logo.png" | absURL }}">
