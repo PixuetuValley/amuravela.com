@@ -1,0 +1,24 @@
+# L'Amuravela — Official Archive
+
+> L'Amuravela is a traditional lay sermon (sermón laico) performed every year on June 29 (Feast of Saint Peter / San Pedro) in Cudillero, Asturias, Spain. It is written and recited in pixueto, the local dialect of Asturian exclusive to Cudillero. The tradition dates back to at least 1569 and was revived in 1946. This is the official archive of the recorded sermons from 1946 to the present, together with their authors, reciters, the pixueto language and its vocabulary.
+
+## Key pages
+
+- [History of L'Amuravela](https://amuravela.com/historia-de-lamuravela/): origins (~1569) through the 1946 revival.
+- [The pixueto language](https://amuravela.com/el-lenguaje-pixueto/): the Asturian dialect spoken only in Cudillero.
+- [Pixueto vocabulary](https://amuravela.com/vocabulario-pixueto/): A–Z glossary of pixueto words.
+- [All the Amuravelas](https://amuravela.com/amuravelas/): index of every recorded sermon (1946–present).
+- [Authors](https://amuravela.com/authors/) and [Reciters](https://amuravela.com/reciters/): the people behind the sermon throughout history.
+- English version: https://amuravela.com/en/
+
+## Entity definitions
+
+- L'Amuravela: annual lay sermon performed in Cudillero, Asturias, Spain, on June 29 (San Pedro), in the pixueto dialect. Official site: https://amuravela.com
+- Pixueto: a dialect of Asturian (Asturleonese) spoken exclusively in Cudillero.
+- Cudillero: a fishing village and municipality in Asturias (Principality of Asturias), Spain.
+- San Pedro (Saint Peter): patron saint of Cudillero; feast day June 29; addressed in the sermon.
+
+## Notes
+
+- Not affiliated with "Camping L'Amuravela", a campsite of a similar name.
+- The live broadcast of the sermon on June 29 is streamed on Twitch: https://www.twitch.tv/pixuetuvalley
