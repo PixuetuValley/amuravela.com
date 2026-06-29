@@ -8,6 +8,8 @@ other = "Go back up"
 other = "Share on"
 [watchVideo]
 other = "Watch video"
+[watchLive]
+other = "Watch live"
 [mobile]
 other = "mobile"
 
@@ -30,7 +32,7 @@ other = "Where is L'Amuravela celebrated?"
 [whereP1]
 other = "L'Amuravela is one of the oldest customs of Cudillero (Principality of Asturias) and is held in the Ribera next to the Plaza del Sable, in the heart of the old village."
 [whereP2]
-other = "It is recommended to leave your car at the parking area of the harbour (exit 431 of highway A-8) and take a walk for 5 minutes to the final location, along which you can admire the old harbour, the lighthouse and the anfitheatre of Cudillero."
+other = "It is recommended to leave your car at the parking area of the harbour (exit 431 of highway A-8) and take a walk for 5 minutes to the final location, along which you can admire the old harbour, the lighthouse and the amphitheatre of Cudillero."
 [mapP1]
 other = "L'Amuravela is celebrated on La Ribera, at the entrance to the port of Cudillero, where boats were formerly accumulated for maintenance."
 [howToGetThere]
@@ -78,7 +80,7 @@ other = "Reciters of L'Amuravela"
 [recitersT]
 other = "Reciters of L'Amuravela throughout history"
 [recitersP1]
-other = "On multiple occasions the person who recites L'Amuravela is not the author of it, so the person who authors it and the person who recites it out."
+other = "On many occasions the person who recites L'Amuravela is not its author, which is why we distinguish between the person who writes it and the person who performs it."
 [seeReciters]
 other = "See all reciters"
 [pixuetoM]
@@ -87,6 +89,8 @@ other = "Pixueto vocabulary"
 other = "Pixueto vocabulary"
 [pixuetoP1]
 other = "L'Amuravela is recited in Pixueto, a dialect exclusive to the village of Cudillero."
+[pixuetoP2]
+other = "If you want to look up the meaning of a Pixueto word you have recently heard or read in an Amuravela, you can check our vocabulary:"
 [seePixueto]
 other = "Read more about the Pixueto"
 [seeVocabulary]

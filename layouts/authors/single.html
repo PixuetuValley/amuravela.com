@@ -1,6 +1,6 @@
 {{ define "styles" }}
     <style>
-        {{- with resources.Get "css/article.css" | resources.PostCSS -}}
+        {{- with resources.Get "css/article.css" | css.PostCSS -}}
             {{- .Content | safeCSS -}}
         {{- end -}}
     </style>

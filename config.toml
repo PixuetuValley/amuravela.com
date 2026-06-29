@@ -28,6 +28,9 @@ disableKinds = ["taxonomy", "term"]
     themeColor = "#333"
     googleAnalytics = "G-FX79BW06FQ"
 
+    # Live stream of the sermon (shown on the hero on the day of the event, June 29)
+    liveUrl = "https://www.twitch.tv/pixuetuvalley"
+
     alternatePageName = "amuravela.com"
     organizationLogo = "/logo.png"
     organizationName = "L'Amuravela"

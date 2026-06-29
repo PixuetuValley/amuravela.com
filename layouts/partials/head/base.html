@@ -1,8 +1,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-<title>{{ .Site.Params.Title }}</title>
-<meta name="description" content="{{- if .IsHome -}}{{- .Site.Params.Description -}}{{- else -}}{{- .Description -}}{{- end -}}" />
+<title>{{- if .IsHome -}}{{- .Site.Params.Title -}}{{- else -}}{{- .Title }} · Cudillero{{- end -}}</title>
+<meta name="description" content="{{- if .IsHome -}}{{- .Site.Params.Description -}}{{- else -}}{{- .Description | default .Site.Params.Description -}}{{- end -}}" />
 <link rel="canonical" href="{{ .Permalink }}" >
 <link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />
 

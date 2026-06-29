@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{.Site.LanguageCode}}">
+<html lang="{{ .Site.Language.Lang }}">
 	<head>
 		{{- partial "head/base.html" . -}}
 		{{- block "styles" . }}
 			<style>
-				{{- with resources.Get "css/homepage.css" | resources.PostCSS -}}
+				{{- with resources.Get "css/homepage.css" | css.PostCSS -}}
 					{{- .Content | safeCSS -}}
 				{{- end -}}
 			</style>

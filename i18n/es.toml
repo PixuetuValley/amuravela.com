@@ -8,6 +8,8 @@ other = "Volver arriba"
 other = "Compartir en"
 [watchVideo]
 other = "Ver vídeo"
+[watchLive]
+other = "Ver en directo"
 [mobile]
 other = "móvil"
 

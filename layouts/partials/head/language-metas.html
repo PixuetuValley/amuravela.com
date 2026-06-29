@@ -1,9 +1,10 @@
-{{ if and .Site.IsMultiLingual .IsHome }}
-    {{ range where .Site.Languages "LanguageName" "!=" $.Site.Language.LanguageName }}
-        <link rel="alternate" hreflang="{{.}}" href="{{ . | absURL }}" />
-    {{ end }}
-{{ else }}
-    {{ range .Page.Params.Alternatives }}
-        <link rel="alternate" hreflang="{{.code}}" href="{{ .url | absURL }}" />
-    {{ end }}
-{{ end }}
+{{- if .IsHome -}}
+    {{- range .AllTranslations -}}
+        <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+    {{- end -}}
+    <link rel="alternate" hreflang="x-default" href="{{ .Site.Home.Permalink }}" />
+{{- else -}}
+    {{- range .Page.Params.Alternatives -}}
+        <link rel="alternate" hreflang="{{ .code }}" href="{{ .url | absURL }}" />
+    {{- end -}}
+{{- end -}}

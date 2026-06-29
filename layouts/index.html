@@ -53,8 +53,13 @@
                 comu San Pedru asperaba.
             </blockquote>
             {{ with .Site.GetPage "amuravelas/lamuravela-2025" }}
-                <a class="cta" href="{{ .Permalink }}">
+                <a class="cta" id="cta-read" href="{{ .Permalink }}">
                     {{ i18n "readLast"}} <span class="arrow-right">&#8594;</span>
+                </a>
+            {{ end }}
+            {{ with .Site.Params.liveUrl }}
+                <a class="cta cta--live" id="cta-live" href="{{ . }}" target="_blank" rel="noreferrer" hidden>
+                    <span class="live-dot" aria-hidden="true"></span> {{ i18n "watchLive" }} <span class="arrow-right">&#8594;</span>
                 </a>
             {{ end }}
         </div>
@@ -259,7 +264,7 @@
                     scale: 0.08,
                 },
             });
-            const contentString = '<strong>La Ribera</strong><p style="padding: 0 20px;">{{ i18n "mapP1"}}</p><img style="max-width: 320px;" lazy="true" src="/images/la-ribera-postal.jpg"/>';
+            const contentString = '<strong>La Ribera</strong><p style="padding: 0 20px;">{{ i18n "mapP1"}}</p><img style="max-width: 320px;" loading="lazy" src="/images/la-ribera-postal.jpg"/>';
             const infoWindow = new google.maps.InfoWindow({
                 content: contentString,
             });
@@ -276,16 +281,29 @@
     </script>
 
     <script async>
-        // Calculate next event date
-        const today = new Date();
-        const year = today > new Date(today.getFullYear(), '05', '29') ? today.getFullYear() + 1 : today.getFullYear();
-        const date = new Date (year, '05', '29', '13', '00');
+        // L'Amuravela is celebrated every year on June 29th (San Pedro), at ~13:00.
+        const now = new Date();
+        // The event has "passed" once this year's celebration is over (~15:00).
+        const eventEndThisYear = new Date(now.getFullYear(), 5, 29, 15, 0);
+        const year = now > eventEndThisYear ? now.getFullYear() + 1 : now.getFullYear();
+        const date = new Date(year, 5, 29, 13, 0);
 
         document.getElementById("date").setAttribute("datetime", date.toISOString());
-        document.getElementById("date").innerText = date.toLocaleString('{{.Lang}}', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
+        document.getElementById("date").innerText = date.toLocaleString('{{ .Lang }}', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
 
-        if (today.valueOf() === date.valueOf()) {
-            document.getElementById("share-cta-title").innerText = "{{ i18n "watchingShareCTA"}}";
+        // Is today the day? (June 29th, in the visitor's local time)
+        const isEventDay = now.getMonth() === 5 && now.getDate() === 29;
+        if (isEventDay) {
+            const shareTitle = document.getElementById("share-cta-title");
+            if (shareTitle) shareTitle.innerText = "{{ i18n "watchingShareCTA" }}";
+
+            // Surface the live stream as the primary hero call-to-action.
+            const liveCta = document.getElementById("cta-live");
+            const readCta = document.getElementById("cta-read");
+            if (liveCta) {
+                liveCta.hidden = false;
+                if (readCta) readCta.hidden = true;
+            }
         }
     </script>
 

@@ -1,10 +1,20 @@
+{{- $now := now -}}
+{{- $year := $now.Year -}}
+{{- $thisYearEnd := time.AsTime (printf "%d-06-29T14:00:00+02:00" $year) -}}
+{{- if $now.After $thisYearEnd -}}{{- $year = add $year 1 -}}{{- end -}}
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Event",
         "name": "L'Amuravela",
-        "startDate": "2022-06-29T12:00:00",
-        "endDate": "2022-06-29T14:00:00",
+        "startDate": "{{ printf "%d-06-29T12:00:00+02:00" $year }}",
+        "endDate": "{{ printf "%d-06-29T14:00:00+02:00" $year }}",
+        "eventSchedule": {
+            "@type": "Schedule",
+            "repeatFrequency": "P1Y",
+            "byMonth": 6,
+            "byMonthDay": 29
+        },
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "eventStatus": "https://schema.org/EventScheduled",
         "isAccessibleForFree": true,

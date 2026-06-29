@@ -1,0 +1,20 @@
+# Local development and build environment for amuravela.com.
+# Uses hugomods/hugo (actively maintained; bundles Hugo extended + Node.js + PostCSS),
+# replacing the deprecated, unmaintained klakegg/hugo image.
+#
+#   docker compose up               -> live dev server at http://localhost:1313
+#   docker compose run --rm build   -> one-off production build into ./public
+services:
+  web:
+    image: hugomods/hugo:exts-0.154.5
+    command: server --bind 0.0.0.0 --gc --buildFuture --buildDrafts --disableFastRender
+    ports:
+      - "1313:1313"
+    volumes:
+      - ".:/src"
+
+  build:
+    image: hugomods/hugo:exts-0.154.5
+    command: --gc --minify
+    volumes:
+      - ".:/src"

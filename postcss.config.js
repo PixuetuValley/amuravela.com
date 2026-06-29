@@ -8,8 +8,6 @@ module.exports = {
         'postcss-nested': {},
         'postcss-combine-media-query': {},
         'postcss-combine-duplicated-selectors': {},
-        'autoprefixer': {
-            browsers: ['>1%']
-        },
+        'autoprefixer': {},
     }
 }
