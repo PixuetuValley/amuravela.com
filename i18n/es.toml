@@ -8,8 +8,6 @@ other = "Volver arriba"
 other = "Compartir en"
 [watchVideo]
 other = "Ver vídeo"
-[watchLive]
-other = "Ver en directo"
 [mobile]
 other = "móvil"
 
@@ -41,8 +39,6 @@ other = "¿Cuándo se celebra L'Amuravela?"
 other = "¿Cuándo se celebra L'Amuravela?"
 [whenP1]
 other = "L'Amuravela se celebra durante las fiestas patronales de Cudillero, todos los años el día de San Pedro, el 29 de junio, hacia las 13:00h (hora peninsular)."
-[watchLiveInfo]
-other = "Puedes seguir L'Amuravela en directo cada 29 de junio a través de Twitch, en el canal @pixuetuvalley:"
 [nextDateIs]
 other = "La fecha de la próxima Amuravela es:"
 [gonnaWatchShareCTA]

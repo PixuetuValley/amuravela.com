@@ -8,8 +8,6 @@ other = "Go back up"
 other = "Share on"
 [watchVideo]
 other = "Watch video"
-[watchLive]
-other = "Watch live"
 [mobile]
 other = "mobile"
 
@@ -43,8 +41,6 @@ other = "When is L'Amuravela?"
 other = "When is L'Amuravela celebrated?"
 [whenP1]
 other = "L'Amuravela is celebrated during the patron saint festivities of Cudillero, every year on the day of San Pedro, on June 29th, at around 13:00 (Central European Time)."
-[watchLiveInfo]
-other = "You can follow L'Amuravela live every June 29 on Twitch, on the @pixuetuvalley channel:"
 [nextDateIs]
 other = "The date of the next Amuravela is:"
 [gonnaWatchShareCTA]

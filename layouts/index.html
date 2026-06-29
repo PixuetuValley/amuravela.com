@@ -62,14 +62,9 @@
                 vou ichar l'Amuravela<br>
                 comu San Pedru asperaba.
             </blockquote>
-            {{ with .Site.GetPage "amuravelas/lamuravela-2025" }}
-                <a class="cta" id="cta-read" href="{{ .Permalink }}">
+            {{ with .Site.GetPage "amuravelas/lamuravela-2026" }}
+                <a class="cta" href="{{ .Permalink }}">
                     {{ i18n "readLast"}} <span class="arrow-right">&#8594;</span>
-                </a>
-            {{ end }}
-            {{ with .Site.Params.liveUrl }}
-                <a class="cta cta--live" id="cta-live" href="{{ . }}" target="_blank" rel="noreferrer" hidden>
-                    <span class="live-dot" aria-hidden="true"></span> {{ i18n "watchLive" }} <span class="arrow-right">&#8594;</span>
                 </a>
             {{ end }}
         </div>
@@ -106,12 +101,6 @@
                 {{ i18n "nextDateIs"}} <br/>
                 <b><time id="date">...</time></b>
             </p>
-            {{ with .Site.Params.liveUrl }}
-            <p>
-                {{ i18n "watchLiveInfo" }}<br/>
-                <a target="_blank" rel="noreferrer" href="{{ . }}">twitch.tv/pixuetuvalley <span class="arrow-right">&#8594;</span></a>
-            </p>
-            {{ end }}
             <div>
                 <h3 id="share-cta-title">{{ i18n "gonnaWatchShareCTA"}}</h3>
                 <div class="social-share">
@@ -338,19 +327,11 @@
         document.getElementById("date").setAttribute("datetime", date.toISOString());
         document.getElementById("date").innerText = date.toLocaleString('{{ .Lang }}', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
 
-        // Is today the day? (June 29th, in the visitor's local time)
+        // On the day of the event, switch the share prompt to the present tense.
         const isEventDay = now.getMonth() === 5 && now.getDate() === 29;
         if (isEventDay) {
             const shareTitle = document.getElementById("share-cta-title");
             if (shareTitle) shareTitle.innerText = "{{ i18n "watchingShareCTA" }}";
-
-            // Surface the live stream as the primary hero call-to-action.
-            const liveCta = document.getElementById("cta-live");
-            const readCta = document.getElementById("cta-read");
-            if (liveCta) {
-                liveCta.hidden = false;
-                if (readCta) readCta.hidden = true;
-            }
         }
     </script>
 
