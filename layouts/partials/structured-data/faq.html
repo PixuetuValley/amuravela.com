@@ -2,27 +2,28 @@
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
+      "inLanguage": "{{ .Site.Language.Lang }}",
       "mainEntity": [
         {
             "@type": "Question",
-            "name": "¿Qué es L'Amuravela?",
+            "name": "{{ i18n "whatT" }}",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "<p>L'Amuravela es un sermón laico, una tradición medio religiosa y medio profana heredada de generación en generación como demostración de la especial devoción que el pueblo pixueto siente por su Patrón San Pedro y que consta de dos partes, el relato al Santo y la maniobra de saludo.</p>"
+                "text": "{{ i18n "whatP1" }}"
             }
         }, {
             "@type": "Question",
-            "name": "¿Dónde se celebra L'Amuravela?",
+            "name": "{{ i18n "whereT" }}",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "L'Amuravela es de las costumbres más antiguas de Cudillero (Principado de Asturias) y se celebra en la Ribera junto a la plaza del Sable, en pleno centro del casco antiguo del pueblo."
+                "text": "{{ i18n "whereP1" }}"
             }
         }, {
             "@type": "Question",
-            "name": "¿Cuándo se celebra L'Amuravela?",
+            "name": "{{ i18n "whenT" }}",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "<p>L'Amuravela se celebra durante las fiestas patronales de Cudillero, todos los años el día de San Pedro, el 29 de Junio.</p>"
+                "text": "{{ i18n "whenP1" }}"
             }
         }
       ]

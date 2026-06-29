@@ -1,9 +1,10 @@
 <script type="application/ld+json">
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "{{ .Site.Title }}",
-    {{ with .Site.Params.alternatePageName }}"alternateName": "{{ . }}",{{ end }}
-    "url": "{{ .Site.BaseURL }}"
+    "name": "{{ .Site.Params.organizationName | default .Site.Title }}",
+    "alternateName": ["amuravela.com", "Fiesta de L'Amuravela", "Sermón de Cudillero"],
+    "url": "{{ .Site.BaseURL }}",
+    "inLanguage": "{{ .Site.Language.Lang }}"
   }
 </script>

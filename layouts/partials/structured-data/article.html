@@ -1,51 +1,48 @@
 <script type="application/ld+json">
   {
-    "@context":"http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Article",
     "image": "{{ .Page.Params.Image.Src | default "images/foto-antigua-lamuravela-05.jpg" | absURL }}",
     "url": "{{ .Permalink }}",
     "headline": "{{ .Page.Title }}",
-    "alternativeHeadline": "{{ .Page.Title }}",
-    "dateCreated": "{{ .Page.Date.Format "2006-01-02T15:04:05" }}",
-    "datePublished": "{{ .Page.PublishDate.Format "2006-01-02T15:04:05" }}",
-    "dateModified": "{{ .Page.PublishDate.Format "2006-01-02T15:04:05" }}",
+    "dateCreated": "{{ .Page.Date.Format "2006-01-02T15:04:05-07:00" }}",
+    "datePublished": "{{ .Page.PublishDate.Format "2006-01-02T15:04:05-07:00" }}",
+    "dateModified": "{{ .Page.Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
     "inLanguage": "{{ .Site.Language.Lang }}",
-    "isFamilyFriendly": "true",
+    "isFamilyFriendly": true,
     "copyrightYear": "{{ .Page.PublishDate.Format "2006" }}",
-    "copyrightHolder": "{{ .Page.Params.Author.Name }}",
-    "accountablePerson": {
-      "@type": "Person",
-      "name": "{{ .Page.Params.Author.Name }}",
-      "url": "{{ .Page.Params.Author.Homepage }}"
-    },
-    "author": {
-      "@type": "Person",
-      "name": "{{ .Page.Params.Author.Name }}",
-      "url": "{{ .Page.Params.Author.Homepage | absURL }}",
-      "image": "{{ .Page.Params.Author.Image | absURL }}",
-      "description": "{{ .Page.Params.Author.Bio }}"
-    },
-    "creator": {
-      "@type": "Person",
-      "name": "{{ .Page.Params.Author.Name }}",
-      "url": "{{ .Page.Params.Author.Homepage | absURL }}",
-      "image": "{{ .Page.Params.Author.Image | absURL }}",
-      "description": "{{ .Page.Params.Author.Bio }}"
-    },
     "publisher": {
       "@type": "Organization",
       "name": "{{ .Site.Params.PublisherName }}",
       "url": "{{ .Site.BaseURL }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ .Site.Params.PublisherLogo }}",
-        "width":"{{ .Site.Params.PublisherLogoWidth }}",
-        "height":"{{ .Site.Params.PublisherLogoHeight }}"
+        "url": "{{ .Site.Params.PublisherLogo | absURL }}",
+        "width": {{ .Site.Params.PublisherLogoWidth }},
+        "height": {{ .Site.Params.PublisherLogoHeight }}
       }
     },
     "mainEntityOfPage": "{{ .Page.Permalink }}",
-    "keywords": {{ .Params.Keywords | jsonify }},
-    "genre": {{ .Params.Tags | jsonify }},
-    "articleSection": "{{ .Page.Parent.Title }}"
+    "articleSection": "{{ with .Page.Parent }}{{ .Title }}{{ end }}"
+    {{- with .Page.Params.Author }}
+    ,"copyrightHolder": { "@type": "Person", "name": "{{ .Name }}" }
+    ,"accountablePerson": { "@type": "Person", "name": "{{ .Name }}", "url": "{{ .Homepage | absURL }}" }
+    ,"author": {
+      "@type": "Person",
+      "name": "{{ .Name }}",
+      "url": "{{ .Homepage | absURL }}"
+      {{- with .Image }},"image": "{{ . | absURL }}"{{ end }}
+      {{- with .Bio }},"description": "{{ . }}"{{ end }}
+    }
+    ,"creator": {
+      "@type": "Person",
+      "name": "{{ .Name }}",
+      "url": "{{ .Homepage | absURL }}"
+      {{- with .Image }},"image": "{{ . | absURL }}"{{ end }}
+      {{- with .Bio }},"description": "{{ . }}"{{ end }}
+    }
+    {{- end }}
+    {{- with .Params.Keywords }},"keywords": {{ . | jsonify }}{{ end }}
+    {{- with .Params.Tags }},"genre": {{ . | jsonify }}{{ end }}
   }
 </script>

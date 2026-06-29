@@ -1,5 +1,6 @@
 +++
 draft = false
+date = "2022-04-24T12:00:00+02:00"
 
 title = "Vocabulario pixueto"
 slug = "vocabulario-pixueto"

@@ -106,6 +106,12 @@
                 {{ i18n "nextDateIs"}} <br/>
                 <b><time id="date">...</time></b>
             </p>
+            {{ with .Site.Params.liveUrl }}
+            <p>
+                {{ i18n "watchLiveInfo" }}<br/>
+                <a target="_blank" rel="noreferrer" href="{{ . }}">twitch.tv/pixuetuvalley <span class="arrow-right">&#8594;</span></a>
+            </p>
+            {{ end }}
             <div>
                 <h3 id="share-cta-title">{{ i18n "gonnaWatchShareCTA"}}</h3>
                 <div class="social-share">

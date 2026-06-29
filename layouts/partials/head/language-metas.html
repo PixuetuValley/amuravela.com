@@ -1,10 +1,14 @@
-{{- if .IsHome -}}
-    {{- range .AllTranslations -}}
+{{- /* Emit hreflang only from real translations (Hugo's translation graph),
+       so pages without a counterpart never point to a 404, every page gets a
+       self-referential tag, and x-default always resolves to the Spanish root. */ -}}
+{{- $translations := .AllTranslations -}}
+{{- if gt (len $translations) 1 -}}
+    {{- range $translations -}}
         <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
     {{- end -}}
-    <link rel="alternate" hreflang="x-default" href="{{ .Site.Home.Permalink }}" />
-{{- else -}}
-    {{- range .Page.Params.Alternatives -}}
-        <link rel="alternate" hreflang="{{ .code }}" href="{{ .url | absURL }}" />
+    {{- range $translations -}}
+        {{- if eq .Language.Lang "es" -}}
+            <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+        {{- end -}}
     {{- end -}}
 {{- end -}}

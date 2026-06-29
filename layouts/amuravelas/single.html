@@ -12,9 +12,10 @@
     <div id="video-container" class="video-container">
         <iframe
             id="video-iframe"
-            src="https://www.youtube.com/embed/{{ .Params.Video.Id }}?color=white&modestbranding=1&showinfo=0&rel=0&enablejsapi=1&playerapiid=ytplayer"
+            data-src="https://www.youtube.com/embed/{{ .Params.Video.Id }}?color=white&modestbranding=1&showinfo=0&rel=0&enablejsapi=1&playerapiid=ytplayer"
             title="{{ .Params.Video.Title | default .Title }}"
             frameborder="0"
+            loading="lazy"
             referrerpolicy="strict-origin-when-cross-origin">
         </iframe>
     </div>
@@ -94,15 +95,25 @@
         }
 
         {{ if isset .Params "video" }}
+            const videoContainer = document.getElementById('video-container');
+            const videoIframe = document.getElementById('video-iframe');
+
+            // Facade: don't connect to YouTube until the visitor opens the video.
+            function ensureVideoLoaded() {
+                if (!videoIframe.src && videoIframe.dataset.src) {
+                    videoIframe.src = videoIframe.dataset.src;
+                }
+            }
+
             document.getElementById('video-button').addEventListener('click', () => {
-                const videoContainer = document.getElementById('video-container');
+                ensureVideoLoaded();
                 videoContainer.classList.toggle('active');
             });
-            document.getElementById('video-container').addEventListener('click', () => {
-                const videoContainer = document.getElementById('video-container');
+            videoContainer.addEventListener('click', () => {
                 videoContainer.classList.toggle('active');
-
-                document.getElementById('video-iframe').contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+                if (videoIframe.contentWindow) {
+                    videoIframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                }
             });
         {{ end }}
     </script>

@@ -7,13 +7,19 @@
         "@context": "https://schema.org",
         "@type": "Event",
         "name": "L'Amuravela",
+        "url": "{{ .Site.BaseURL }}",
         "startDate": "{{ printf "%d-06-29T12:00:00+02:00" $year }}",
         "endDate": "{{ printf "%d-06-29T14:00:00+02:00" $year }}",
         "eventSchedule": {
             "@type": "Schedule",
             "repeatFrequency": "P1Y",
             "byMonth": 6,
-            "byMonthDay": 29
+            "byMonthDay": 29,
+            "startTime": "12:00",
+            "endTime": "14:00",
+            "scheduleTimezone": "Europe/Madrid",
+            "startDate": "1946-06-29",
+            "endDate": "2099-06-29"
         },
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "eventStatus": "https://schema.org/EventScheduled",
@@ -34,7 +40,7 @@
             "https://amuravela.com/images/foto-antigua-lamuravela-05.jpg",
             "https://amuravela.com/images/foto-antigua-lamuravela-07.jpg"
         ],
-        "description": "L'Amuravela es un sermón laico, una tradición medio religiosa y medio profana heredada de generación en generación como demostración de la especial devoción que el pueblo pixueto siente por su Patrón San Pedro.",
+        "description": "{{ i18n "whatP1" }}",
         "performer": {
             "@type": "Person",
             "name": "Cesáreo Marqués Valle",

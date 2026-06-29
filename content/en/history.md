@@ -1,10 +1,11 @@
 +++
 draft = false
+date = "2022-04-24T12:00:00+02:00"
 
 title = "History of L'Amuravela"
 slug = "history-of-lamuravela"
-description = "Lorem ipsum dolor sit amet"
-summary = "Lorem ipsum dolor sit amet"
+description = "L'Amuravela is one of the oldest traditions of the village of Cudillero — this is what we know about its history."
+summary = "L'Amuravela is one of the oldest traditions of the village of Cudillero — this is what we know about its history."
 
 [image]
     src = ""
